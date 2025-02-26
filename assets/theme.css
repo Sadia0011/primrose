@@ -17552,6 +17552,15 @@ body.has-line-design .blog-listing .article__image {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
 }
+.article__title a:after {
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #0d647c;
+    content: '';
+    margin-bottom: 20px;
+
+}
 
 .article__meta {
   display: flex;
@@ -17597,6 +17606,7 @@ body.has-line-design .blog-listing .article__image {
 
 .article__excerpt {
   font-size: var(--font-body-small);
+  color: black;
   margin-top: 16px;
   margin-bottom: 0;
   overflow: hidden;
@@ -17618,6 +17628,7 @@ body.has-line-design .blog-listing .article__image {
   --btn-text: var(--text);
   --btn-text-hover: var(--text-light);
   margin-bottom: 0;
+  color: black;
 }
 
 .article__tags {

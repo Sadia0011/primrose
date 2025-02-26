@@ -8,7 +8,18 @@
   Usage:
   {% render 'blog-posts', blog_articles: blog.articles, is_blog_page: true %}
 {% endcomment %}
-
+<style>
+article {
+    min-width: 300px;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    border-radius: 5px;
+}
+.article__text-wrapper.aos-animate {
+    padding: 20px;
+}
+</style>
 {%- liquid
   assign articles_per_row = section.settings.grid
   assign article_limit = articles_per_row | times: section.settings.rows
@@ -191,6 +202,7 @@
                 {{ article.title }}
               </a>
             </{{ title_tag }}>
+            <p class="subtitle">{{ article.subtitle }}</p>
 
             {%- if show_date or show_author or show_comments -%}
               <p class="article__meta">
@@ -213,7 +225,7 @@
               </p>
             {%- endif -%}
 
-            <p class="article__excerpt">{{ article.excerpt_or_content | strip_html | truncatewords: 30 }}</p>
+            <p class="article__excerpt">{{ article.excerpt_or_content | strip_html | truncatewords: 20 }}</p>
 
             {%- if show_button -%}
               <div class="article__link">
