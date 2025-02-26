@@ -15,7 +15,7 @@
     font-weight: 400;
     color: black;
 }
-.grid {
+.grid-colllection-container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     align-items: center;
@@ -75,7 +75,7 @@
             <p class="collection-grid-subtitle">{{ section.settings.subtitle }}</p>
         {% endif %}
         </div>
-            <div class="grid">
+            <div class="grid-colllection-container">
                 {% for block in section.blocks %}
                     {% assign collection = block.settings.collection %}
                     {% if collection != blank %}
