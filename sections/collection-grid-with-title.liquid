@@ -1,0 +1,167 @@
+<style>
+.collection-grid {
+    /* padding: 30px 0; */
+}
+.collection-grid-desc{
+    text-align: center;
+    padding: 42px 0;
+}
+.collection-grid-title{
+     font-size: 24px;
+     font-weight: 700;
+}
+.collection-grid-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.collection-item {
+    position: relative;
+}
+
+.collection-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.collection-image img {
+    width: 100%;
+    display: block;
+}
+.main-image{
+    display: block;
+}
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 1;
+}
+
+.collection-name {
+    font-weight: bold;
+    color: #006666;
+}
+
+.collection-link {
+    margin: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #0d647c;
+    font-size: 19px;
+    font-weight: 600;
+    border-bottom: 1px solid #0d647c;
+}
+.collection-link:hover {
+    border-bottom: 1px solid black;
+}
+
+</style>
+
+<section class="{{ section.settings.width }}">
+    <div class="collection-grid">
+        <div class="collection-grid-desc">
+            <h2 class="collection-grid-title">{{ section.settings.title }}</h2>
+        {% if  section.settings.subtitle  %}
+            <p class="collection-grid-subtitle">{{ section.settings.subtitle }}</p>
+        {% endif %}
+        </div>
+            <div class="grid">
+                {% for block in section.blocks %}
+                    {% assign collection = block.settings.collection %}
+                    {% if collection != blank %}
+                        
+                            <div class="collection-item">
+                                <a href="{{ collection.url }}">
+                                <div class="collection-image">
+                                    <img class="main-image" src="{{ block.settings.image_1 | img_url: '600x' }}" alt="Collection Image 1">
+                                    {% if block.settings.image_2 %}
+                                        <img class="overlay-image" src="{{ block.settings.image_2 | img_url: '600x' }}" alt="Collection Image 2">
+                                    {% endif %}
+                                    
+                                </div>
+                                {% if block.settings.collection_name %}
+                                    <a class="collection-link" href="{{ collection.url }}">{{ block.settings.collection_name }}</a>
+                                {% endif %}
+                                </a>
+                            </div>
+                        
+                    {% endif %}
+                {% endfor %}             
+            </div>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name": "Collection Grid",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Section Title",
+            "default": "Save on all 9cm plants"
+        },
+        {
+            "type": "inline_richtext",
+            "id": "subtitle",
+            "label": "Section SubTitle"
+        },
+        {
+            "type": "select",
+            "id": "width",
+            "label": "Width",
+            "default": "wrapper--full",
+            "options": [
+                {"value": "wrapper--full", "label": "Full width"},
+                {"value": "wrapper--full-padded", "label": "Full width padded"}
+            ]
+        }
+
+    ],
+    "blocks": [
+        {
+            "type": "collection",
+            "name": "Collection Item",
+            "settings": [
+                {
+                    "type": "collection",
+                    "id": "collection",
+                    "label": "Select Collection"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image_1",
+                    "label": "Main Collection Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image_2",
+                    "label": "Overlay Image"
+                },
+                {
+                    "type": "inline_richtext",
+                    "id": "collection_name",
+                    "label": "Collection-name"
+                }
+            ]
+        }
+    ],
+    "max_blocks": 4,
+    "presets": [
+        {
+            "name": "Collection Grid",
+            "category": "Collection"
+        }
+    ]
+}
+{% endschema %}
