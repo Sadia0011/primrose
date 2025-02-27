@@ -32,7 +32,8 @@
         "message_dzHkG7"
       ],
       "custom_css": [
-        "#Announcement--sections--24647473332599__announcement {background-color: rgb(200, 65, 94);}"
+        "#Announcement--sections--24647473332599__announcement {background-color: rgb(200, 65, 94);}",
+        "#Announcement--sections--24647473332599__announcement .free-shipping__default-message {color: white;}"
       ],
       "settings": {
         "show_border": false,
