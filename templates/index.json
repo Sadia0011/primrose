@@ -268,7 +268,7 @@
         "product_limit": 12,
         "grid": 4,
         "rows": 3,
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "padding_top": 32,
         "padding_bottom": 32,
         "heading_tag": "automatic"

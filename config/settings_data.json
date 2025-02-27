@@ -83,7 +83,7 @@
       "scheme-2": {
         "settings": {
           "section_text": "#ffffff",
-          "section_bg": "#ffffff",
+          "section_bg": "#f9fbfc",
           "section_bg_light": "#f5f2ec",
           "section_bg_gradient": "",
           "btn_primary_bg": "#548c35",
