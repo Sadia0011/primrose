@@ -59,12 +59,12 @@
       ],
       "custom_css": [
         "#Announcement--sections--24647473332599__announcement {background-color: rgb(200, 65, 94);}",
-        "#Announcement--sections--24647473332599__announcement .free-shipping__default-message {color: white;}"
+        "#Announcement--sections--24647473332599__announcement span.free-shipping__default-message {color: white;}"
       ],
       "settings": {
         "show_border": false,
         "layout": "slider",
-        "slider_speed": 10,
+        "slider_speed": 8,
         "text_alignment": "center",
         "show_arrows": false,
         "marquee_speed": 100,
