@@ -170,10 +170,51 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "section_newsletter_YD6ndN": {
+      "type": "section-newsletter",
+      "blocks": {
+        "newsletter_Ax8Eqt": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "",
+            "heading": "Join the Primrose Gardening Club",
+            "heading_font_size": "heading-large",
+            "text": "<p>Get the latest news, offers and advice.</p>",
+            "text_font_size": "body-medium",
+            "text_columns": 1,
+            "align_text": "text-center",
+            "show_name": false,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "bg_color": "#ecf6f6",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_Ax8Eqt"
+      ],
+      "custom_css": [],
+      "settings": {
+        "width": "wrapper--full",
+        "height": "two-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "template",
-    "section_accordion_group_pcJJph"
+    "section_accordion_group_pcJJph",
+    "section_newsletter_YD6ndN"
   ]
 }
