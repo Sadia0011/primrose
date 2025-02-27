@@ -42,7 +42,7 @@
     "sale_text_color": "#af7b88",
     "badge_bg_color": "#ffffff",
     "badge_text_color": "#212121",
-    "variant_lines": false,
+    "variant_lines": true,
     "swatch_size": "large",
     "swatch_style": "circle",
     "sibling_style": "swatch",
