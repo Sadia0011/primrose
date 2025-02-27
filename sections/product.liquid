@@ -791,7 +791,11 @@
     {%- render 'cart-bar', product: product -%}
   {%- endif -%}
 </product-component>
-
+{% comment %} <div> 
+{% for var in product.variants %}
+  <p>{{ var.metafields.custom.variant_specification| escape }}dvfd</p>
+{% endfor %}  
+</div> {% endcomment %}
 <script type="application/ld+json">
   {
     "@context": "http://schema.org/",
@@ -832,6 +836,7 @@
           "priceCurrency" : {{ cart.currency.iso_code | json }},
           "priceValidUntil": "{{ 'now' | date: '%s' | plus: seconds_price_valid | date: '%Y-%m-%d' }}",
           "url" : {{ request.origin | append: variant.url | json }}
+
         }{% unless forloop.last %},{% endunless %}
       {%- endfor -%}
     ]
@@ -2538,3 +2543,17 @@
   ]
 }
 {% endschema %}
+<script>
+  document.addEventListener('theme:variant:change', function(event) {
+   
+      // if (event.detail.variant.available) {
+      //   // console.log("from custom event if block")
+      //   let collected_info = document.querySelector(".hidden_despatchInfo + div>p").textContent;
+      //   document.querySelector(".product__block--buttons:has(.product__submit .product__submit__buttons .product__submit__item button.pdp-atc) + script + div.product__icon__row>div.product__block:nth-of-type(1) .metafield-rich_text_field p").textContent = collected_info;
+      // }
+      // else{
+      //   // console.log("from custom event else block")
+      //   document.querySelector(".product__block--buttons:has(.product__submit .product__submit__buttons .product__submit__item button.pdp-atc:disabled) + script + div.product__icon__row>div.product__block:nth-of-type(1) .metafield-rich_text_field p").textContent ='Coming soon';
+      // }
+  });
+</script>
