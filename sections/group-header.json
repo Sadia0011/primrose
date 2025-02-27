@@ -18,9 +18,33 @@
           "type": "message",
           "settings": {
             "show_wheel": false,
-            "message": "Save 20% on All 9cm Plants",
+            "message": "20% Off Garden Furniture (EARLYBIRD20)",
             "target_url_enabled": false,
             "target_url": "shopify://collections",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_XfGhPK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Save 20% on All Plants</p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_49p3x4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Save 20% on All Bulbs</p>",
+            "target_url_enabled": false,
+            "target_url": "",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
@@ -29,7 +53,9 @@
         }
       },
       "block_order": [
-        "message_dzHkG7"
+        "message_dzHkG7",
+        "text_XfGhPK",
+        "text_49p3x4"
       ],
       "custom_css": [
         "#Announcement--sections--24647473332599__announcement {background-color: rgb(200, 65, 94);}",
