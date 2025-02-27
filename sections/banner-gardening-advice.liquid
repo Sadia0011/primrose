@@ -1,0 +1,74 @@
+<style>
+    .banner-gardening-advice {
+    background: radial-gradient(#defce5, #8de2b5);
+    background: url(https://img.crocdn.co.uk/images/affiliates/primrose/blog/blog-background-gradient.svg) no-repeat center center;
+    background-size: cover;
+}
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+}
+.banner-gardening-advice h4 {
+    font-weight: 700;
+    font-family: "Mulish", helvetica neue, Helvetica, Arial, sans-serif;
+    color: #244a27;
+    display: flex;
+    vertical-align: middle;
+    line-height: normal;
+    padding: .875rem 0 0 0;
+}
+.banner-gardening-advice h4:hover {
+    text-decoration: underline;
+}
+.banner-gardening-advice .title-container, .banner-gardening-advice .sub-title-container {
+    display: flex;
+    align-items: center;
+}
+.border-radius{
+    border-radius: 30px;
+}
+</style>
+
+<div class="banner-gardening-advice {{ section.settings.width }}">
+	<div class="container">
+		<a href="/blog/" title="Explore">
+			<div class="row">
+				<div class="title-container">
+					<h4>The Primrose Garden Club : <br>All The Latest Tips, Tricks &amp; Trends In One Place</h4>
+				</div>
+				<div>
+					<div class="row">
+						<div class="image-container">
+							<a  href="/blog/" class="btn btn--solid  btn--primary border-radius">Explore</a>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</a>
+	</div>
+</div>
+
+{% schema %}
+{
+    "name": "banner-gardening-advice",
+    "settings": [
+        {
+            "type": "select",
+            "id": "width",
+            "label": "Width",
+            "default": "wrapper--full",
+            "options": [
+                {"value": "wrapper--full", "label": "Full width"},
+                {"value": "wrapper--full-padded", "label": "Full width padded"}
+            ]
+        }
+        ],
+        "presets": [
+            {
+                "name": "banner-gardening-advice"
+            }
+        ]
+}
+{% endschema %}

@@ -8,6 +8,15 @@
   {% render 'multicolumn', type: 'images' %}
 {% endcomment %}
 
+
+<style>
+  
+    .column_subtitle{
+      color: #625d5d;
+      font-size: 14px;
+    }
+  
+</style>
 {%- liquid
   assign unique = 'SectionColumns--' | append: section.id
   assign type = type | default: ''
@@ -117,6 +126,7 @@
   <div class="{{ section.settings.width }}">
     {%- if has_content -%}
       <div class="grid__heading-holder {{ section.settings.align_heading }}">
+       
         {%- if heading != blank -%}
           {%- liquid
             assign animation_order = animation_order | plus: 1
@@ -136,7 +146,9 @@
             {{- heading -}}
           </{{ heading_tag }}>
         {%- endif -%}
-
+        {% if section.settings.subtitle %}
+          <p class="text-center subtitle">{{ section.settings.subtitle }}</p>
+        {% endif %}
         {%- if description -%}
           {%- assign animation_order = animation_order | plus: 1 -%}
 
@@ -281,6 +293,7 @@
                     </div>
 
                     <div class="column__content">
+                      <p class="column_subtitle">{{ block.settings.pretitle }}</p>
                       {%- if title != blank -%}
                         {%- liquid
                           assign heading_tag = 'h2'
@@ -356,6 +369,7 @@
 
                       {%- if title != blank or text != blank -%}
                         <div class="column__content">
+                          
                           {%- if title != blank -%}
                             {%- liquid
                               assign heading_tag = 'h2'

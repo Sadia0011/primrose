@@ -23,6 +23,14 @@
     --COLUMNS: {{ articles_per_row }};
     --COLUMNS-MEDIUM: {{ columns_medium }};
   }
+  .page__heading {
+    margin-bottom:0;
+  }
+  .subtitle {
+    text-align: center;
+    color: black;
+    padding-bottom: 42px;
+}
 {%- endstyle -%}
 
 <section
@@ -35,6 +43,8 @@
     <{{ heading_tag }} class="page__heading blog__title {{ section.settings.heading_font_size }}"
       ><a href="{{ blog.url | default: '#' }}">{{ blog_title }}</a></{{ heading_tag }}
     >
+    <p class="subtitle">{{ section.settings.subtitle }}</p>
+
   {% endif %}
 
   {%- render 'blog-posts', blog_articles: blog.articles, is_blog_page: false -%}

@@ -109,7 +109,7 @@
       assign tabs_navigation = ''
     -%}
 
-    <tabs-component class="tabs-collections">
+    <tabs-component class="tabs-collections {{ section.settings.width }}">
       {%- for block in section.blocks -%}
         {%- liquid
           assign block_index = forloop.index
@@ -429,6 +429,17 @@
       "label": "Show product count",
       "info": "Applies if featured image is enabled on the block level",
       "default": false
+    },  
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full-padded",
+      "options": [
+        {"value": "wrapper--full", "label": "Full width"},
+        {"value": "wrapper--full-padded", "label": "Full width padded"},
+        {"value": "wrapper", "label": "Normal"}
+      ]
     },
     {
       "type": "header",

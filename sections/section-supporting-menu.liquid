@@ -42,7 +42,7 @@
   data-section-id="{{ section.id }}"
   data-section-type="supporting-menu"
 >
-  <div class="supporting-menu__inner wrapper--full-padded">
+  <div class="supporting-menu__inner wrapper--full">
     {%- if languages or countries -%}
       <div class="{{ localization_class }}">
         {%- render 'localization',
@@ -60,12 +60,6 @@
 
     <div class="supporting-menu__item supporting-menu__item--copyright">
       <ul class="supporting-menu__copyright inline-list {{ section.settings.text_font_size }}">
-        <li>
-          <a href="{{ shop.secure_url }}"
-            >&copy; {{ shop.name }}
-            {{ 'now' | date: '%Y' -}}
-          </a>
-        </li>
         {% for link in linklists[section.settings.linklist].links %}
           <li>
             <a href="{{ link.url }}">{{ link.title }}</a>
