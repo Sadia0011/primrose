@@ -59,7 +59,7 @@
       ],
       "custom_css": [
         "#Announcement--sections--24647473332599__announcement {background-color: rgb(200, 65, 94);}",
-        "#Announcement--sections--24647473332599__announcement span.free-shipping__default-message {color: white;}"
+        "#Announcement--sections--24647473332599__announcement span.free-shipping__default-message, .body-small{color: white;}"
       ],
       "settings": {
         "show_border": false,
