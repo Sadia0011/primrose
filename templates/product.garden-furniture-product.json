@@ -100,12 +100,36 @@
             "icon_color": ""
           }
         },
+        "question_CcmUJa": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Care Guide",
+            "content": "<p>{{ product.metafields.custom.care_guide | metafield_tag }}</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_CzwigV": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Feature",
+            "content": "<p>{{ product.metafields.custom.features | metafield_tag }}</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
         "question_c9ApFt": {
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Material details",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.{{ product.metafields.custom.material_details | metafield_tag }}</p>",
+            "title": "Protect your set",
+            "content": "<p>{{ product.metafields.custom.protect_your_set | metafield_tag }}</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -117,7 +141,7 @@
           "settings": {
             "default_open": false,
             "title": "About Primrose",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.{{ product.metafields.custom.about_primrose | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.custom.about_primrose | metafield_tag }}</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -129,6 +153,8 @@
         "heading_nNBTXX",
         "question_M6nWjC",
         "question_J9bFXe",
+        "question_CcmUJa",
+        "question_CzwigV",
         "question_c9ApFt",
         "question_34U8F9"
       ],
