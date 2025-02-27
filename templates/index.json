@@ -229,6 +229,51 @@
         "heading_tag": "automatic"
       }
     },
+    "section_tab_collections_3UVgUF": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_XMqAb6": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "planters",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_XMqAb6"
+      ],
+      "settings": {
+        "show_product_count": false,
+        "width": "wrapper--full-padded",
+        "title": "Explore Our Bestsellers",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "layout": "stacked",
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 12,
+        "grid": 4,
+        "rows": 3,
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
     "section_hero_DAAwBT": {
       "type": "section-hero",
       "blocks": {
@@ -280,51 +325,6 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
-      }
-    },
-    "section_tab_collections_3UVgUF": {
-      "type": "section-tab-collections",
-      "blocks": {
-        "collection_XMqAb6": {
-          "type": "collection",
-          "settings": {
-            "title": "First collection",
-            "featured_collection": "planters",
-            "show_image": false,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "",
-            "description": "",
-            "color": "",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "collection_XMqAb6"
-      ],
-      "settings": {
-        "show_product_count": false,
-        "width": "wrapper--full-padded",
-        "title": "Explore Our Bestsellers",
-        "heading_font_size": "heading-medium",
-        "text": "",
-        "text_font_size": "body-medium",
-        "layout": "stacked",
-        "layout_desktop": "slider",
-        "layout_mobile": "slider",
-        "product_limit": 12,
-        "grid": 4,
-        "rows": 3,
-        "color_scheme": "",
-        "padding_top": 32,
-        "padding_bottom": 32,
-        "heading_tag": "automatic"
       }
     },
     "collection_grid_with_title_hkAnHf": {
@@ -417,11 +417,11 @@
             "text_columns": 1,
             "align_text": "text-center",
             "show_name": true,
-            "button_text": "Join",
+            "button_text": "Sign Up",
             "show_arrow": false,
             "terms": true,
-            "button_type": "btn--black",
-            "button_size": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
             "button_style": "btn--solid",
             "show_social_links": false,
             "bg_color": "#ecf6f6",
