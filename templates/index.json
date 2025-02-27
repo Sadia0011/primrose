@@ -48,7 +48,7 @@
         "image_1": "shopify://shop_images/home_banner.jpg",
         "link": "",
         "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
+        "height": "image-height",
         "flex_align_desktop": "align--middle-left-desktop",
         "content_width": 64,
         "mobile_height": "screen-height-three-quarters--mobile",
@@ -162,6 +162,73 @@
         "width": "wrapper--full-padded"
       }
     },
+    "section_columns_B36YTy": {
+      "type": "section-columns",
+      "blocks": {
+        "image_TRrXbN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/home-project-garden_1.png",
+            "image_shape": "normal",
+            "pretitle": "Focus On",
+            "title": "Fencing",
+            "heading_font_size": "heading-small",
+            "text": "<p>Updating your garden boundary is the first job you need to do when setting out to transform your garden. Whether you’re looking to create privacy, enhance your garden’s style, or improve the overall flow of the space.</p>",
+            "text_font_size": "body-small",
+            "button_text": "Shop Fencing",
+            "button_url": "shopify://collections/planters",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_cnT6Lj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/home-project-garden_2.png",
+            "image_shape": "normal",
+            "pretitle": "Focus On",
+            "title": "Awnings",
+            "heading_font_size": "heading-small",
+            "text": "<p>Our easy to install shade solutions will effectively improve your outdoor space. Whether you’re entertaining or relaxing, our awnings will make your space a lot more comfortably on those sunny days. Available in a wide range of shapes and sizes to suit all garden styles. </p>",
+            "text_font_size": "body-small",
+            "button_text": "Shop Awnings",
+            "button_url": "shopify://collections/awnings",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_TRrXbN",
+        "image_cnT6Lj"
+      ],
+      "settings": {
+        "title": "Introducing: Project Garden",
+        "subtitle": "Helping you create your garden paradise, one small project at a time",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
     "section_hero_DAAwBT": {
       "type": "section-hero",
       "blocks": {
@@ -213,6 +280,51 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
+      }
+    },
+    "section_tab_collections_3UVgUF": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_XMqAb6": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "planters",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_XMqAb6"
+      ],
+      "settings": {
+        "show_product_count": false,
+        "width": "wrapper--full-padded",
+        "title": "Explore Our Bestsellers",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "layout": "stacked",
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 12,
+        "grid": 4,
+        "rows": 3,
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
       }
     },
     "collection_grid_with_title_hkAnHf": {
@@ -335,6 +447,8 @@
     "section_hero_48r6qx",
     "collection_grid_with_title_KKWFaH",
     "collection_grid_with_title_8P9VTg",
+    "section_columns_B36YTy",
+    "section_tab_collections_3UVgUF",
     "section_hero_DAAwBT",
     "collection_grid_with_title_hkAnHf",
     "section_blog_K7FDx8",
