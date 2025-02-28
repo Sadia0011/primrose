@@ -104,6 +104,7 @@
           "type": "image",
           "settings": {
             "position": "1",
+            "image": "shopify://shop_images/home_collection_5.jpg",
             "aspect_ratio": 1,
             "wide_image": false,
             "overlay_opacity": 0,
