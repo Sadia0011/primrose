@@ -81,7 +81,7 @@
           "settings": {
             "default_open": false,
             "title": "Overview",
-            "content": "<p>These top quality planters are made from Fibrecotta, and as a result are extremely strong and durable. The planters have a raised rim at the bottom designed to help drainage and protect from frost. All planters feature a drainage hole.{{ product.metafields.custom.overview | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.custom.overview | metafield_tag }}</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -93,7 +93,7 @@
           "settings": {
             "default_open": false,
             "title": "Specifications",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.{{ product.metafields.custom.specifications | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.custom.specifications | metafield_tag }}</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
