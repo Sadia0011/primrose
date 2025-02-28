@@ -59,7 +59,7 @@
       ],
       "custom_css": [
         "#Announcement--sections--24647473332599__announcement {background-color: rgb(200, 65, 94);}",
-        "#Announcement--sections--24647473332599__announcement span.free-shipping__default-message, .body-small{color: white;}"
+        "#Announcement--sections--24647473332599__announcement span.free-shipping__default-message,.body-small {color: white;}"
       ],
       "settings": {
         "show_border": false,
@@ -126,13 +126,14 @@
       ],
       "settings": {
         "header_sticky": false,
-        "header_style": "logo_center_menu_left",
+        "header_style": "logo_beside",
         "show_separator_line": false,
         "header_border_color": "",
         "separator_opacity": 50,
         "show_icons": true,
         "icon_as_circle": false,
         "cart_icon_family": "cart",
+        "logo": "shopify://shop_images/primrose-logo.svg",
         "logo_max_limit": 240,
         "logo_max_limit_mobile": 100,
         "main_menu_linklist": "main-menu",
