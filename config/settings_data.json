@@ -42,6 +42,7 @@
     "sale_text_color": "#af7b88",
     "badge_bg_color": "#ffffff",
     "badge_text_color": "#212121",
+    "show_cutline": true,
     "variant_lines": true,
     "swatch_size": "large",
     "swatch_style": "circle",
@@ -100,9 +101,9 @@
       },
       "scheme-3": {
         "settings": {
-          "section_text": "#212121",
-          "section_bg": "#f5f2ec",
-          "section_bg_light": "#ffffff",
+          "section_text": "#0d647c",
+          "section_bg": "#f9fbfc",
+          "section_bg_light": "#f9fbfc",
           "section_bg_gradient": "",
           "btn_primary_bg": "#212121",
           "btn_primary_text": "#ffffff",
@@ -111,7 +112,7 @@
           "btn_secondary_text": "#ffffff",
           "btn_secondary_border": "#ab8c52",
           "accent": "#ab8c52",
-          "lines_and_border": "#d1cdc4",
+          "lines_and_border": "rgba(0,0,0,0)",
           "overlay": "#000000",
           "links": "#282c2e"
         }
