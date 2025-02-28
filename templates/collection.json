@@ -19,7 +19,7 @@
         "show_text_background": false,
         "show_image": true,
         "banner_layout": "overlay",
-        "height": "screen-height-one-third",
+        "height": "four-fifty-height-hero",
         "mobile_height": "screen-height-one-half--mobile",
         "overlay_opacity": 0,
         "show_overlay_text": false,
