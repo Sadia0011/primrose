@@ -100,27 +100,27 @@
             "padding_bottom": 0
           }
         },
-        "image_XXrkde": {
+        "image_4RyhFm": {
           "type": "image",
           "settings": {
-            "position": "1",
-            "image": "shopify://shop_images/home_collection_5.jpg",
-            "aspect_ratio": 1,
-            "wide_image": false,
+            "position": "2",
+            "image": "shopify://shop_images/home_Shrubs1.jpg",
+            "aspect_ratio": 0.5,
+            "wide_image": true,
             "overlay_opacity": 0,
-            "overlay_color": "#000000",
+            "overlay_color": "#000",
             "title": "",
             "heading_font_size": "heading-medium",
             "link_text": "",
             "text_font_size": "body-medium",
             "link": "",
-            "text_color": "#101e38"
+            "text_color": ""
           }
         }
       },
       "block_order": [
         "toolbar",
-        "image_XXrkde"
+        "image_4RyhFm"
       ],
       "custom_css": [
         ".header__desktop__upper {height: 80px;}"
