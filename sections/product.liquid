@@ -791,11 +791,7 @@
     {%- render 'cart-bar', product: product -%}
   {%- endif -%}
 </product-component>
-{% comment %} <div> 
-{% for var in product.variants %}
-  <p>{{ var.metafields.custom.variant_specification| escape }}dvfd</p>
-{% endfor %}  
-</div> {% endcomment %}
+
 <script type="application/ld+json">
   {
     "@context": "http://schema.org/",
@@ -841,6 +837,58 @@
       {%- endfor -%}
     ]
   }
+</script>
+
+<div style="display: none;"> 
+{% for var in product.variants %}
+  <p id="{{ var.sku }}" class="variant-specification">{{ var.metafields.custom.variant_specification| escape }}</p>
+  <p id="producttitle">{{var.product.title}}</p>
+{% endfor %}  
+
+</div> 
+
+<script>
+document.addEventListener('theme:variant:change', function(event) {
+var title=document.querySelector(`#producttitle`);
+const awning='awning'
+  if(title.includes(awning)){
+    console.log("yes")
+  }
+  else{
+    console.log("nooooooooooooooooo")
+  }
+    // let selectedSku = event.detail.variant.sku;
+    // // console.log("Selected SKU:", selectedSku);
+    // let matchingVariant = document.querySelector(`p.variant-specification[id="${selectedSku}"]`);
+
+    // document.querySelectorAll(".accordion__title").forEach((title) => {
+    //     if (title.textContent.trim() === "Specifications") {
+    //         let specificationText = title.closest("details").querySelector(".metafield-multi_line_text_field");
+
+    //         if (matchingVariant) {
+    //           console.log("find it yessssssssssssss",matchingVariant)
+    //            specificationText.textContent = matchingVariant.textContent;
+    //             } 
+    //         else {
+    //                 console.log("canntttt find it noooooo")
+    //                 console.warn("No specification found for SKU:", selectedSku);
+    //             }
+    //     }
+    // });
+});
+
+
+  //  if(event.detail.variant.sku)
+      // if (event.detail.variant.available) {
+      //   // console.log("from custom event if block")
+      //   let collected_info = document.querySelector(".hidden_despatchInfo + div>p").textContent;
+      //   document.querySelector(".product__block--buttons:has(.product__submit .product__submit__buttons .product__submit__item button.pdp-atc) + script + div.product__icon__row>div.product__block:nth-of-type(1) .metafield-rich_text_field p").textContent = collected_info;
+      // }
+      // else{
+      //   // console.log("from custom event else block")
+      //   document.querySelector(".product__block--buttons:has(.product__submit .product__submit__buttons .product__submit__item button.pdp-atc:disabled) + script + div.product__icon__row>div.product__block:nth-of-type(1) .metafield-rich_text_field p").textContent ='Coming soon';
+      // }
+  // });
 </script>
 
 {% schema %}
@@ -2543,17 +2591,3 @@
   ]
 }
 {% endschema %}
-<script>
-  document.addEventListener('theme:variant:change', function(event) {
-   
-      // if (event.detail.variant.available) {
-      //   // console.log("from custom event if block")
-      //   let collected_info = document.querySelector(".hidden_despatchInfo + div>p").textContent;
-      //   document.querySelector(".product__block--buttons:has(.product__submit .product__submit__buttons .product__submit__item button.pdp-atc) + script + div.product__icon__row>div.product__block:nth-of-type(1) .metafield-rich_text_field p").textContent = collected_info;
-      // }
-      // else{
-      //   // console.log("from custom event else block")
-      //   document.querySelector(".product__block--buttons:has(.product__submit .product__submit__buttons .product__submit__item button.pdp-atc:disabled) + script + div.product__icon__row>div.product__block:nth-of-type(1) .metafield-rich_text_field p").textContent ='Coming soon';
-      // }
-  });
-</script>
