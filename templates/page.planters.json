@@ -326,6 +326,36 @@
         "heading_tag": "automatic"
       }
     },
+    "section_double_MRfQgm": {
+      "type": "section-double",
+      "blocks": {
+        "image_7pH8zy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gf_gallary_2.jpg",
+            "image_width": 100,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_7pH8zy"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/gf_gallary_1.jpg",
+        "image_width": "three-quarters",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_collections_list_zWL7ph": {
       "type": "section-collections-list",
       "blocks": {
@@ -612,6 +642,7 @@
     "section_hero_YQE8ct",
     "section_tab_collections_zgf9pC",
     "section_collections_list_NtG99Q",
+    "section_double_MRfQgm",
     "section_collections_list_zWL7ph",
     "section_columns_xjxEGC",
     "section_accordion_group_PwLLDR",

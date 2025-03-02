@@ -24,6 +24,7 @@
     "grid_style": "classic",
     "dots_style": "circle",
     "icon_style": "1.5",
+    "parallax_enable": false,
     "product_grid_outline": false,
     "show_scroll_top_button": true,
     "predictive_search_enabled": true,
