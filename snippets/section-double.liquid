@@ -138,6 +138,9 @@
   class="index-image-text section-padding {{ section.settings.text_alignment }} {{ color_scheme }}"
   style="{{ style }}"
 >
+   {%- if section.settings.section_title -%}
+       <h2 class="section-title">{{ section.settings.section_title }}</h2>
+   {%- endif -%}
   {%- if section.blocks.size > 0 -%}
     {%- if enable_slider -%}
       <slider-component
