@@ -11,10 +11,375 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "subheading": "Planters",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_YQE8ct": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_AWnWbY": {
+          "type": "heading",
+          "settings": {
+            "title": "GARDEN FURNITURE",
+            "heading_font_size": "heading-large",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_X4HDXg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Improve your outdoor living space with our extensive range of garden furniture.</p><p>We have a range of sizes and styles to suit every garden and all tastes. Choose from tables, sofas, benches, dining sets, swing seats and more. Constructed using quality materials, our garden furniture provides everything you need to enjoy your outdoor space, whether it's alfresco dining or entertaining family and friends.</p>",
+            "text_font_size": "body-small"
+          }
+        },
+        "button_Nj6djm": {
+          "type": "button",
+          "settings": {
+            "link_text": "Shop all garden furniture",
+            "link": "shopify://collections/garden-furniture",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "button_qqwMUV": {
+          "type": "button",
+          "settings": {
+            "link_text": "Use code EARLYBIRD20 to save 20% on Selected Furniture",
+            "link": "",
+            "button_type": "btn--secondary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AWnWbY",
+        "text_X4HDXg",
+        "button_Nj6djm",
+        "button_qqwMUV"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/garden_furniture_banner.jpg",
+        "link": "shopify://collections/garden-furniture",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_tab_collections_zgf9pC": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_t6RkGJ": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "garden-furniture",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_t6RkGJ"
+      ],
+      "settings": {
+        "show_product_count": false,
+        "width": "wrapper--full-padded",
+        "title": "Bestsellers",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "layout": "stacked",
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 8,
+        "grid": 3,
+        "rows": 3,
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_columns_xjxEGC": {
+      "type": "section-columns",
+      "blocks": {
+        "image_WkQMzG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/garden_furniture_blog_1.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "10 stunning garden furniture design ideas",
+            "heading_font_size": "heading-small",
+            "text": "<p>Get inspired in your next project. It's time to make the most of your outdoor space with these 10 practical and stylish garden furniture designs<a href=\"/blogs/news/natural-fencing-ideas-for-your-garden\" title=\"Natural Fencing Ideas for Your Garden\">. Read more</a></p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_ibawaG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/garden_furniture_blog_2.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "The UK's 9 best rattan garden furniture sets",
+            "heading_font_size": "heading-small",
+            "text": "<p>Discover our top suggestions for the UK's most comfortable and stylish rattan garden furniture sets, available in our easy guide of the best rattan garden furniture.<a href=\"/blogs/news/how-to-incorporate-your-fence-into-your-garden-design\" title=\"How to Incorporate Your Fence into Your Garden Design\">Read more</a></p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_fz3NV3": {
+          "type": "image",
+          "settings": {
+            "image_shape": "normal",
+            "pretitle": "Focus On",
+            "title": "Add a title or tagline",
+            "heading_font_size": "heading-small",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_WkQMzG",
+        "image_ibawaG",
+        "image_fz3NV3"
+      ],
+      "settings": {
+        "title": "Garden Furniture Ideas & Advice",
+        "subtitle": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-center",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_accordion_group_PwLLDR": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_pi3rc7": {
+          "type": "heading",
+          "settings": {
+            "title": "Garden Furniture FAQs"
+          }
+        },
+        "question_TymXkL": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Shop benches, swing seats, dining sets and more",
+            "content": "<p>You deserve a garden where you like to spend your time. Whether you have green fingers, little ones running around, or plan on entertaining with family barbecues, our outdoor furniture sets match every taste and style.</p><p>You may be browsing for a <a href=\"https://www.primrose.co.uk/products/_/garden-furniture/garden-benches/plcid.12/plcid.206/\" title=\"garden bench\">garden bench</a> to hide away in a quiet corner for reading or a <a href=\"https://www.primrose.co.uk/products/_/garden-furniture/swing-seats/plcid.12/plcid.209/\" title=\"swing seat\">swing seat</a> to enjoy your morning coffee. Whatever it is, Primrose is the best place to look. Or why not create the perfect picnic space with <a href=\"https://www.primrose.co.uk/products/_/garden-furniture/dining-sets/plcid.12/plcid.200/\" title=\"dining sets\">dining sets</a> and <a href=\"https://www.primrose.co.uk/products/_/garden-furniture/sofa-sets/plcid.12/plcid.201/\" title=\"garden sofas\">garden sofas</a>?</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_mjTxKj": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Create a stylish outdoor space with garden furniture",
+            "content": "<p>If you prefer a more traditional style, take a look at our <a href=\"https://www.primrose.co.uk/products/_/garden-furniture/wooden-garden-furniture/plcid.12/plcid.203/\" title=\"wooden furniture\">wooden furniture</a> including teak, pine, and mahogany - a great addition to blooming flowers. For hardwearing outdoor furniture, we have <a href=\"https://www.primrose.co.uk/products/_/garden-furniture/metal-garden-furniture/plcid.12/plcid.202/\" title=\"metal garden furniture\">metal garden furniture</a> options like cast aluminium, wrought iron, and stainless steel. With these types, it's often worth investing in some <a href=\"https://www.primrose.co.uk/products/_/garden-furniture/cushions/plcid.12/plcid.224/\" title=\"furniture cushions\">furniture cushions</a> to make sitting outside more comfortable.</p><p>For a modern look, <a href=\"https://www.primrose.co.uk/products/_/garden-furniture/plastic-garden-furniture/plcid.12/plcid.205/\" title=\"plastic outside sets\">plastic outside sets</a> provide an affordable and durable option. <a href=\"https://www.primrose.co.uk/products/_/garden-furniture/rattan-garden-furniture/plcid.12/plcid.204/\" title=\"Rattan furniture\">Rattan furniture</a> is always a popular contemporary style that brings instant comfort to your patio or conservatory.</p><p>Or if you're looking for something to fit more naturally into your garden, stone furniture creates the perfect area for a secluded spot to enjoy the outdoors!</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_3xUyz3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How to clean your garden furniture",
+            "content": "<p>Maintaining your outdoor furniture is vital to keeping it looking as good as new. Once you have removed any materials and cushioning that can either be machine or hand washed, make sure you get rid of any dust that's built up and vacuum your garden furniture and all around.</p><p>A bucket of warm water and washing up liquid is enough to remove any grime and dirt. You can use a cloth for the larger areas and a toothbrush for any stubborn nooks and crannies.</p><p>Rinse with a hose or a fresh bucket of water. Don't be tempted to reach for a pressure washer as these can be too harsh for cleaning garden furniture and potentially cause some damage.</p><p>To remove algae, add two parts of white vinegar to one part water and three tablespoons of baking soda. Scrub with a toothbrush and leave for a few minutes before giving another scrub and washing away.</p><p>For a more detailed explanation, check out our post on how to clean garden furniture over on the <a href=\"https://www.primrose.co.uk/blog/garden-furniture/\" title=\"Primrose Blog\">Primrose Blog</a>!</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_mVTNPE": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Can garden furniture be left outside?",
+            "content": "<p>Garden furniture has been designed to last outside all year round, however what materials it is made of can make a difference. For example, metal garden furniture is the most durable. If you know a heavy downpour is coming, you should protect it with outside<a href=\"https://www.primrose.co.uk/products/_/garden-furniture/furniture-covers/plcid.12/plcid.225/\" title=\"furniture covers\">furniture covers</a>to keep them looking fantastic for years to come. And of course, if it is very windy, keep them from flying away and bring them inside.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_eyCncq": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "The Primrose Promise",
+            "content": "<p>Buying garden furniture can be an investment, so we want to ensure you have the best experience with us. Our products are covered by the Primrose Promise, giving you:</p><ul><li>1-year warranty as standard</li><li>30 day returns</li><li>Next-day delivery on selected products</li></ul>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_y4pHFQ": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How do I maintain garden furniture?",
+            "content": "<p>The best way to maintain garden furniture is to keep it from degrading in the first place with a <a href=\"https://www.primrose.co.uk/products/_/garden-furniture/furniture-covers/plcid.12/plcid.225/\" title=\"cover\">cover</a>. If not, for furniture frames all you'll need is an oil (for wood) or spot of paint (for metal furniture). Sand the affected areas, smooth off then apply your chosen solution to the surface.</p><p>For glass tables, a simple wipe with a cloth will be enough to remove most marks, and the same will be true for rattan furniture unless it's fallen into disrepair. If this is the case, read on to learn how to repair rattan garden furniture on the <a href=\"https://www.primrose.co.uk/blog/garden-furniture/\" title=\"Primrose Blog\">Primrose Blog</a>.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_RtEhNV": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How do I choose the right size garden furniture?",
+            "content": "<p>Start by measuring up your space. Whether you're on a patio or a deck or just out on the lawn, you'll have an idea of where you want your furniture to go. Measure this space, then consider how many people you want to seat during a 'standard' (for you) gathering. Do you have 2 children, or a handful of couples that pop round every few Thursdays? Or do you prefer to sit with someone special and contemplate the universe on your twosome?</p><p>Browse our <a href=\"https://www.primrose.co.uk/products/_/garden-furniture/hammocks/plcid.12/plcid.226/numitems.100/\" title=\"garden furniture\">garden furniture</a> and select your set by the number of seats, then check the specifications to see the size of the table. Add about 50cm to the width and length (don't do this if the seats are attached to the table - the dimensions would then include the seating space), and add the size of the seats if included. Times these two values together (width x length) to find out how much space your chosen furniture will take up, and compare this to the measurement you took at the start. Second measurement smaller than the first? You're good to go!</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_pi3rc7",
+        "question_TymXkL",
+        "question_mjTxKj",
+        "question_3xUyz3",
+        "question_mVTNPE",
+        "question_eyCncq",
+        "question_y4pHFQ",
+        "question_RtEhNV"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_dYTyqT": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_b4nAdg": {
+          "type": "heading",
+          "settings": {
+            "title": "Primrose Garden Furniture",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_xNPWjc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Garden furniture is the perfect way to create your ideal outdoor space. We have a huge range of garden furniture at Primrose from modern rattan to classic wood, or functional metal to lightweight plastic - we've got materials to suit all tastes. Whether your idea of a perfect garden involves eating alfresco at a dining set or spending a summer evening entertaining friends on a sofa set, you'll find everything you need to enjoy your outdoor space right here.                                                            </p><p><a href=\"/collections/outdoor-heating\" title=\"Outdoor Heating\">Firepits   </a>      <a href=\"/collections/outdoor-heating\" title=\"Outdoor Heating\">Outdoor Lights</a>         <a href=\"/collections/awnings\" title=\"Awnings\">Metal Furniture Sets</a>      <a href=\"/collections/sail-shades\" title=\"Sail Shades\">Sail Shades</a>          <a href=\"/collections/planters\" title=\"planters\">Wooden Planters</a>    <a href=\"/collections/garden-furniture\" title=\"Garden Furniture\">Garden Chairs</a>    <a href=\"/collections/garden-furniture\" title=\"Garden Furniture\">Garden Tables  </a>          <a href=\"/collections/outdoor-heating\" title=\"Outdoor Heating\"> Patio Heaters</a></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_b4nAdg",
+        "text_xNPWjc"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_hero_YQE8ct",
+    "section_tab_collections_zgf9pC",
+    "section_columns_xjxEGC",
+    "section_accordion_group_PwLLDR",
+    "section_rich_text_dYTyqT"
   ]
 }
