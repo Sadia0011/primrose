@@ -82,8 +82,8 @@
     "section_custom_code_MJznEj": {
       "type": "section-custom-code",
       "custom_css": [
-        ".footer-custom {background-color: #0c6174; text-align: center; padding: 15px; color: #ffffff; font-size: 14px; display: flex; align-items: center; justify-content: center; flex-direction: column;}",
-        "@media (max-width: 480px) {.footer-custom {padding: 12px; font-size: 12px; }}"
+        ".footer-custom {background-color: #0c6174; text-align: center; padding: 10px 0; color: #ffffff; font-size: 14px;}",
+        "@media (max-width: 480px) {.footer-custom {padding: 6px; font-size: 12px; }}"
       ],
       "settings": {
         "code": "<footer class=\"footer-custom\">\n    <p>© 2025 Cercis Ltd. All rights reserved | Primrose is the trading name of Cercis Ltd (Registration number: 14521244)</p>\n</footer>",
