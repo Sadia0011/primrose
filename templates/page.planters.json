@@ -127,7 +127,7 @@
         "layout": "stacked",
         "layout_desktop": "slider",
         "layout_mobile": "slider",
-        "product_limit": 8,
+        "product_limit": 6,
         "grid": 3,
         "rows": 3,
         "color_scheme": "",
@@ -355,7 +355,7 @@
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
-        "padding_top": 42,
+        "padding_top": 50,
         "padding_bottom": 50,
         "show_placeholder": true
       }
