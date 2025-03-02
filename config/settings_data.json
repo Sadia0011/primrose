@@ -260,6 +260,24 @@
           "overlay": "#000000",
           "links": "#282c2e"
         }
+      },
+      "scheme-3b35048f-489a-4b0b-9da8-ee62a44fd715": {
+        "settings": {
+          "section_text": "#0d647c",
+          "section_bg": "#ffffff",
+          "section_bg_light": "#ecf6f6",
+          "section_bg_gradient": "",
+          "btn_primary_bg": "#548c35",
+          "btn_primary_text": "#ffffff",
+          "btn_primary_border": "#212121",
+          "btn_secondary_bg": "#ab8c52",
+          "btn_secondary_text": "#ffffff",
+          "btn_secondary_border": "#ab8c52",
+          "accent": "#000000",
+          "lines_and_border": "#d1cdc4",
+          "overlay": "#000000",
+          "links": "#0d647c"
+        }
       }
     }
   },

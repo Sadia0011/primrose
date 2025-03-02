@@ -434,32 +434,11 @@
             "mobile_image_aspect_ratio": 1,
             "heading_tag": "automatic"
           }
-        },
-        "image_fz3NV3": {
-          "type": "image",
-          "settings": {
-            "image_shape": "normal",
-            "pretitle": "Focus On",
-            "title": "Add a title or tagline",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "image_aspect_ratio": 1,
-            "mobile_image_aspect_ratio": 1,
-            "heading_tag": "automatic"
-          }
         }
       },
       "block_order": [
         "image_WkQMzG",
-        "image_ibawaG",
-        "image_fz3NV3"
+        "image_ibawaG"
       ],
       "settings": {
         "title": "Garden Furniture Ideas & Advice",
@@ -472,7 +451,7 @@
         "layout": "grid",
         "grid": 2,
         "layout_mobile": "1",
-        "color_scheme": "",
+        "color_scheme": "scheme-3b35048f-489a-4b0b-9da8-ee62a44fd715",
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "automatic"
