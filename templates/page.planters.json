@@ -136,6 +136,130 @@
         "heading_tag": "automatic"
       }
     },
+    "section_collections_list_NtG99Q": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_MRfwbM": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_FR3xzg": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_HKjAm7": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_CE9f6z": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_exV7T9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_hRpc6q": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_fPAAad": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_CgTMgD": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_JiB3Ea": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_hPchyG": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_HdCpXL": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_H4FfKF": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_MRfwbM",
+        "collection_FR3xzg",
+        "collection_HKjAm7",
+        "collection_CE9f6z",
+        "collection_exV7T9",
+        "collection_hRpc6q",
+        "collection_fPAAad",
+        "collection_CgTMgD",
+        "collection_JiB3Ea",
+        "collection_hPchyG",
+        "collection_HdCpXL",
+        "collection_H4FfKF"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 0.5,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 6,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
     "section_collections_list_zWL7ph": {
       "type": "section-collections-list",
       "blocks": {
@@ -442,6 +566,7 @@
     "main",
     "section_hero_YQE8ct",
     "section_tab_collections_zgf9pC",
+    "section_collections_list_NtG99Q",
     "section_collections_list_zWL7ph",
     "section_columns_xjxEGC",
     "section_accordion_group_PwLLDR",
