@@ -341,6 +341,9 @@
       "block_order": [
         "image_7pH8zy"
       ],
+      "custom_css": [
+        "#BrickSection--template--24665576767863__section_double_MRfQgm .section-title {font-size: 28px; /* font-weight: bold; */ text-align: center; margin-bottom: 20px;}"
+      ],
       "settings": {
         "section_title": "Create the perfect space for alfresco hosting",
         "image_1": "shopify://shop_images/gf_gallary_1.jpg",
@@ -352,8 +355,8 @@
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 42,
+        "padding_bottom": 50,
         "show_placeholder": true
       }
     },
