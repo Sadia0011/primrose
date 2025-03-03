@@ -9662,7 +9662,10 @@ body.has-header-transparent .section-overlay-header:first-of-type .index-image-t
   padding: 0;
   margin-bottom: var(--line-offset);
 }
-
+.hero__description.rte {
+  max-width: 950px;
+  margin: auto;
+}
 .hero__title,
 .hero__subheading,
 .hero__rte,

@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "template": {
       "type": "product",
@@ -193,16 +193,11 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "api_product_recommendation_NCyhdT": {
-      "type": "api-product-recommendation",
-      "settings": {}
     }
   },
   "order": [
     "template",
     "section_accordion_group_pcJJph",
-    "section_newsletter_HA7HJa",
-    "api_product_recommendation_NCyhdT"
+    "section_newsletter_HA7HJa"
   ]
 }
