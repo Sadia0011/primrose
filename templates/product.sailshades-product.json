@@ -7,7 +7,6 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-
 {
   "sections": {
     "template": {
@@ -174,7 +173,7 @@
       "type": "section-recent-products",
       "settings": {
         "product_recently_limit": 6,
-        "product_recently_minimum": 4,
+        "product_recently_minimum": 3,
         "product_recently_heading": "Recently viewed",
         "heading_font_size": "heading-x-small",
         "layout_mobile": "slider",
