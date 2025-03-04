@@ -898,6 +898,33 @@ document.addEventListener('theme:variant:change', function(event) {
 
 </script>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".accordion").forEach((accordion) => {
+    let title = accordion.querySelector(".accordion__title");
+
+    if (title && title.textContent.toLowerCase().includes("about primrose")) {
+      let accordionBody = accordion.querySelector(".accordion__body");
+
+      if (accordionBody) {
+        
+        let img = document.createElement("img");
+        img.src = "https://img.crocdn.co.uk/images/affiliates/primrose/assets/pdp/about-primrose.jpg";
+        img.alt = "About Primrose";
+        img.style = "width: 100%; margin:auto; margin-bottom: 15px; display: block;";
+
+        
+        let content = accordionBody.querySelector(".accordion__content");
+        if (content) {
+          accordionBody.insertBefore(img, content);
+        }
+      }
+    }
+  });
+});
+
+</script>
+
 {% schema %}
 {
   "name": "Product pages",
