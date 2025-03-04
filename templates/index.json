@@ -7,7 +7,6 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-
 {
   "sections": {
     "section_hero_48r6qx": {
@@ -32,7 +31,7 @@
           "type": "button",
           "settings": {
             "link_text": "Discover Landscaping",
-            "link": "#",
+            "link": "shopify://collections",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
