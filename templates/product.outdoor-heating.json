@@ -7,7 +7,6 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-
 {
   "sections": {
     "template": {
@@ -177,6 +176,20 @@
         "padding_bottom": 50
       }
     },
+    "section_recent_products_4TaqrQ": {
+      "type": "section-recent-products",
+      "settings": {
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed",
+        "heading_font_size": "heading-x-small",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
     "api_product_recommendation_AjcRkL": {
       "type": "api-product-recommendation",
       "settings": {}
@@ -185,6 +198,7 @@
   "order": [
     "template",
     "section_accordion_group_pcJJph",
+    "section_recent_products_4TaqrQ",
     "api_product_recommendation_AjcRkL"
   ]
 }

@@ -7,7 +7,6 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-
 {
   "sections": {
     "template": {
@@ -46,13 +45,27 @@
             "show_gift_card_recipient": false,
             "padding_bottom": 32
           }
+        },
+        "upsell_eVRMfN": {
+          "type": "upsell",
+          "settings": {
+            "upsell_product": "",
+            "upsell_product_list": "{{ block.settings.upsell_product.metafields.theme.upsell_list.value }}",
+            "show_available_upsell_only": false,
+            "layout": "slider",
+            "autoplay": true,
+            "autoplay_speed": 5,
+            "bg_color": "",
+            "padding_bottom": 16
+          }
         }
       },
       "block_order": [
         "title_paM7Ud",
         "price_8Ucwzp",
         "sku_8npEMU",
-        "buttons_bVrYhk"
+        "buttons_bVrYhk",
+        "upsell_eVRMfN"
       ],
       "settings": {
         "product_sticky_enable": true,

@@ -7,7 +7,6 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-
 {
   "sections": {
     "template": {
@@ -55,6 +54,19 @@
             "show_gift_card_recipient": false,
             "padding_bottom": 32
           }
+        },
+        "upsell_BjDpRY": {
+          "type": "upsell",
+          "settings": {
+            "upsell_product": "",
+            "upsell_product_list": "{{ block.settings.upsell_product.metafields.theme.upsell_list.value }}",
+            "show_available_upsell_only": false,
+            "layout": "slider",
+            "autoplay": true,
+            "autoplay_speed": 5,
+            "bg_color": "",
+            "padding_bottom": 16
+          }
         }
       },
       "block_order": [
@@ -62,7 +74,8 @@
         "price_8Ucwzp",
         "sku_8npEMU",
         "variants_EVKnnc",
-        "buttons_bVrYhk"
+        "buttons_bVrYhk",
+        "upsell_BjDpRY"
       ],
       "settings": {
         "product_sticky_enable": true,
@@ -156,6 +169,20 @@
         "padding_bottom": 50
       }
     },
+    "section_recent_products_4WMGzR": {
+      "type": "section-recent-products",
+      "settings": {
+        "product_recently_limit": 6,
+        "product_recently_minimum": 4,
+        "product_recently_heading": "Recently viewed",
+        "heading_font_size": "heading-x-small",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
     "api_product_recommendation_NCyhdT": {
       "type": "api-product-recommendation",
       "settings": {}
@@ -164,6 +191,7 @@
   "order": [
     "template",
     "section_accordion_group_pcJJph",
+    "section_recent_products_4WMGzR",
     "api_product_recommendation_NCyhdT"
   ]
 }
