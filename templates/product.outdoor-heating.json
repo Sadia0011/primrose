@@ -34,15 +34,6 @@
             "padding_bottom": 16
           }
         },
-        "variants_EVKnnc": {
-          "type": "variants",
-          "settings": {
-            "info_page": "",
-            "size_chart_style": "text",
-            "subscriptions_enable_selectors": false,
-            "padding_bottom": 16
-          }
-        },
         "buttons_bVrYhk": {
           "type": "buttons",
           "settings": {
@@ -55,14 +46,31 @@
             "show_gift_card_recipient": false,
             "padding_bottom": 32
           }
+        },
+        "upsell_XxTzbU": {
+          "type": "upsell",
+          "settings": {
+            "upsell_product": "",
+            "upsell_product_list": [
+              "1-5kw-ip34-infrared-hanging-patio-heater-in-stainless-steel-by-heatlab®",
+              "1-8kw-ipx4-wall-mounted-infrared-patio-heater-with-3-power-settings-by-heatlab®",
+              "dust-and-rain-heater-cover-for-ol3459-ol3461-ol3802-by-heatlab®"
+            ],
+            "show_available_upsell_only": true,
+            "layout": "slider",
+            "autoplay": true,
+            "autoplay_speed": 5,
+            "bg_color": "",
+            "padding_bottom": 16
+          }
         }
       },
       "block_order": [
         "title_paM7Ud",
         "price_8Ucwzp",
         "sku_8npEMU",
-        "variants_EVKnnc",
-        "buttons_bVrYhk"
+        "buttons_bVrYhk",
+        "upsell_XxTzbU"
       ],
       "settings": {
         "product_sticky_enable": true,
@@ -111,12 +119,24 @@
             "icon_color": ""
           }
         },
-        "question_c9ApFt": {
+        "question_id48BU": {
           "type": "question",
           "settings": {
             "default_open": false,
             "title": "Features",
             "content": "<p>{{ product.metafields.custom.features | metafield_tag }}</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_c9ApFt": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Material details",
+            "content": "<p>{{ product.metafields.custom.material_details | metafield_tag }}</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -140,6 +160,7 @@
         "heading_nNBTXX",
         "question_M6nWjC",
         "question_J9bFXe",
+        "question_id48BU",
         "question_c9ApFt",
         "question_34U8F9"
       ],
@@ -156,7 +177,7 @@
         "padding_bottom": 50
       }
     },
-    "api_product_recommendation_NCyhdT": {
+    "api_product_recommendation_AjcRkL": {
       "type": "api-product-recommendation",
       "settings": {}
     }
@@ -164,6 +185,6 @@
   "order": [
     "template",
     "section_accordion_group_pcJJph",
-    "api_product_recommendation_NCyhdT"
+    "api_product_recommendation_AjcRkL"
   ]
 }
