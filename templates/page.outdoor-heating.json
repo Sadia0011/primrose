@@ -7,14 +7,481 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
+
 {
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_PyqddJ": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_9dGrAP": {
+          "type": "heading",
+          "settings": {
+            "title": "OUTDOOR HEATING",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_kd8rQp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Primrose brings you a number of quick, easy ways to heat your garden, whether you want to take the chill off your next garden get-together or are planning a night huddled around a crackling fire with friends.</p><p>With hundreds of outdoor heating options, there's no need to let the evening cool off the day's fun. Our outdoor heater range includes something for everyone, including patio heaters, chimeneas, outdoor fireplaces, fire pits and barbecues.</p>",
+            "text_font_size": "body-large"
+          }
+        },
+        "button_AfpDEQ": {
+          "type": "button",
+          "settings": {
+            "link_text": "Shop Outdoor Heating",
+            "link": "shopify://collections/outdoor-heating",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9dGrAP",
+        "text_kd8rQp",
+        "button_AfpDEQ"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/outdoor_banner.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_tab_collections_NbE4f4": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_bcRMAU": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "outdoor-heating",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_bcRMAU"
+      ],
+      "settings": {
+        "show_product_count": false,
+        "width": "wrapper--full-padded",
+        "title": "Bestsellers",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "layout": "stacked",
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collections_list_7xRC46": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_zUErne": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-heating",
+            "collection_image": "shopify://shop_images/chimineas_popularcategories_263x248_7577e86f-3ca6-4da1-8314-93b21931b7e0.jpg",
+            "title": "Chimineas"
+          }
+        },
+        "collection_LRncrP": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-heating",
+            "collection_image": "shopify://shop_images/wallmounted_popularcategories_263x248_bbe054b9-4903-4276-ad63-ddb7b7b4c679.jpg",
+            "title": "Wall Mounted"
+          }
+        },
+        "collection_Vjj79G": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-heating",
+            "collection_image": "shopify://shop_images/tabletop_freestanding_popularcategories_263x248_108d2476-550e-4740-a7b8-0fe815ed10ae.jpg",
+            "title": "Tabletop & Freestanding"
+          }
+        },
+        "collection_RRbdTh": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-heating",
+            "collection_image": "shopify://shop_images/ceilingmounted_popularcategories_263x248_3fb83c49-8685-4ccf-9b98-8f324eea37e9.jpg",
+            "title": "Ceiling Mounted"
+          }
+        },
+        "collection_xaBTKW": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-heating",
+            "collection_image": "shopify://shop_images/bbqs_popularcategories_263x248_ffee21d0-68fa-47a3-bb9a-9139fd3bfc35.jpg",
+            "title": "BBQs"
+          }
+        },
+        "collection_EUktKR": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-heating",
+            "collection_image": "shopify://shop_images/accessories_popularcategories_263x248_464ff104-2114-41ee-81b7-38a1873b77a0.jpg",
+            "title": "Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "collection_zUErne",
+        "collection_LRncrP",
+        "collection_Vjj79G",
+        "collection_RRbdTh",
+        "collection_xaBTKW",
+        "collection_EUktKR"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 6,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_double_DW9cJ4": {
+      "type": "section-double",
+      "blocks": {
+        "image_HagYwy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bringwarmthtoyourgardenwithheatlab_inspiration_electricheaters_cat_p6_435x279_f2403bac-3a55-4da1-b4cd-ec188a50289d.jpg",
+            "image_width": 100,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "image_HagYwy"
+      ],
+      "custom_css": [
+        "#BrickSection--template--24665576735095__section_double_DW9cJ4 .section-title {text-align: center; font-size: 32px; margin-bottom: 20px;}"
+      ],
+      "settings": {
+        "section_title": "Bring warmth to your garden with HeatLab",
+        "image_1": "shopify://shop_images/bringwarmthtoyourgardenwithheatlab_inspiration_hp_p1_1200x803_ed509794-a83b-4a56-a0ad-9d60bb347bc5.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full-padded",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_collections_list_ygGCKF": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_kxLdMT": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-heating",
+            "collection_image": "shopify://shop_images/bringwarmthtoyourgardenwithheatlab_inspiration_gasheaters_cat_p3_435x279_3c7c7c27-ad63-42bc-9da2-ba98d6569b53.jpg",
+            "title": "Gas Heaters"
+          }
+        },
+        "collection_7hbABT": {
+          "type": "collection",
+          "settings": {
+            "collection": "garden-furniture",
+            "collection_image": "shopify://shop_images/bringwarmthtoyourgardenwithheatlab_inspiration_gardenfurniture_cat_p4_435x279_281f2e17-b230-4bf6-a92d-14e1908aacba.jpg",
+            "title": ""
+          }
+        },
+        "collection_hApxrb": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/bringwarmthtoyourgardenwithheatlab_inspiration_planters_cat_p5_435x279_ccdbb01a-dee2-4b7a-9796-fda348552105.jpg",
+            "title": ""
+          }
+        },
+        "collection_9RdWWV": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-heating",
+            "collection_image": "shopify://shop_images/bringwarmthtoyourgardenwithheatlab_inspiration_electricheaters_cat_p6_435x279_1.jpg",
+            "title": "Electric Heaters"
+          }
+        }
+      },
+      "block_order": [
+        "collection_kxLdMT",
+        "collection_7hbABT",
+        "collection_hApxrb",
+        "collection_9RdWWV"
+      ],
+      "settings": {
+        "title": "Shop the look",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_columns_bmppAR": {
+      "type": "section-columns",
+      "blocks": {
+        "image_fHxxER": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bringwarmthtoyourgardenwithheatlab_fw_blog_10bestoutdoorheaters_927x375_4145b1f0-ee22-4cbc-8ea6-6b91759ce16b.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "10 best outdoor heaters",
+            "heading_font_size": "heading-small",
+            "text": "<p>Our top recommendations are a good place to start if you are looking to stay warm in your garden during the colder months.<a href=\"/blogs/news/natural-fencing-ideas-for-your-garden\" title=\"Natural Fencing Ideas for Your Garden\">Discover our 10 best outdoor heaters</a></p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_tb9fVK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bringwarmthtoyourgardenwithheatlab_fw_blog_howtolightafirepit_927x375_e2ef1e96-c2bc-4b78-b637-5fb30c57ca56.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "How to light a fire pit",
+            "heading_font_size": "heading-small",
+            "text": "<p>A burning fire pit can be an impressive addition to your garden when entertaining friends and family. Learning how to light and maintain a fire pit flame is easy with our guide.<a href=\"/blogs/news/natural-fencing-ideas-for-your-garden\" title=\"Natural Fencing Ideas for Your Garden\">Read our how to light a fire pit guide</a></p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_fHxxER",
+        "image_tb9fVK"
+      ],
+      "settings": {
+        "title": "Outdoor Heaters ideas & advice",
+        "subtitle": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_accordion_group_VQFBMt": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_D3kKpe": {
+          "type": "heading",
+          "settings": {
+            "title": "Outdoor heating FAQs"
+          }
+        },
+        "question_nWn8BU": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What are the best types of outdoor heating?",
+            "content": "<p>There are many types of outdoor heating that all provide efficient ways of heating an outdoor space. Whichever is best depends on what you prefer in terms of looks, size, shape and power source. <a href=\"https://www.primrose.co.uk/products/_/chimineas/plcid.17/\" title=\"Chimineas\">Chimineas</a> are a traditional outdoor heating option adding to the ideal aesthic of an outdoor space. <a href=\"https://www.primrose.co.uk/products/_/patio-heaters/infrared-patio-heaters/plcid.186/\" title=\"Infrared patio heaters\">Infrared patio heaters</a> are an eco-friendly option; considered to be the safest heating source and known for its cost-effectiveness due to its efficiency.</p><p>For more information on the different types we offer, see our guide on <a href=\"https://www.primrose.co.uk/products/_/outdoor-heating/plcid.14/\" title=\"Outdoor Heating\">Outdoor Heating</a>.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_gfNNak": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Shop chimineas, fire pits and more",
+            "content": "<p>Our outdoor heater range includes something for everyone. Patio heaters are a popular choice. With both electric and gas options available, you can choose from free-standing, wall-mounted or ceiling-mounted heaters to help you continue enjoying your garden when the British weather doesn't deliver. A fire pit or fire bowl is a great choice if you want a focal point for your patio.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_QwNftG": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Discover outdoor chimineas and BBQs",
+            "content": "<p>If you're looking for outdoor heating that doubles up as a grill, a chiminea is a great option. Choose from cast iron or clay designs and add a tried-and-tested outdoor heater to your garden. We also have a great range of BBQs which are great for keeping you cosy and cooking up a storm.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_VizFG3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Find electric and gas outdoor heaters",
+            "content": "<p>Electric outdoor heating is a popular choice, thanks to the ease of setting up (providing you have outdoor ports already installed) and the environmental benefits of using renewable energy. Gas outdoor heating is another good choice and can sometimes offer higher heat output than other options.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_9BzDwY": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Do outdoor heaters work in winter?",
+            "content": "<p>Outdoor heating is perhaps most important in the winter, when temperatures plummet. With the right garden heater, you can enjoy your garden for more of the year, including the winter. Patio heaters work a lot like the sun, emitting radiant heat and infrared rays which travel through the air to keep you warm.</p><p>But outdoor heating is not just a winter worry; investing in a heat source for your garden pays off year round. Far too often a chilly evening brings a summer's day outdoors to an end, when warming your garden could be as easy as tossing a few logs into the firepit or flicking the switch on the electric outdoor heater.</p><p>When the summer heat goes and autumn starts to creep around, you'll be glad that you don't need to go back indoors but you can continue to use your garden during the months it can often be neglected.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_iPYG8e": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Browse our affordable range of outdoor heaters online",
+            "content": "<p>The warmth of an outdoor fire is comforting and satisfying, but it is important that this form of heating stays safe and manageable. With an outdoor fireplace, fire pit, or chiminea, staying toasty is both safe and simple. You'll want to find a safe place to position it, choosing a level surface a good distance away from anything which you don't want the fire to reach.</p><p>Once your fire is burning, not only can you enjoy its warm glow for hours, but you can also use it to toast marshmallows, or even barbecue food. Tasty flame-grilled meals outdoors on a summer's day are even better when you can watch the flicker of the fire as you eat.</p><p>Alternatively, if an outdoor heater you can simply turn on and off is what you're looking for, browse our wide range of patio heaters. Order all of your garden heating essentials at Primrose today!</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_D3kKpe",
+        "question_nWn8BU",
+        "question_gfNNak",
+        "question_QwNftG",
+        "question_VizFG3",
+        "question_9BzDwY",
+        "question_iPYG8e"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_hero_PyqddJ",
+    "section_tab_collections_NbE4f4",
+    "section_collections_list_7xRC46",
+    "section_double_DW9cJ4",
+    "section_collections_list_ygGCKF",
+    "section_columns_bmppAR",
+    "section_accordion_group_VQFBMt"
   ]
 }
