@@ -184,11 +184,16 @@
         "padding_bottom": 0,
         "heading_tag": "automatic"
       }
+    },
+    "api_product_recommendation_Y6a9kj": {
+      "type": "api-product-recommendation",
+      "settings": {}
     }
   },
   "order": [
     "template",
     "section_accordion_group_pcJJph",
-    "section_recent_products_BEKFzP"
+    "section_recent_products_BEKFzP",
+    "api_product_recommendation_Y6a9kj"
   ]
 }
