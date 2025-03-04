@@ -7,14 +7,738 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
+
 {
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_FnAmwx": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_rERpcx": {
+          "type": "heading",
+          "settings": {
+            "title": "SAIL SHADES",
+            "heading_font_size": "heading-large",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_Pw8tAe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Outdoor living whatever the weather exclusively by Kookaburra ®</p><p>Sail shades are fabric structures designed to keep you dry in the rain and cool in the bright sunshine. They're hung from anchor points on walls, poles, fences or trees to create an area of shade so you can enjoy your garden whatever the weather. Available in hundreds of shapes, styles, sizes and colours, they can be mounted in almost any position to provide soothing shade even in difficult-to-reach areas.</p>",
+            "text_font_size": "body-large"
+          }
+        },
+        "button_WnHzYx": {
+          "type": "button",
+          "settings": {
+            "link_text": "Shop all Sail Shade",
+            "link": "shopify://collections/sail-shades",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rERpcx",
+        "text_Pw8tAe",
+        "button_WnHzYx"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/sail_banner.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "collection_grid_with_title_JaF4Qd": {
+      "type": "collection-grid-with-title",
+      "blocks": {
+        "collection_9QRKhj": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "image_1": "shopify://shop_images/sail_1.jpg",
+            "collection_name": ""
+          }
+        },
+        "collection_xTQfHx": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "image_1": "shopify://shop_images/sail2.jpg",
+            "collection_name": ""
+          }
+        },
+        "collection_9Q6k36": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "image_1": "shopify://shop_images/sail3.jpg",
+            "collection_name": ""
+          }
+        },
+        "collection_4myPRM": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "image_1": "shopify://shop_images/sail4.jpg",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_9QRKhj",
+        "collection_xTQfHx",
+        "collection_9Q6k36",
+        "collection_4myPRM"
+      ],
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "width": "wrapper--full-padded"
+      }
+    },
+    "section_tab_collections_HANXff": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_AJptmf": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "featured_collection": "sail-shades",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_AJptmf"
+      ],
+      "settings": {
+        "show_product_count": false,
+        "width": "wrapper--full-padded",
+        "title": "Bestsellers",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "layout": "stacked",
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collections_list_itpjML": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_3UY74X": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/sail_category_1.jpg",
+            "title": "Rectangle"
+          }
+        },
+        "collection_Xg7YK9": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/sail_category_2.jpg",
+            "title": "Square"
+          }
+        },
+        "collection_b7VghT": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/sail_category_3.jpg",
+            "title": "Triangle"
+          }
+        },
+        "collection_hgpgqa": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/sail_category_4.jpg",
+            "title": "Right Angle Triangle"
+          }
+        },
+        "collection_VgniUi": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/sail_category_5.jpg",
+            "title": "Poles, Fittings & Tools"
+          }
+        },
+        "collection_JeBMHi": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/sail_category_6.jpg",
+            "title": "Installation Guide"
+          }
+        }
+      },
+      "block_order": [
+        "collection_3UY74X",
+        "collection_Xg7YK9",
+        "collection_b7VghT",
+        "collection_hgpgqa",
+        "collection_VgniUi",
+        "collection_JeBMHi"
+      ],
+      "settings": {
+        "title": "Shop our popular categories",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 6,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_double_M3PAyK": {
+      "type": "section-double",
+      "blocks": {
+        "image_ABzq8d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sail_banner_2_1.png",
+            "image_width": 60,
+            "padding_bottom": 16
+          }
+        },
+        "text_q9nAPK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kookaburra shade sails are exclusive to Primrose, and come with a variety of benefits over other similar products. They are made from a tighter-weave material that ensures the sail shade protects you from the elements all year round, whether rain or shine.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_XxG4ha": {
+          "type": "text",
+          "settings": {
+            "text": "<p>They're also rot-proof, easy to clean and maintain, and durable. All our sail shades come with a warranty as standard</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "image_ABzq8d",
+        "text_q9nAPK",
+        "text_XxG4ha"
+      ],
+      "settings": {
+        "section_title": "",
+        "image_1": "shopify://shop_images/sail_banner2.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-11",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_double_epVCrK": {
+      "type": "section-double",
+      "blocks": {
+        "text_TXLYyR": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Why choose Kookaburra Sail Shades?</h3><p></p><ul><li>Keep dry, cool and comfortable all year round</li><li>Over 400,000 sail shades sold</li><li>Crowned IndyBest Buy in The Independent</li><li>Established for 16 years</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_TXLYyR"
+      ],
+      "settings": {
+        "section_title": "",
+        "image_1": "shopify://shop_images/sail_banner_3.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_collections_list_MD6gdR": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_ebKfEz": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/sail_inpiration1.jpg",
+            "title": ""
+          }
+        },
+        "collection_z3GaRr": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/sail_inpiration2.jpg",
+            "title": ""
+          }
+        },
+        "collection_tzFmQD": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/sail_inpiration3.jpg",
+            "title": ""
+          }
+        },
+        "collection_pJ4KxH": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/sail_inpiration4.jpg",
+            "title": ""
+          }
+        },
+        "collection_mjdBhT": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/sail_inpiration5.jpg",
+            "title": ""
+          }
+        },
+        "collection_tmk6c8": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/sail_inpiration6.jpg",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_ebKfEz",
+        "collection_z3GaRr",
+        "collection_tzFmQD",
+        "collection_pJ4KxH",
+        "collection_mjdBhT",
+        "collection_tmk6c8"
+      ],
+      "custom_css": [
+        "#CollectionsList--template--24665576669559__section_collections_list_MD6gdR .collection-item__info {display: none;}"
+      ],
+      "settings": {
+        "title": "Need inspiration?",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 6,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_columns_Gjq3pG": {
+      "type": "section-columns",
+      "blocks": {
+        "image_7yyaVG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sail_blog_1.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "Top 5 Best Sail Shades",
+            "heading_font_size": "heading-small",
+            "text": "<p>With over 500 to choose from, we've got a sail shade fit for every garden. Find out our top 5 best sail shades in our useful guide.  <a href=\"/blogs/news/6-top-tips-for-garden-privacy\" title=\"6 Top Tips For Garden Privacy\">Read more</a></p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_VnPKcD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sail_blog_2.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "How to install a Sail Shade",
+            "heading_font_size": "heading-small",
+            "text": "<p>Sail shade installation doesn't need to be complex! To get the best set up, follow our practical guide on how to install a sail shade. <a href=\"/blogs/news/how-to-incorporate-your-fence-into-your-garden-design\" title=\"How to Incorporate Your Fence into Your Garden Design\">Read more</a></p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_7yyaVG",
+        "image_VnPKcD"
+      ],
+      "settings": {
+        "title": "Sail Shades Ideas & Advice",
+        "subtitle": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_accordion_group_DeLRcf": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_XwRYjg": {
+          "type": "heading",
+          "settings": {
+            "title": "Sail Shade FAQs"
+          }
+        },
+        "question_Fjd4h9": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What is a sail shade?",
+            "content": "<p>Sail Shades are fabric structures like a ship's sail, hung from anchor points to create an area of shade outdoors. They offer unparalleled flexibility when it comes to creating a stylish custom shade solution for the garden. Available in many shapes and sizes, these semi-permanent structures can be mounted in almost any position, at any angle and against most surfaces to provide soothing shade for even the most difficult to reach areas.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_J4b4JF": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Do sail shades really work?",
+            "content": "<p>With scientific research highlighting the dangers of prolonged sun exposure, a safe shaded area in the garden is a fantastic idea for protecting friends and family from harmful UV rays. A garden sail shade offers invaluable sun protection - with minimum 90% UV ray protection on all Kookaburra models - whilst making a stylish and colourful addition to the garden.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_yAkkyC": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Do shade sails last?",
+            "content": "<p>On average, a shade sail should last approximately eight to ten years. However, this depends on how exposed the sail is to inclement weather. If you live in an area that gets a lot of strong wind and heavy rain, you may need to take appropriate measures to prevent any fabric wear and tear, such as installing your sail at an angle to allow any water to run off.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_CQcKfi": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Are sail shades permanent?",
+            "content": "<p>Sail shades are a semi-permanent structure. Permanent garden shade structures like<a href=\"https://www.primrose.co.uk/products/_/canopies/plcid.10/\" title=\"canopies\">canopies</a>,<a href=\"https://www.primrose.co.uk/products/_/gazebos/plcid.5/\" title=\"gazebos\">gazebos</a>and<a href=\"https://www.primrose.co.uk/products/_/awnings/plcid.3/\" title=\"awnings\">awnings</a>are fantastic for their sturdy, durable framework but sometimes a lightweight alternative is just what's needed. Sail shades are so effective because a single sheet of UV resistant fabric can be tensioned in such a wide variety of ways.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_49qVcA": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How easy is it to install sail shades?",
+            "content": "<p>Sail shades are fairly simple to install, but the larger the sail shade the trickier it will be to hang by yourself! We recommend reading our expert's guide toinstalling your shade sail for more information.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_FWQaQD": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Can shade sails be used in schools?",
+            "content": "<p>The growing popularity of garden sails can be evidenced by the number of schools now employing them in playgrounds across the country. The sails can be set up to cover otherwise exposed areas and provide a safe environment for children to enjoy the outdoors without the risk of sunburn.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_ND3RL4": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Why choose a Kookaburra sail shade?",
+            "content": "<p>Sail shades have long been popular in the southern hemisphere for their sun protection benefits. However, most sails are typically made with a loose weave fabric which allows heat to escape from under the garden sail and maintains a cool temperature when sat in the shade. This is important in hot climates where a place to cool off is a necessary requirement. But in the UK we tend to have more temperamental weather - a little colder and a lot wetter - which inspired Kookaburra to create a different type of sail shade.</p><p><a href=\"https://www.primrose.co.uk/products/_/sail-shades/breathable-sail-shades/plcid.4/plcid.84/\" title=\"Kookaburra\">Kookaburra</a> waterproof sail shades are made with a tighter weave which causes rainwater to simply run off the fabric. In Australia this would make it libilishly hot when sat under the sail with the sun beating down from above. Be sure to angle your sails for drainage to allow water to run off. But since we rarely get the same kind of temperatures the Australians are used to, there is little issue with keeping all that heat in; we like to think of it as an added bonus. And when you pair that with the knowledge the fabric will keep you nice and dry if an unexpected downpour breaks out, you've got the best of both worlds.</p><p>Alternatively, if you'd rather go with the more traditional style, Kookaburra offers a <a href=\"https://www.primrose.co.uk/products/_/sail-shades/breathable-sail-shades/plcid.4/plcid.84/\" title=\"breathable range\">breathable range</a> available in standard and premium. These two styles both make use of a knitting process which leaves tiny holes in the fabric of the sail shade. Neither style is waterproof but both allow heat to escape from beneath the sail keeping your shaded area cool at all times.</p><p>Kookaburra sail shades are available in many colours and different shapes and sizes. Over 500 sail shades to choose from. They're rot proof and easy to clean. Most sails come with sturdy grade 304 stainless steel rings in each corner for lasting quality and durability. They are easy to hang and install, one way to transform your patio space in an instant. On top of that, most Kookaburra sails are covered by a minimum 2 year warranty as standard.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_MytN9B": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What's the right size of sail shade for me?",
+            "content": "<p>The right size of sail shade can be found by measuring the distance between the fixing points you intend to hang the sail shade from.</p><p>It's important to get these measurements right so that there's sufficient tension along the edges of the sail shade to keep it suspended, but there is a small margin either side.</p><p>For example, if your measurements are close to 5m x 4m, then a 5m x 4m sail shade will likely be the perfect fit for your garden.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_EUdJje": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What kind of sail shades are available?",
+            "content": "<p>Once you have the right size, the next most important factor to consider is the colour of your sail shade. The right colour for you will be down to personal preference, but we recommend looking for a colour that will complement the style of your garden and house.</p><p>We offer a wide range of coloured sail shades from neutrals that blend into the background to bright, bold colours that will transform your sail shade into a statement garden feature.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_C6XQxj": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What kind of shape is a sail shade?",
+            "content": "<p>Sail shades typically come in three main shapes - triangle, rectangle and square. Triangle sail shades provide less shade than a square, but their main advantage is that they can be more flexible. Square and rectangle sail shades provide greater coverage and mimic the performance of an awning.</p><p>The key point to remember with a square or rectangle sail shade is that they are not perfectly square. The sides are bowed (known as parabolic curved edges) to allow for that all important tension in the sail.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_t6zyHi": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Should I get a triangle, rectangle or a square sail shade?",
+            "content": "<p>If you're wanting maximum coverage, we recommend choosing a<a href=\"https://www.primrose.co.uk/products/_/sail-shades/rectangle-sail-shades/plcid.4/plcid.81/\" title=\"rectangle\">rectangle</a>or<a href=\"https://www.primrose.co.uk/products/_/sail-shades/square-sail-shades/plcid.4/plcid.83/\" title=\"square sail shade\">square sail shade</a>. However, a<a href=\"https://www.primrose.co.uk/products/_/sail-shades/triangle-sail-shades/plcid.4/plcid.82/\" title=\"triangle sail shade\">triangle sail shade</a>is typically more flexible and is often popular for smaller spaces or areas that don't have as many obvious fixing points. Browse our full range of sail shades here at Primrose.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_e9kd69": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How do I install my garden sail shade?",
+            "content": "<p>Successfully installing a sail shade in your garden comes down to two things - having the right measurements, and the right<a href=\"https://www.primrose.co.uk/products/_/sail-shades/poles-%2F-fittings/plcid.4/plcid.91/\" title=\"fittings\">fittings</a>. While it's down to you to provide accurate measurements, we can help with the fittings. Our sail shade kits are designed to include all the small parts you'll need to fix your garden sail shade.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_dXeTR6": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What's included in a sail shade kit?",
+            "content": "<p>There are three key parts you'll need to fit a sail shade - pad eyes, turnbuckles and snaphooks. To save you from individually buying these parts, our sail shade kits include the correct number of each fitting you'll need for a successful installation.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_Dp8BVx": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How do you anchor a shade sail?",
+            "content": "<p>Shade sails are anchored by connecting the corners to solid points such as exterior walls and structures. You attach them to the walls using a number of fittings including pad eyes, turnbuckles and snaphooks.</p><p>Our shade sail kits are designed to include everything you need to anchor and provide the right tension for your shade sail. Discover even more essential <a href=\"https://www.primrose.co.uk/products/_/sail-shades/poles-%2F-fittings/plcid.4/plcid.91/\" title=\"shade sail fittings\">shade sail fittings</a> in our full range here at Primrose.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_XwRYjg",
+        "question_Fjd4h9",
+        "question_J4b4JF",
+        "question_yAkkyC",
+        "question_CQcKfi",
+        "question_49qVcA",
+        "question_FWQaQD",
+        "question_ND3RL4",
+        "question_MytN9B",
+        "question_EUdJje",
+        "question_C6XQxj",
+        "question_t6zyHi",
+        "question_e9kd69",
+        "question_dXeTR6",
+        "question_Dp8BVx"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_egbMGh": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_mq8K8T": {
+          "type": "heading",
+          "settings": {
+            "title": "Primrose sail shades",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_dgyxMe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Not sure which sail shade is right for you? Check out our comparison page to find your perfect sail shade between breathable and waterproof styles, then read our installation guide to fit it in a flash!</p><p><a href=\"/collections/sail-shades\" title=\"Sail Shades\">Triangle Sail Shades</a>  <a href=\"/collections/sail-shades\" title=\"Sail Shades\">Rectangle Sail Shades</a>  <a href=\"/collections/sail-shades\" title=\"Sail Shades\">Square Sail Shades</a> <a href=\"/collections/sail-shades\" title=\"Sail Shades\"> Right Angle Sail Shades</a>  <a href=\"/collections/awnings\" title=\"Awnings\">Awnings</a> <a href=\"/collections/awnings\" title=\"Awnings\"> Canopies</a>  <a href=\"/collections/sail-shades\" title=\"Sail Shades\">Gazebos</a>  <a href=\"/collections/sail-shades\" title=\"Sail Shades\">Marquees & Party Tents Parasols</a> <a href=\"/collections/sail-shades\" title=\"Sail Shades\">Verandas</a></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_mq8K8T",
+        "text_dgyxMe"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "scheme-1",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_hero_FnAmwx",
+    "collection_grid_with_title_JaF4Qd",
+    "section_tab_collections_HANXff",
+    "section_collections_list_itpjML",
+    "section_double_M3PAyK",
+    "section_double_epVCrK",
+    "section_collections_list_MD6gdR",
+    "section_columns_Gjq3pG",
+    "section_accordion_group_DeLRcf",
+    "section_rich_text_egbMGh"
   ]
 }
