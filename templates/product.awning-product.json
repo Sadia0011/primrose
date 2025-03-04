@@ -59,7 +59,7 @@
           "type": "upsell",
           "settings": {
             "upsell_product": "",
-            "upsell_product_list": [],
+            "upsell_product_list": "{{ block.settings.upsell_product.metafields.theme.upsell_list.value }}",
             "show_available_upsell_only": false,
             "layout": "slider",
             "autoplay": true,
