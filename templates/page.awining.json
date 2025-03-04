@@ -7,14 +7,636 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
+
 {
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_dM8Vyb": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_AwBGgi": {
+          "type": "heading",
+          "settings": {
+            "title": "GARDEN AWNINGS",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_zUeecL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Improve your outdoor living space with our largest range of patio awnings.</p><p>Add a stylish addition to your home with our Retractable Garden awnings, which feature our high-quality waterproof fabrics. Primrose awnings are designed to keep you dry and protect against sunburn. So, whether relaxing on a hot sunny day or needing a space to cool down, an awning provides the perfect protection.</p>",
+            "text_font_size": "body-large"
+          }
+        },
+        "button_e4LxKA": {
+          "type": "button",
+          "settings": {
+            "link_text": "Shop all Awnings",
+            "link": "shopify://collections/awnings",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AwBGgi",
+        "text_zUeecL",
+        "button_e4LxKA"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/awning_banner.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_text_row_qr79hn": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_AXmBit": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-shield",
+            "icon_size": 70,
+            "icon_color": "",
+            "image": "shopify://shop_images/awning_icon1.png",
+            "title": "2 year warranty*",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_gz8YUP": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-trophy",
+            "icon_size": 70,
+            "icon_color": "",
+            "image": "shopify://shop_images/awning_icon2.png",
+            "title": "Up to 98% UV protection",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_KLTjM9": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 70,
+            "icon_color": "",
+            "image": "shopify://shop_images/awning_icon3.png",
+            "title": "Waterproof",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_pb7Xaa": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 70,
+            "icon_color": "",
+            "image": "shopify://shop_images/awning_icon4.png",
+            "title": "Easy to install",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_AXmBit",
+        "icon_gz8YUP",
+        "icon_KLTjM9",
+        "icon_pb7Xaa"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collections_list_FfH3zD": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_aDnDzV": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/awning_collection_1.jpg",
+            "title": "Electric awnings"
+          }
+        },
+        "collection_q6KHmx": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/awning_collection_2.jpg",
+            "title": "Manual awnings"
+          }
+        }
+      },
+      "block_order": [
+        "collection_aDnDzV",
+        "collection_q6KHmx"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 0.5,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_tab_collections_TC7pxT": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_ipUc7d": {
+          "type": "collection",
+          "settings": {
+            "title": "First collection",
+            "featured_collection": "awnings",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_ipUc7d"
+      ],
+      "settings": {
+        "show_product_count": false,
+        "width": "wrapper--full-padded",
+        "title": "Bestsellers",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "layout": "stacked",
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collections_list_iQWYTC": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_7d9pfY": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/awningtype1.jpg",
+            "title": "Standard"
+          }
+        },
+        "collection_Knmzwr": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/awningtype2.jpg",
+            "title": "Full cassette"
+          }
+        },
+        "collection_WHiPya": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/awningtype3.jpg",
+            "title": "Half cassette"
+          }
+        },
+        "collection_mVtHhP": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/awningtype4.jpg",
+            "title": "Budget"
+          }
+        },
+        "collection_N8Q8Bc": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/awningtype5.jpg",
+            "title": "Drop Arm"
+          }
+        },
+        "collection_UUK4eX": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/awningtype6.jpg",
+            "title": "Dutch Canopy"
+          }
+        },
+        "collection_jciGdy": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/awningtype7.jpg",
+            "title": "Free Standing"
+          }
+        },
+        "collection_CYyHUd": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/awningtype8.jpg",
+            "title": "Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "collection_7d9pfY",
+        "collection_Knmzwr",
+        "collection_WHiPya",
+        "collection_mVtHhP",
+        "collection_N8Q8Bc",
+        "collection_UUK4eX",
+        "collection_jciGdy",
+        "collection_CYyHUd"
+      ],
+      "settings": {
+        "title": "Shop by type",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 0.5,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 51,
+        "padding_bottom": 51,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collections_list_AdWBhf": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_VgUf4z": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/awnings_model_comparison_2x_24774b20-19fd-4923-a7bc-440da63f4d95.jpg",
+            "title": "Awning model comparison"
+          }
+        },
+        "collection_Lp4FMH": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/awnings_model_comparison_2x_24774b20-19fd-4923-a7bc-440da63f4d95.jpg",
+            "title": "Awning installation guide & fitting service"
+          }
+        }
+      },
+      "block_order": [
+        "collection_VgUf4z",
+        "collection_Lp4FMH"
+      ],
+      "settings": {
+        "title": "Awnings explained",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 0.5,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "1",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_accordion_group_HexGe8": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_Y3GWCN": {
+          "type": "heading",
+          "settings": {
+            "title": "Awnings FAQs"
+          }
+        },
+        "question_ENznn4": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What are Primrose Patio Awnings?",
+            "content": "<p>Retractable awnings are a stylish addition to any home or garden. Our high quality waterproof fabrics will keep you protected come rain or shine. So whether you're relaxing on a hot, sunny day or need to finish a spot of gardening despite the drizzle, an awning will both help to keep you dry and guard against sunburn. Awnings can also help to protect your indoor furniture and carpets from colour bleaching by the sun.</p><p>Here at Primrose Awnings we hold all our patio awnings in stock in our warehouse, ready for immediate despatch direct to your door. Unlike many other sellers of awnings you can purchase any of our models easily online with no need to call us for a quote before you place an order - unless you want to! The prices on our site are exactly what you pay with no hidden costs, and we firmly believe you will not find a better deal online. If you do, please tell us about it!</p><p><strong>Awning Installation:</strong> Our awnings are quick and easy to install. A reasonably competent DIY-er can fit one of our awnings in as little as 30 minutes. We supply full fitting instructions here. If you don't feel comfortable installing yourself we also offer a local fitting service.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_79hnek": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What type of awnings do you sell?",
+            "content": "<p>We sell a wide range of off the shelf, self fit patio awnings, over 700 awnings to choose from.</p><p>Budget, Standard, Half Cassette, Full Cassette, Dutch Canopy, Droparm, Freestanding & Balcony awnings.</p><p>Undecided on what type of awnings to get for your home? With so many to choose from, it can be hard to pick the best one for your garden. Why not take a look at our guide on how to select <a href=\"https://www.primrose.co.uk/blog/outdoor-living/best-awnings/\" title=\"The awnings that are best for you\">the awnings that are best for you.</a></p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_wiE7xP": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What are awning covers made from?",
+            "content": "<p>All fabrics are made from 300gsm polyester. It's hard-wearing, waterproof, rot-proof, UV stabilised and easy to sponge clean. We also offer Acrylic fabric (Green stripe). The advantage of acrylic is that the individual threads are constructed from coloured material, whereas the polyester threads are made colourless and then dyed. If you cut an acrylic thread, you'll see the colour all the way through, whereas if you cut a polyester thread, you'll see a colourless centre. As a result, the colours of the acrylic can be more subtle; in addition, acrylic is slightly more fade-resistant.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_prirLa": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Are awnings waterproof?",
+            "content": "<p>Yes, we use waterproofed 300gsm material (gsm is 'grams per square metre') for both the acrylic and the polyester.</p><p><strong>Please note:</strong> The awning will need to be set at a sufficient angle in order to allow the rain water to run off. If the awning is not taut enough or installed at an insufficient angle, rain water will accumulate on the waterproof awning fabric like a bag causing the fabric to stretch or tear. We recommend at least a 30 degree angle of incline for each awning providing the awning is sufficiently taut.</p><p>During heavy or wind-driven rain storms, make sure your awning is retracted to keep small puddles of rain from forming on top of the fabric, preventing future damage from stretching or staining.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_KPrKV3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Does primrose sell spare awning covers?",
+            "content": "<p>Yes, we can send you out a new fabric cover with valance in any colour from our range provided you have a primrose awning. We cannot guarantee that our covers will fit other manufacturer's awnings. See the range (and other accessories) here.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_hgTHbU": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Are all awning fabrics of the same colour identical?",
+            "content": "<p>We cannot guarantee the colours will match if you purchase two awnings. Colour fabric varies from batch to batch. If you would like the awning fabric to match, please contact our customer service team and we will do our best to make sure they match up.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_pMggPi": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How do I clean my awning?",
+            "content": "<p>Clean the frame by wiping with a damp cloth soaked in a mild detergent - do not use a scouring pad as this will scratch the casing. Clean the fabric cover with warm soapy water using a sponge.<strong>Never</strong>put the cover or valance in the washing machine as this will strip off the waterproofing!</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_PiQM7b": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Can I keep an awning out all year round? Do you sell storage bags?",
+            "content": "<p>Awnings must not be left open during windy conditions or heavy rain. The awning fabric is waterproof and can be left open during light rainy conditions. We recommend at least a 30 degree angle of incline for each awning providing the awning is sufficiently taut.</p><p>You can leave the awning fixed to the wall all year round and if you have a budget, standard or half cassette awning, for added protection you may wish to purchase one of our storage bags.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_7frfFJ": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How long are Primrose Awnings guaranteed for?",
+            "content": "<p>All Primrose awnings come with a 1 year warranty for residential use only.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_hmJ8WV": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Do you have any fitting instructions?",
+            "content": "<p>Yes, you can view the<a href=\"https://www.primrose.co.uk/blog/gardening/awning-installation/\" title=\"fitting instructions here\"><span style=\"text-decoration:underline\">fitting instructions here</span></a>.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_Fytfj4": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How much space is required for an awning? How high should I fit it?",
+            "content": "<p>The recommended height from the ground is 2.5m/3.5m. If you want to install lower than this, determine whether there is sufficient headroom when the awning is fully extended and that any doors or windows can open.</p><p>The vertical size of the fixing bracket is about 7 inches (approx. 20cm). If space is tight you may wish to check that you have 7 clear inches before ordering. Our standard awnings can also be fitted to eaves or a horizontal surface using a ceiling/balcony bracket.</p><p>The width and projection of our awnings vary, so you'll need to check the specifics of the awning you are interested in to work out how much width and projected space is required.</p><p><strong>Installation</strong></p><p>As a guideline the minimum space required for installing an awning is approx. 50cm. This is to account for the size of the awning/cassette itself, but to also ensure that when projected, the drop does not result in an impractical rest height of the front bar e.g. If a 4m x 3m full cassette has a drop when fully projected of 80cm, then to achieve a sensible front bar rest height of 1.8m you would want the awning mounted 60cm above the window or door frame. It is also important that there is at least 5 courses of brick above where the awning is mounted, to ensure the fixture can suitably take the weight of the awning without the risk of damage to the wall. Please Note: It's the customers responsibility to ensure the site is suitable for an awning & should check with a builder/fitter before purchasing if in any doubt.</p><p><strong>Types of wall</strong></p><ul><li>Brickwork - This should be fine however if they have old bricks or reconstituted brickwork which is not as solid as standard masonry bricks they may need to use the RKEM resin kit. You also cannot fix into mortar.</li><li>Walling Blocks (e.g Breeze blocks) - This will vary depending on what type of breeze blocks they have, if it is a low or medium density block then no, they will not be able to install. However if they have high density breeze blocks then yes, it should be fine as long as they are using the RKEM resin kit.</li><li>Dry Walling (e.g plasterboard) - No, as the structure is too weak for the awning weights</li><li>Hardwood - Yes, however they will need to use coach bolts rather than the expansion bolts supplied. These can be found in most hardware stores across the UK. Structural timber would also be preferable.</li><li>Softwood - No, the structure of this wood is too weak for the weight of the awnings.</li><li>Wall Render - Yes, as long as there is minimal render, between 1-10mm, and that there is either solid brickwork or hardwood behind the render which the expansion bolts/coach bolts can grip into. Note: Cut back the render where the brackets are to be installed. The reason for this is that render can be bumpy and if not smoothed down then the awning may not be installed level.</li><li>Pebble dash - No, the application of pebble dash means that the awning is very unlikely to ever be completely level.</li><li>Metalwork - Yes, it is possible however we do not advise installation into metal work as it would either need to be welded on or attached using industrial components.</li><li>Tiles - No, installation is not recommended into any type of tiling. If you are still unsure please send an email, with an image to our approved fitters: sales@saffronsa.uk or to go to www.saffronshuttersandawnings.co.uk to obtain their contact information.</li></ul>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_Gdjyqf": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How much will the awning slope down?",
+            "content": "<p>The slope angle can be altered to suit, from 15 degrees to about 35 degrees.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_pMxYUA": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How far does the awning open/extend?",
+            "content": "<p>It all depends on the width of the awning. The awning can be opened as little or as much as you like, up to the maximum projection as follows:</p><ul><li>Width 1.5m (4ft 11\"), Projection 1m (3ft 4\")</li><li>Width 2m (6ft 7\"), Projection 1.5m(4ft11\")</li><li>Width 2.5m (8ft 2\"), Projection 2.0m(6ft7\")</li><li>Width 3m - 3.5m (9ft 10\" - 11ft 6\"), Projection 2.5m (8ft 2\")</li><li>Width 4m - 5m (13ft 1\" - 16ft 5\"), Projection 3m (9ft 10\")</li><li>Width 6m (19ft 6\"), Projection 3m (9ft 10\")</li></ul><p>Half Cassette XL models:</p><ul><li>Width 2.5m (8ft 2\"), Projection 3.5m (11ft 6\")</li><li>Width 3m - 4m ( 9ft 10\" - 13ft 1\"), Projection 4m (13ft 1\")</li></ul>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y3GWCN",
+        "question_ENznn4",
+        "question_79hnek",
+        "question_wiE7xP",
+        "question_prirLa",
+        "question_KPrKV3",
+        "question_hgTHbU",
+        "question_pMggPi",
+        "question_PiQM7b",
+        "question_7frfFJ",
+        "question_hmJ8WV",
+        "question_Fytfj4",
+        "question_Gdjyqf",
+        "question_pMxYUA"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_NVPEmm": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_MzDTcM": {
+          "type": "heading",
+          "settings": {
+            "title": "Primrose awnings",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_zNHQQB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Not sure which awning is right for you? Check out our guide on awnings that are best for you.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_MzDTcM",
+        "text_zNHQQB"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_hero_dM8Vyb",
+    "section_text_row_qr79hn",
+    "section_collections_list_FfH3zD",
+    "section_tab_collections_TC7pxT",
+    "section_collections_list_iQWYTC",
+    "section_collections_list_AdWBhf",
+    "section_accordion_group_HexGe8",
+    "section_rich_text_NVPEmm"
   ]
 }

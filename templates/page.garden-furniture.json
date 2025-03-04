@@ -7,14 +7,711 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
+
 {
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_8pYBpp": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_krbNJq": {
+          "type": "heading",
+          "settings": {
+            "title": "PLANTS",
+            "heading_font_size": "heading-large",
+            "heading_tag": "automatic"
+          }
+        },
+        "text_9egfpz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transform your garden into an enchanting oasis with our exquisite selection of garden plants at Primrose.</p><p>Our award-winning garden nursery takes great pride in curating the finest selection of plants, featuring exciting new arrivals alongside elusive heritage varieties. You can also find advice on how to care for your plants on our gardening blog, ensuring you receive the biggest blooms and largest crops.</p>",
+            "text_font_size": "body-medium"
+          }
+        },
+        "button_7pXQAd": {
+          "type": "button",
+          "settings": {
+            "link_text": "Save 20% on All Plants",
+            "link": "shopify://collections/planters",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_krbNJq",
+        "text_9egfpz",
+        "button_7pXQAd"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/plantbannner-ezgif.com-avif-to-jpg-converter.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-2",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_tab_collections_jTFKLr": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_yhEfpX": {
+          "type": "collection",
+          "settings": {
+            "title": "Second collection",
+            "featured_collection": "planters",
+            "show_image": false,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "",
+            "description": "",
+            "color": "",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_yhEfpX"
+      ],
+      "settings": {
+        "show_product_count": false,
+        "width": "wrapper--full-padded",
+        "title": "Bestsellers",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "layout": "stacked",
+        "layout_desktop": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_columns_Dty9NP": {
+      "type": "section-columns",
+      "blocks": {
+        "image_Cp8eTj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/foliagehouseplants_popularcategories_800x535_p1.png",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "Foliage Indoor Plants",
+            "heading_font_size": "heading-small",
+            "text": "<p>Our hand-picked indoor foliage plantsare chosen for their air-purifying qualities and low-maintenance care. With a variety of options like snake plants and peace lilies, you can create a relaxing environment in your home.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Foliage Indoor Plants",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_tzYj7Q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/floweringhouseplants_popularcategories_800x535_p2.png",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "Flowering Indoor Plants",
+            "heading_font_size": "heading-small",
+            "text": "<p>Brighten your home with the vibrant beauty of flowering indoor plants. These stunning blooms aren’t just for show—they bring elegance and colour to any space while creating a serene, welcoming atmosphere.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "Flowering Indoor Plants",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.6,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_Cp8eTj",
+        "image_tzYj7Q"
+      ],
+      "settings": {
+        "title": "Bring a touch of nature into your home",
+        "subtitle": "Whether you're a plant enthusiast or just looking to brighten up your space, we have a variety of houseplants to suit your style.",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "collection_grid_with_title_D6GnMe": {
+      "type": "collection-grid-with-title",
+      "blocks": {
+        "collection_kTa98d": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "image_1": "shopify://shop_images/home_Shrubs1.jpg",
+            "image_2": "shopify://shop_images/home_Shrubs1.1.svg",
+            "collection_name": ""
+          }
+        },
+        "collection_8WAQDm": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "image_1": "shopify://shop_images/home_Shrubs2.jpg",
+            "image_2": "shopify://shop_images/home_Shrubs2.1.svg",
+            "collection_name": ""
+          }
+        },
+        "collection_r8WUPG": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "image_1": "shopify://shop_images/home_Shrubs3.jpg",
+            "image_2": "shopify://shop_images/home_Shrubs3.1.svg",
+            "collection_name": ""
+          }
+        },
+        "collection_Q73D8z": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "image_1": "shopify://shop_images/home_Shrubs4.jpg",
+            "image_2": "shopify://shop_images/home_Shrubs4.1.svg",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_kTa98d",
+        "collection_8WAQDm",
+        "collection_r8WUPG",
+        "collection_Q73D8z"
+      ],
+      "settings": {
+        "title": "Shrubs",
+        "subtitle": "Add structure, colour and year-round interest to your garden with our high quality shrubs. Available in a variety of sizes and styles, they are perfect for creating privacy screens or providing a focal point in the garden.",
+        "width": "wrapper--full-padded"
+      }
+    },
+    "section_collections_list_r3cRLa": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_yy6RiC": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000009967.jpg",
+            "title": "Perennials"
+          }
+        },
+        "collection_6RUAi4": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000010116.jpg",
+            "title": "Shrubs"
+          }
+        },
+        "collection_dJw8aw": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/climbing_plants_12.jpg",
+            "title": "Climbers"
+          }
+        },
+        "collection_aPEAWC": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000009166.jpg",
+            "title": "Ferns"
+          }
+        },
+        "collection_dTiRhi": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000013242.jpg",
+            "title": "Grasses"
+          }
+        },
+        "collection_8UpKwY": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000013185.jpg",
+            "title": "Alpines"
+          }
+        },
+        "collection_erp9d6": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000010757.jpg",
+            "title": "Ornamental Trees"
+          }
+        },
+        "collection_MNRYcU": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/bulbs_263x248_57cde2c0-9a91-4a9f-8d12-d95d236343c4.jpg",
+            "title": "Herbs"
+          }
+        },
+        "collection_NN7QPb": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000001989.jpg",
+            "title": "Bedding Plants"
+          }
+        },
+        "collection_VTHJmX": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000009221.jpg",
+            "title": "Bamboo"
+          }
+        },
+        "collection_prwnQ8": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000009099.jpg",
+            "title": "Instant Impact Plants"
+          }
+        },
+        "collection_Vq36B8": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000006837.jpg",
+            "title": "House Plants"
+          }
+        },
+        "collection_zjfwqw": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000008904.jpg",
+            "title": "Fruit Trees"
+          }
+        },
+        "collection_X67dwH": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000002873.jpg",
+            "title": "Bulbs"
+          }
+        },
+        "collection_jArw9A": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000008819.jpg",
+            "title": "Fruit"
+          }
+        },
+        "collection_BN4Lhx": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000014204.jpg",
+            "title": "Vegetable Plants"
+          }
+        },
+        "collection_HBgac3": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000013080.jpg",
+            "title": "Seeds"
+          }
+        },
+        "collection_37F4ka": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/pl0000009185.jpg",
+            "title": "Pond Plants"
+          }
+        }
+      },
+      "block_order": [
+        "collection_yy6RiC",
+        "collection_6RUAi4",
+        "collection_dJw8aw",
+        "collection_aPEAWC",
+        "collection_dTiRhi",
+        "collection_8UpKwY",
+        "collection_erp9d6",
+        "collection_MNRYcU",
+        "collection_NN7QPb",
+        "collection_VTHJmX",
+        "collection_prwnQ8",
+        "collection_Vq36B8",
+        "collection_zjfwqw",
+        "collection_X67dwH",
+        "collection_jArw9A",
+        "collection_BN4Lhx",
+        "collection_HBgac3",
+        "collection_37F4ka"
+      ],
+      "settings": {
+        "title": "Shop by Type",
+        "heading_font_size": "heading-medium",
+        "description": "<p>Choose from over 2,500 garden plants online, and we will deliver them directly to your door.</p>",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 6,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_columns_FBJdJm": {
+      "type": "section-columns",
+      "blocks": {
+        "image_kLCTjF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/plant-collection.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "The best plant combinations",
+            "heading_font_size": "heading-small",
+            "text": "<p>Bringing elegance in various shades of colour. For plant combinations that will dazzle your guests and bring show-stopping beauty to your garden,read our complete guide</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_979BeN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/potted-planter-grey.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "How to plant bedding plants in pots",
+            "heading_font_size": "heading-small",
+            "text": "<p>The easiest way to add stunning colour to your garden is by filling your garden with beautiful bedding plants. Learn how to plant by season, which planters work best & more with oureasy step-by-step guide.</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_kLCTjF",
+        "image_979BeN"
+      ],
+      "settings": {
+        "title": "Plant Ideas & Advice",
+        "subtitle": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_accordion_group_pwYkqz": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_LUjafj": {
+          "type": "heading",
+          "settings": {
+            "title": "Plant FAQs"
+          }
+        },
+        "question_GyfJUC": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Our plants, everything you need to know",
+            "content": "<p>Our range includes everything from <a href=\"https://www.primrose.co.uk/plants/bedding-plants\">bedding plants</a> to <a href=\"https://www.primrose.co.uk/plants/pond-plants\">pond</a> and <a href=\"https://www.primrose.co.uk/plants/hedging-plants\">hedging plants</a>. Fancy growing your own fruit and vegetables? Take a look at our <a href=\"https://www.primrose.co.uk/plants/fruit-trees\">fruit trees</a>, <a href=\"https://www.primrose.co.uk/plants/soft-fruit-plants\">soft fruit plants</a>, <a href=\"https://www.primrose.co.uk/plants/vegetable-plants\">vegetable plants</a> and <a href=\"https://www.primrose.co.uk/plants/seeds/vegetable-seeds\">seeds</a>.</p><p>To really add the wow factor to your garden, consider one of our <a href=\"https://www.primrose.co.uk/plants/ornamental-trees\">ornamental trees</a>, <a href=\"https://www.primrose.co.uk/plants/ornamental-shrubs\">shrubs</a> or <a href=\"https://www.primrose.co.uk/plants/climbing-plants\">climbing plants</a>.</p><p>We know that deciding on a plant can be complicated, especially when you've got such a huge range to choose from! That's why we've created unique pages for all our plants, explaining the species-specific factors you need to consider and what makes each variety unique.</p><p>We don't just stop there, but provide advice on how to care for your plants on our <a href=\"https://www.primrose.co.uk/blog/\">blog</a>, ensuring you receive the biggest blooms and largest crops.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_4caMwB": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How do you plan out a garden?",
+            "content": "<p>First and foremost, it's important to work out the sunny spots in your garden. For the average garden, the main cast of shade is you and your neighbours' houses and outbuildings, but large trees can also be a significant source of shade.</p><p>The sun rises in the east and sets in the west travelling across the south sky. This means a plant that is north of a tall structure will be in shade throughout the day, a plant that is to the west in sunlight in the evening, a plant that is to east in sunlight in the morning and a plant that is south in sun throughout the day.</p><p>Not all structures cast the same shade. A birch produces dappled shade, which can be perfect for <a href=\"https://www.primrose.co.uk/plants/_/camellia/plcid.458/\" title=\"camellias\">camellias</a> and <a href=\"https://www.primrose.co.uk/plants/_/rhododendrons/plcid.466/\" title=\"rhododendrons\">rhododendrons</a>. A house will produce deep shade, suitable for only a few species.</p><p>Once you have worked out the sunny spots in your garden, you can plan out your garden. If you plan to grow fruit, you'll want to reserve the sunniest spots for such plants. Most <a href=\"https://www.primrose.co.uk/plants/_/fruit/plcid.428/plcid.438/\" title=\"fruiting plants\">fruiting plants</a> prefer full sun (six hours of direct sun per day in midsummer) or cropping will be reduced otherwise. South-facing walls can be used to great effect to grow exotic plants such as <a href=\"https://www.primrose.co.uk/plants/_/fruit/grapes/plcid.669/\" title=\"grapes\">grapes</a> or train a <a href=\"https://www.primrose.co.uk/plants/_/fruit/fruit-trees/plcid.438/plcid.681/\" title=\"fruit tree\">fruit tree</a>.</p><p>Ornamental plants will be fine in semi-shade (three to six hours of direct sunlight per day). Some species such as Japanese acers, <a href=\"https://www.primrose.co.uk/plants/_/rhododendrons/plcid.466/\" title=\"rhododendrons\">rhododendrons</a>, <a href=\"https://www.primrose.co.uk/plants/_/shrubs/camellia/plcid.458/\" title=\"camellias\">camellias</a> are suited to dappled shade, and sometimes flounder in full sun. In deep shade (less than 2 hours per day), try planting evergreen trees such as holly, conifers and photinia. Flowering plants rarely do well here, but you can always try honeysuckle, winter jasmine and some varieties of rose and clematis.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_NVVFYy": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What can I plant in my garden?",
+            "content": "<p><strong>Hardiness</strong></p><p>The UK has a temperate climate with mild winters. Most popular garden plants originate from far colder regions and therefore are unlikely to die in your garden. Instead, it's a question of whether they will flourish. Outdoor plants that are not winter hardy will be listed as such and require frost protection/growing in a <a href=\"https://www.primrose.co.uk/products/_/greenhouses/plcid.40/\" title=\"greenhouse\">greenhouse</a>.</p><p><strong>Soil types</strong></p><p>Every plant will adapt to its conditions and nearly all plants will suffice in suboptimal conditions, so the effects of soil types are overstated.</p><p>We recommend that you do not compact the soil when planting and <a href=\"https://www.primrose.co.uk/products/_/compost-%2F-fertiliser/plcid.427/\" title=\"mulch\">mulch</a>, which helps with aeration and moisture retention.</p><p>There are certain plants that do require a certain soil. Ericaceous or acid-loving plants such as <a href=\"https://www.primrose.co.uk/plants/_/fruit/blueberries/plcid.666/\" title=\"blueberries\">blueberries</a>, <a href=\"https://www.primrose.co.uk/plants/_/shrubs/rhododendrons/plcid.466/\" title=\"rhododendrons\">rhododendrons</a> and <a href=\"https://www.primrose.co.uk/plants/_/shrubs/camellia/plcid.458/\" title=\"camellias\">camellias</a> require acidic soils to thrive. Maintaining a low pH can be difficult so we advise planting such species in pots.</p><p>Check out our blog to learn more about soil types.</p><p><strong>Sunlight</strong></p><p>Nearly all garden plants will suffice in sub-optimal conditions, although fruit set, size and blooms will be reduced. We advise you to divide your garden into sections based on the direct sunlight received and plant your outdoor plants accordingly.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_UMazqM": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "General tips on caring for your plants",
+            "content": "<p>It's so important to water newly planted plants in the months after planting. When a plant is uprooted it loses most of its water-absorbing capacity - an effect known as transplant shock. It's water-absorbing capacity will recover slowly over time, but in the weeks after planting any plant is vulnerable.</p><p>Every species of outdoor plant is liable to death from thirst, even supposed drought tolerant species. This is because death is caused by embolism, whereby a thirsty plant absorbs oxygen, which acts to block the flow of water from its roots to the crown. It is therefore important to water in times of drought.</p><p>When planting, make sure to always <a href=\"https://www.primrose.co.uk/products/_/compost-%2F-fertiliser/plcid.427/\" title=\"mulch\">mulch</a>. Mulching helps promote aeration, benefits microorganisms and improves a soil's water holding capacity, which is very important. With mulching, soils don't dry out and temperature extremes are moderated.</p><p>Don't be afraid to prune if it's recommended. Pruning is an important skill, which you'll get better at the longer you practice. Soon you'll have bumper blooms and abundant yields.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_rcTwdT": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Order your garden plants online",
+            "content": "<p>Take a look at our full collection and order your garden plants online with Primrose. We offer low prices and convenient delivery direct to your door.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_d9awfG": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Can a plant / tree be planted in a pot?",
+            "content": "<p>Pretty much any plant can be grown in a pot as long as the pot's big enough and the plant is looked after. It'll need plant food and regular waterings, especially through the warmer months. The growth of the plant will be restricted in a pot, especially if it's a tree.</p><p>If the plant would naturally grow above 2m, then we'd recommend a pot no smaller than <a href=\"https://www.primrose.co.uk/products/_/planters/large-planters/plcid.93/\" title=\"50cm x 50cm x 50cm\">50cm x 50cm x 50cm</a>.</p><p>For naturally small plants, pots of <a href=\"https://www.primrose.co.uk/products/_/planters/small-planters/plcid.22/plcid.124/\" title=\"30cm x 30cm x 30cm\">30cm x 30cm x 30cm</a> should be suitable. <a href=\"https://www.primrose.co.uk/plants/_/plants/bamboo/plcid.428/plcid.442/\" title=\"Bamboo\">Bamboo</a> can also be grown in a pot or <a href=\"https://www.primrose.co.uk/products/_/planters/plcid.22/\" title=\"planter\">planter</a>, however, the guidelines vary from the above. If you'd like to know more about how to plant bamboo in pots, we have you covered!</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_erjnPR": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How soon do I need to plant?",
+            "content": "<p>Potted plants can be kept for several months before planting as long as they're watered regularly and protected in extreme frosts. Bare root plants ideally should be planted within a few days of receiving them. If you're unable to plant your bare root due to the ground being frozen, we've got a handy guide Protecting your Bare Root & Freezing temperatures for you!</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_diCpmf": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Where can I find advice on soil?",
+            "content": "<p>Specific information regarding a plant's soil requirements can usually be found in the description on the product page under the 'Care Guide' section. If you're still itching to know more about the ideal soil type for your plant, we provide a useful guide on different soil types and why they are Important.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_nzTKEF": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Can you recommend a plant?",
+            "content": "<p>Yes! Our plants pages are by default ordered by our most recommended plants. Everything you'll find on the first page is a top-recommended plant that we know you'll love. For more inspiration discover our Planting guides</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_fxVQmn": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Do you ship plants to NI or Channel Islands?",
+            "content": "<p>Unfortunately, we're currently unable to deliver our plants to the Channel Islands or Northern Ireland due to Import Restrictions.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_rAnrbw": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Are your plants pet-friendly or poisonous?",
+            "content": "<p>Unfortunately, there's too many plant varieties and too many species of animals for us to say with any confidence if a plant is a risk to your pet.</p><p>We strongly recommend that you do your own research into this and that you make your own judgement call. We really wouldn't want to say it's safe when it isn't so we hope you can understand why we can't provide any further information on this.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LUjafj",
+        "question_GyfJUC",
+        "question_4caMwB",
+        "question_NVVFYy",
+        "question_UMazqM",
+        "question_rcTwdT",
+        "question_d9awfG",
+        "question_erjnPR",
+        "question_diCpmf",
+        "question_nzTKEF",
+        "question_fxVQmn",
+        "question_rAnrbw"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_kmKdiP": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_BFh7dB": {
+          "type": "heading",
+          "settings": {
+            "title": "Primrose Plants",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_NYftza": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We pride ourselves on stocking the best range of plants, from exciting new introductions to hard to find heritage varieties. We know that deciding on a plant can be complicated, so we've listed in-depth information with each product about what makes each variety unique. You can also find advice on how to care for your plants on our <a href=\"/blogs/news/natural-fencing-ideas-for-your-garden\" title=\"Natural Fencing Ideas for Your Garden\">blog</a>, ensuring you receive the biggest blooms and largest crops.</p><p>Still don't know what you're looking for? Discover Our Popular categories! <a href=\"/collections/planters\" title=\"planters\">House plants</a>: The best specimens sent in plastic-free packaging. <a href=\"/collections/planters\" title=\"planters\">Ornamental Trees</a>: Discover over 500 bare root and potted trees to transform your garden. <a href=\"https://www.primrose.co.uk/plants/_/fruit/fruit-trees/plcid.438/plcid.681/\" title=\"Fruit Trees\">Fruit Trees</a>: Plant your own orchard with over 500 fruit tree varieties to choose from. <a href=\"/collections/planters\" title=\"planters\">Perennial Plants</a>: Returning year after year for reliable colour, coverage and foliage.</p><p><a href=\"/collections/planters\" title=\"planters\">Plant propagation</a> <a href=\"/collections/planters\" title=\"planters\">Summer Flowering Plants</a> <a href=\"/collections/planters\" title=\"planters\">Winter Interest Plants</a> P<a href=\"/pages/planters\" title=\"planters\">lants for Autumn Colour</a> <a href=\"/collections/planters\" title=\"planters\">Ornamental Shrubs  Trees for Small Gardens</a> <a href=\"/products/blumenkasten-aus-fibrecotta-20cm-50cm-20cm-terrakottaoptik-p-33321\" title=\"50cm Terracotta Fibrecotta Trough Planter\">Compost & Fertiliser</a> <a href=\"/collections/planters\" title=\"planters\">Wisteria Plants</a>  <a href=\"/products/hangekorb-blumenampel-mit-kokoseinsatz-und-kettenaufhangung-355cm-p-129506\" title=\"35.5cm Wire Criss Cross Hanging Basket with Coco Liner\">Honeysuckle Passion Flower </a> <a href=\"/collections/planters\" title=\"planters\">Ornamental Grasses</a> <a href=\"/collections/planters\" title=\"planters\">Cherry Blossom</a> <a href=\"/collections/planters\" title=\"planters\">Potted Roses</a>  <a href=\"/products/hangekorb-blumenampel-mit-kokoseinsatz-und-kettenaufhangung-355cm-p-129506\" title=\"35.5cm Wire Criss Cross Hanging Basket with Coco Liner\">Hydrangeas </a><a href=\"/collections/planters\" title=\"planters\">Jasmine Herb Plants</a>  <a href=\"/products/blumenkasten-aus-fibrecotta-20cm-50cm-20cm-terrakottaoptik-p-33321\" title=\"50cm Terracotta Fibrecotta Trough Planter\">Ferns </a><a href=\"/products/hangekorb-blumenampel-mit-kokoseinsatz-und-kettenaufhangung-355cm-p-129506\" title=\"35.5cm Wire Criss Cross Hanging Basket with Coco Liner\">Dahlia </a><a href=\"/collections/planters\" title=\"planters\">Clematis  Bulbs & Tubers</a></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_BFh7dB",
+        "text_NYftza"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_hero_8pYBpp",
+    "section_tab_collections_jTFKLr",
+    "section_columns_Dty9NP",
+    "collection_grid_with_title_D6GnMe",
+    "section_collections_list_r3cRLa",
+    "section_columns_FBJdJm",
+    "section_accordion_group_pwYkqz",
+    "section_rich_text_kmKdiP"
   ]
 }
