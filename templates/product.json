@@ -167,7 +167,7 @@
           "settings": {
             "default_open": false,
             "title": "About Primrose",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.{{ product.metafields.custom.about_primrose | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.custom.about_primrose | metafield_tag }}</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
