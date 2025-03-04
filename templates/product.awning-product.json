@@ -59,11 +59,7 @@
           "type": "upsell",
           "settings": {
             "upsell_product": "",
-            "upsell_product_list": [
-              "kookaburra-20m-quadrat-sandfarben-gewebtes-sonnensegel-wasserfest-p-122143",
-              "kookaburra-20m-quadrat-hellbraun-gewebtes-sonnensegel-wasserfest-p-122161",
-              "kookaburra-20m-quadrat-elfenbein-gewebtes-sonnensegel-wasserfest-p-122149"
-            ],
+            "upsell_product_list": [],
             "show_available_upsell_only": false,
             "layout": "slider",
             "autoplay": true,
@@ -237,11 +233,26 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "api_product_recommendation_WbGGcV": {
+      "type": "api-product-recommendation",
+      "settings": {}
+    },
+    "api_product_recommendation_i9qKHx": {
+      "type": "api-product-recommendation",
+      "settings": {}
+    },
+    "api_product_recommendation_73NbDz": {
+      "type": "api-product-recommendation",
+      "settings": {}
     }
   },
   "order": [
     "template",
     "section_accordion_group_pcJJph",
-    "section_newsletter_D8tzjn"
+    "section_newsletter_D8tzjn",
+    "api_product_recommendation_WbGGcV",
+    "api_product_recommendation_i9qKHx",
+    "api_product_recommendation_73NbDz"
   ]
 }
