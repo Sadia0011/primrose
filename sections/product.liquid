@@ -349,7 +349,8 @@
                     -%}
 
                   {%- when 'variants' -%}
-                    {%- render 'product-variant-options',
+                    {% if product.template_suffix == "sailshades-product" %}
+                      {%- render 'sail-shade-variant-option',
                       product: product,
                       unique: unique,
                       block: block,
@@ -357,6 +358,17 @@
                       product_form_id: product_form_id,
                       enable_size_chart: true
                     -%}
+                    {% else %}
+                    {%- render 'product-variant-options',
+                        product: product,
+                        unique: unique,
+                        block: block,
+                        block_style: block_style,
+                        product_form_id: product_form_id,
+                        enable_size_chart: true
+                    -%}
+                    {% endif %}
+                
 
                   {%- when 'buttons' -%}
                     {%- render 'product-buttons',
