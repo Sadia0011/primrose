@@ -64,7 +64,7 @@
       "settings": {
         "show_border": false,
         "layout": "slider",
-        "slider_speed": 8,
+        "slider_speed": 5,
         "text_alignment": "center",
         "show_arrows": false,
         "marquee_speed": 100,
@@ -108,7 +108,7 @@
             "aspect_ratio": 0.5,
             "wide_image": true,
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "title": "",
             "heading_font_size": "heading-medium",
             "link_text": "",
