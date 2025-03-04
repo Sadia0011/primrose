@@ -7,6 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
+
 {
   "sections": {
     "section_hero_48r6qx": {
@@ -92,7 +93,7 @@
         "collection_Mx9DP9": {
           "type": "collection",
           "settings": {
-            "collection": "water-features",
+            "collection": "outdoor-heating",
             "image_1": "shopify://shop_images/home_garden4.png",
             "collection_name": "Water Features"
           }
@@ -143,7 +144,7 @@
         "collection_PqzzNi": {
           "type": "collection",
           "settings": {
-            "collection": "water-features",
+            "collection": "planters",
             "image_1": "shopify://shop_images/home_collection_4.jpg",
             "image_2": "shopify://shop_images/home_collection_4.1.png",
             "collection_name": "9cm Grasses: 20% Off"
@@ -360,7 +361,7 @@
         "collection_Tyne8R": {
           "type": "collection",
           "settings": {
-            "collection": "water-features",
+            "collection": "planters",
             "image_1": "shopify://shop_images/home_Shrubs4.jpg",
             "image_2": "shopify://shop_images/home_Shrubs4.1.svg",
             "collection_name": ""
@@ -402,45 +403,6 @@
         "heading_tag": "automatic",
         "title_tag": "automatic"
       }
-    },
-    "section_newsletter_8PmJwV": {
-      "type": "section-newsletter",
-      "blocks": {
-        "newsletter_dhgK6G": {
-          "type": "newsletter",
-          "settings": {
-            "subheading": "",
-            "heading": "Join the Primrose Gardening Club",
-            "heading_font_size": "heading-large",
-            "text": "<p>Get the latest news, offers and advice.</p>",
-            "text_font_size": "body-medium",
-            "text_columns": 1,
-            "align_text": "text-center",
-            "show_name": false,
-            "button_text": "Sign Up",
-            "show_arrow": false,
-            "terms": true,
-            "button_type": "btn--black",
-            "button_size": "btn--small",
-            "button_style": "btn--solid",
-            "show_social_links": false,
-            "bg_color": "#ecf6f6",
-            "color": "rgba(0,0,0,0)",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "newsletter_dhgK6G"
-      ],
-      "settings": {
-        "width": "wrapper--full",
-        "height": "three-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
@@ -451,7 +413,6 @@
     "section_tab_collections_3UVgUF",
     "section_hero_DAAwBT",
     "collection_grid_with_title_hkAnHf",
-    "section_blog_K7FDx8",
-    "section_newsletter_8PmJwV"
+    "section_blog_K7FDx8"
   ]
 }
