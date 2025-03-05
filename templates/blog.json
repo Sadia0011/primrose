@@ -107,11 +107,129 @@
         "padding_bottom": 32,
         "title_tag": "automatic"
       }
+    },
+    "section_highlights_KetKkY": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_FVyfpM": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/Garden_design_icon_f1e24290-c55e-4342-86dc-9d1fd82ff2fe.jpg",
+            "heading": "Garden Design",
+            "url": "shopify://collections/planters",
+            "color": "",
+            "bg_color": "",
+            "border_color": "rgba(0,0,0,0)"
+          }
+        },
+        "highlight_gfDPqr": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/garden_advice_icon_c62f1015-02ba-49ea-ac5c-b3c574c22b81.jpg",
+            "heading": "Garden Advice",
+            "url": "shopify://collections/planters",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_GRKcyW": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/garden_calendar_icon_56a44c56-d14c-4019-bebd-de0e9a877a37.jpg",
+            "heading": "Garden Calender",
+            "url": "shopify://collections/planters",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_Te3Axp": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/garden_news_icon_5cffa0c1-3051-46c8-8794-1a4742789628.jpg",
+            "heading": "Garden News",
+            "url": "shopify://collections/planters",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_x9chWJ": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/growing_guides_icon_d283a6e9-6000-43a3-b35e-acdc7c0d34c3.jpg",
+            "heading": "Growing Guides",
+            "url": "shopify://collections/planters",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_3F8e4j": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/how_to_garden_icon_159ca79b-7da3-48e3-b223-6e09e3d42359.jpg",
+            "heading": "How to Garden",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_b8bLBz": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/seasonal_guides_icon_3bbb892b-62c1-4e31-9c38-e679b9e87926.jpg",
+            "heading": "Seasonal Guides",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_7dR9Nz": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/wildlife_help_icon_874ad1ce-2f1c-4c0e-90c1-ae67b7e4f15d.jpg",
+            "heading": "Wildlife Help",
+            "url": "shopify://collections/planters",
+            "color": "rgba(0,0,0,0)",
+            "bg_color": "",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_FVyfpM",
+        "highlight_gfDPqr",
+        "highlight_GRKcyW",
+        "highlight_Te3Axp",
+        "highlight_x9chWJ",
+        "highlight_3F8e4j",
+        "highlight_b8bLBz",
+        "highlight_7dR9Nz"
+      ],
+      "settings": {
+        "style": "circle",
+        "grid": 4,
+        "heading": "Create an outdoor living space that you love to spend time in with our expert knowledge and advice.",
+        "heading_position": "text-center",
+        "heading_font_size": "heading-medium",
+        "text_font_size": "body-large",
+        "width": "wrapper--full-padded",
+        "layout_mobile": "2",
+        "color_scheme": "scheme-9",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
     }
   },
   "order": [
     "section_hero_3nqH3C",
     "section_rich_text_columns_Gw4A6k",
-    "main"
+    "main",
+    "section_highlights_KetKkY"
   ]
 }
