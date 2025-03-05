@@ -7,66 +7,111 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-
 {
   "sections": {
-    "featured": {
-      "type": "featured-posts",
+    "section_hero_3nqH3C": {
+      "type": "section-hero",
+      "settings": {
+        "image_1": "shopify://shop_images/blog-home.jpg",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_rich_text_columns_Gw4A6k": {
+      "type": "section-rich-text-columns",
       "blocks": {
-        "feat": {
-          "type": "featured_post",
+        "heading_JXVjXi": {
+          "type": "heading",
           "settings": {
-            "featured_post": "news/6-top-tips-for-garden-privacy",
-            "image": "shopify://shop_images/home-project-garden_1.png",
-            "subheading": "Featured post"
+            "title": "Garden Ideas, Top Tips & Expert Advice",
+            "heading_font_size": "heading-medium",
+            "position": "left",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_h6qjGe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>On the Primrose Blog, you'll find everything you need to turn your garden from good to great. Through planting guides, style advice, gardening info and more, become a gardening expert with the help of our writers and guests!</p>",
+            "text_font_size": "body-small",
+            "position": "left",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_ejQB4H": {
+          "type": "buttons",
+          "settings": {
+            "position": "right",
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "button_secondary_text": "",
+            "button_secondary_url": "",
+            "button_secondary_type": "btn--primary",
+            "button_secondary_size": "",
+            "button_secondary_style": "btn--outline",
+            "show_secondary_arrow": false,
+            "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "feat"
+        "heading_JXVjXi",
+        "text_h6qjGe",
+        "buttons_ejQB4H"
       ],
       "settings": {
-        "show_author": false,
-        "show_date": false,
-        "heading_font_size": "heading-large",
-        "show_button": true,
-        "button_text": "Read more",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--text",
-        "show_arrow": false,
-        "width": "wrapper--full",
-        "height": "five-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
+        "left_column_width": 60,
+        "right_column_width": 40,
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_text_mobile": "text-left--mobile",
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "main": {
       "type": "blog",
       "settings": {
-        "show_title": true,
+        "show_title": false,
         "show_rss": false,
         "show_tag_nav": false,
-        "aspect_ratio": 1,
+        "aspect_ratio": 0.8,
         "title_font_size": "heading-small",
         "show_tags": false,
         "show_author": false,
         "show_date": false,
-        "show_button": false,
+        "show_button": true,
         "show_comments": false,
         "grid": 3,
         "rows": 4,
         "color_scheme": "",
         "padding_top": 32,
-        "padding_bottom": 0,
+        "padding_bottom": 32,
         "title_tag": "automatic"
       }
     }
   },
   "order": [
-    "featured",
+    "section_hero_3nqH3C",
+    "section_rich_text_columns_Gw4A6k",
     "main"
   ]
 }
