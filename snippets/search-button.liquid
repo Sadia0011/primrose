@@ -1,0 +1,401 @@
+{% comment %} <style>
+    /* Search Dropdown Styles */
+.custom-search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 100;
+  display: none;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Wrapper */
+.custom-wrapper {
+  padding: 16px;
+}
+
+/* Show Dropdown */
+.custom-search-dropdown[data-open="true"] {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Search Form */
+.custom-search-form {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.custom-input-holder {
+  flex-grow: 1;
+  position: relative;
+}
+
+.custom-search-form input[type="search"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Search Button */
+.custom-search-dropdown__submit {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Reset Button */
+.custom-search-reset {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #888;
+  cursor: pointer;
+  display: none;
+}
+
+.custom-search-reset:not(.hidden) {
+  display: block;
+}
+
+/* Predictive Search */
+.custom-predictive-search {
+  padding: 16px;
+  border-top: 1px solid #eee;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.custom-predictive-search__heading {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.custom-predictive-search__group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Popular Searches */
+.custom-predictive-search__item {
+  padding: 8px 12px;
+  border-radius: 5px;
+  background: #f7f7f7;
+}
+
+.custom-predictive-search__link {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.custom-predictive-search__link:hover {
+  color: #007aff;
+}
+
+/* Product List */
+.custom-predictive-search__products__list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.custom-product-item--centered {
+  text-align: center;
+}
+
+.custom-product-item--left {
+  text-align: left;
+}
+
+/* Close Button */
+.custom-search-dropdown__close {
+  text-align: right;
+  padding: 8px;
+}
+
+.custom-search-dropdown__close__button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+</style>
+
+{%- liquid
+  assign animation_anchor = 'details[open] .custom-search-dropdown'
+  assign animation_delay = 100
+  assign animation_duration = 800
+
+  assign product_item_classes = ''
+
+  if settings.product_grid_center
+    assign product_item_classes = product_item_classes | append: ' custom-product-item--centered'
+  else
+    assign product_item_classes = product_item_classes | append: ' custom-product-item--left'
+  endif
+
+  if settings.overlay_text
+    assign product_item_classes = product_item_classes | append: ' custom-product-item--overlay-text'
+  else
+    assign product_item_classes = product_item_classes | append: ' custom-product-item--outer-text'
+  endif
+
+  assign empty_search_menu = settings.empty_search_menu
+  assign empty_search_product_list = settings.empty_search_product_list
+  assign empty_search_product_list_size = empty_search_product_list | map: 'handle' | join: ',' | split: ',' | uniq | size | at_most: 5 | at_least: 3
+  assign show_empty_search = false
+  assign show_empty_search_menu = false
+  assign show_empty_search_product_list = false
+
+  if empty_search_menu != blank
+    assign show_empty_search = true
+    assign show_empty_search_menu = true
+    assign empty_search_product_list_size = empty_search_product_list_size | at_most: 4
+  endif
+
+  if empty_search_product_list != blank
+    assign show_empty_search = true
+    assign show_empty_search_product_list = true
+  endif
+-%}
+
+<div class="custom-search-dropdown" aria-label="{{ 'general.search.search' | t }}" data-dropdown>
+  <div class="custom-wrapper">
+    <div class="custom-search-dropdown__main">
+      {%- if settings.predictive_search_enabled -%}
+        <predictive-search>
+      {%- else -%}
+        <header-search-form>
+      {%- endif -%}
+
+      <form
+        class="custom-search-form"
+        action="{{ routes.search_url }}"
+        method="get"
+        role="search"
+      >
+        <input name="options[prefix]" type="hidden" value="last">
+
+        <button class="custom-search-dropdown__submit" type="submit" aria-label="{{ 'layout.header.search' | t }}">
+          {%- render 'icon-search' -%}
+        </button>
+
+        <div class="custom-input-holder">
+          <label for="SearchInput--{{ unique }}" class="visually-hidden">{{ 'general.search.search' | t }}</label>
+          <input
+            type="search"
+            id="SearchInput--{{ unique }}"
+            data-predictive-search-input="search-dropdown-results"
+            name="q"
+            value="{{ search.terms | escape }}"
+            placeholder="{{ 'general.search.search' | t }}"
+            role="combobox"
+            aria-label="{{ 'general.search.placeholder' | t }}"
+            aria-owns="predictive-search-results"
+            aria-controls="predictive-search-results"
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-autocomplete="list"
+            autocorrect="off"
+            autocomplete="off"
+            autocapitalize="off"
+            spellcheck="false"
+          >
+
+          <button
+            type="reset"
+            class="custom-search-reset{% if search.terms == blank %} hidden{% endif %}"
+            aria-label="{{ 'general.search.reset' | t }}"
+          >
+            {{- 'general.search.clear' | t -}}
+          </button>
+        </div>
+
+        {%- if settings.predictive_search_enabled -%}
+          <div class="custom-predictive-search" tabindex="-1" data-predictive-search-results data-scroll-lock-scrollable>
+            <div class="custom-predictive-search__loading-state">
+              <div class="custom-predictive-search__loader loader"><div class="loader-indeterminate"></div></div>
+            </div>
+          </div>
+
+          <span
+            class="custom-predictive-search-status visually-hidden"
+            role="status"
+            aria-hidden="true"
+            data-predictive-search-status
+          ></span>
+        {%- endif -%}
+      </form>
+
+      {%- if settings.predictive_search_enabled -%}
+        </predictive-search>
+      {%- else -%}
+        </header-search-form>
+      {%- endif -%}
+
+      {%- if show_empty_search -%}
+        {%- liquid
+          assign animation_delay = 100
+          assign animation_duration = 800
+        -%}
+        <div class="custom-predictive-search custom-predictive-search--empty" data-popular-searches data-scroll-lock-scrollable>
+          <div class="custom-wrapper">
+            {%- if show_empty_search_menu and show_empty_search_product_list -%}
+              <div class="custom-predictive-search__layout">
+            {%- endif -%}
+
+            {%- if show_empty_search_menu -%}
+              {%- assign animation_delay = animation_delay | plus: 100 -%}
+              <div class="custom-predictive-search__column">
+                <p class="custom-predictive-search__heading">{{ 'general.search.popular_searches' | t }}</p>
+
+                <div class="custom-predictive-search__group">
+                  {%- for link in empty_search_menu.links -%}
+                    <div class="custom-predictive-search__item">
+                      <a class="custom-predictive-search__link" href="{{ link.url }}">{{ link.title }}</a>
+                    </div>
+                  {%- endfor -%}
+                </div>
+              </div>
+            {%- endif -%}
+
+            {%- if show_empty_search_product_list -%}
+              {%- assign animation_delay = animation_delay | plus: 100 -%}
+              <div
+                class="custom-predictive-search__column"
+                style="--columns: repeat({{ empty_search_product_list_size }}, minmax(0, 1fr));"
+              >
+                <p class="custom-predictive-search__heading">{{ 'general.search.popular_products' | t }}</p>
+
+                <div class="custom-predictive-search__group">
+                  <div class="custom-predictive-search__products__list grid-outer">
+                    <div class="grid">
+                      {%- for product in empty_search_product_list limit: empty_search_product_list_size -%}
+                        {%- render 'search-product-item',
+                          product: product,
+                          animation_delay: animation_delay,
+                          animation_duration: animation_duration,
+                          animation_anchor: animation_anchor,
+                          product_item_classes: product_item_classes,
+                          focusable: true
+                        -%}
+                      {%- endfor -%}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {%- endif -%}
+
+            {%- if show_empty_search_menu and show_empty_search_product_list -%}
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endif -%}
+
+      <div class="custom-search-dropdown__close">
+        <button
+          type="button"
+          class="custom-search-dropdown__close__button"
+          title="{{ 'general.accessibility.close' | t }}"
+          data-dropdown-close
+        >
+          {%- render 'icon-cancel' -%}
+        </button>
+      </div>
+    </div>
+  </div>
+</div> {% endcomment %}
+
+{% comment %} <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.querySelector(".custom-search-input");
+    const searchForm = document.querySelector(".custom-search-form");
+
+    searchForm.addEventListener("submit", function (event) {
+      if (!searchInput.value.trim()) {
+        event.preventDefault(); 
+        alert("Please enter a search term!");
+      }
+    });
+  });
+</script> {% endcomment %}
+
+<div class="custom-search-bar">
+  <form class="custom-search-form" action="/search" method="get">
+    <input
+      type="search"
+      name="q"
+      class="custom-search-input"
+      placeholder="Search our products"
+      aria-label="Search"
+      autocomplete="off"
+    >
+    <button type="submit" class="custom-search-button">
+        {%- render 'icon-search' -%}
+    </button>
+  </form>
+</div>
+
+
+<style>
+  .custom-search-bar {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .custom-search-form {
+    display: flex;
+    align-items: center;
+    border: 2px solid #005f73;
+    border-radius: 30px;
+    overflow: hidden;
+    background: white;
+  }
+
+  .custom-search-input {
+    flex: 1;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .custom-search-button {
+    /* background: #075868; */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    border-radius: 50%;
+  }
+
+  .custom-search-button:hover {
+    background: #7b9096;
+  }
+</style>
+
+

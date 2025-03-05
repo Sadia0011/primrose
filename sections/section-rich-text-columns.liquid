@@ -168,6 +168,34 @@
   </div>
 </section>
 
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let targetContainer = document.querySelector(".rich-text-columns__right");
+      
+      if (targetContainer) {
+        let newDiv = document.createElement("div");
+        targetContainer.innerHTML = `{%- render 'search-button', unique: 'desktop' -%}`;
+        // targetContainer.appendChild(newDiv);
+      } else {
+        console.log("Target container not found");
+      }
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.querySelector(".custom-search-input");
+    const searchForm = document.querySelector(".custom-search-form");
+
+    searchForm.addEventListener("submit", function (event) {
+      if (!searchInput.value.trim()) {
+        event.preventDefault(); 
+        alert("Please enter a search term!");
+      }
+    });
+  });
+</script>
+
 {% schema %}
 {
   "name": "Rich text columns",
