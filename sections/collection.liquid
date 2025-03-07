@@ -120,58 +120,70 @@
     {%- endif -%}
 
     {%- if enable_sort or enable_filters -%}
-      <nav class="collection__nav {{ align_classes }}" data-collection-nav>
-        {%- if enable_filters -%}
-          {%- liquid
-            assign filter_active_count = 0
-
-            if enable_filters
-              for filter in collection.filters
-                assign filter_active_count = filter_active_count | plus: filter.active_values.size
-              endfor
-            endif
-          -%}
-          <div class="popout--group">
-            <button
-              type="button"
-              class="popout__toggle{% unless filter_layout == 'slide-out' %} popout__toggle--filters{% endunless %}"
-              aria-expanded="{% if filters_expanded %}true{% else %}false{% endif %}"
-              aria-controls="filter-groups"
-              data-aria-toggle
-            >
-              {%- render 'icon-filter' -%}
-
-              {%- if filter_layout == 'slide-out' -%}
-                {{ 'collections.general.filters' | t }}
-              {%- else -%}
-                <span class="popout__toggleable-text">
-                  <span class="popout__expanded-show">
-                    {{- 'collections.general.show_filters' | t -}}
-                    <span class="filter-count{% if filter_active_count < 1 %} hidden{% endif %}" data-active-filters>
-                      {{- filter_active_count -}}
+      <div style="display: flex; align-items:center">
+        <nav class="collection__nav {{ align_classes }}" data-collection-nav>
+          {%- if enable_filters -%}
+            {%- liquid
+              assign filter_active_count = 0
+  
+              if enable_filters
+                for filter in collection.filters
+                  assign filter_active_count = filter_active_count | plus: filter.active_values.size
+                endfor
+              endif
+            -%}
+            <div class="popout--group">
+              <button
+                type="button"
+                class="popout__toggle{% unless filter_layout == 'slide-out' %} popout__toggle--filters{% endunless %}"
+                aria-expanded="{% if filters_expanded %}true{% else %}false{% endif %}"
+                aria-controls="filter-groups"
+                data-aria-toggle
+              >
+                {%- render 'icon-filter' -%}
+  
+                {%- if filter_layout == 'slide-out' -%}
+                  {{ 'collections.general.filters' | t }}
+                {%- else -%}
+                  <span class="popout__toggleable-text">
+                    <span class="popout__expanded-show">
+                      {{- 'collections.general.show_filters' | t -}}
+                      <span class="filter-count{% if filter_active_count < 1 %} hidden{% endif %}" data-active-filters>
+                        {{- filter_active_count -}}
+                      </span>
+                    </span>
+  
+                    <span class="popout__expanded-hide">
+                      {{- 'collections.general.hide_filters' | t -}}
+                      <span class="filter-count{% if filter_active_count < 1 %} hidden{% endif %}" data-active-filters>
+                        {{- filter_active_count -}}
+                      </span>
                     </span>
                   </span>
-
-                  <span class="popout__expanded-hide">
-                    {{- 'collections.general.hide_filters' | t -}}
-                    <span class="filter-count{% if filter_active_count < 1 %} hidden{% endif %}" data-active-filters>
-                      {{- filter_active_count -}}
-                    </span>
-                  </span>
-                </span>
-              {%- endif -%}
-
-              {%- unless filter_layout == 'slide-out' -%}
-                {%- render 'icon-nav-arrow-down' -%}
-              {%- endunless -%}
-            </button>
-          </div>
-        {%- endif -%}
-
-        {%- if enable_sort -%}
-          {% render 'collection-sorting' %}
-        {%- endif -%}
-      </nav>
+                {%- endif -%}
+  
+                {%- unless filter_layout == 'slide-out' -%}
+                  {%- render 'icon-nav-arrow-down' -%}
+                {%- endunless -%}
+              </button>
+            </div>
+          {%- endif -%}
+  
+          {%- if enable_sort -%}
+            {% render 'collection-sorting' %}
+          {%- endif -%}
+        </nav>
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector("#productShownOnPage").textContent=document.querySelectorAll(".collection__products .grid-item ").length;
+          })
+          
+        </script>
+        <div>
+          <p>Showing 1 to <span id="productShownOnPage"></span> of {{ collection.all_products_count }}</p>
+        </div>
+      </div>
+      
     {%- endif -%}
 
     <div class="collection__products">
