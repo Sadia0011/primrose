@@ -3856,7 +3856,8 @@ dd {
   transform: translateY(-50%);
   transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
 }
-[data-collapsible-trigger] .icon-minus {
+[data-collapsible-trigger] .icon-minus, 
+[data-collapsible-trigger] .icon-nav-arrow-up {
   visibility: hidden;
   opacity: 0;
 }
@@ -3881,12 +3882,16 @@ dd {
 }
 
 .no-js [data-collapsible][open] [data-collapsible-trigger] .icon-minus,
-[data-collapsible][open=true] [data-collapsible-trigger] .icon-minus {
+[data-collapsible][open=true] [data-collapsible-trigger] .icon-minus, 
+.no-js [data-collapsible][open] [data-collapsible-trigger] .icon-nav-arrow-up,
+[data-collapsible][open=true] [data-collapsible-trigger] .icon-nav-arrow-up {
   visibility: visible;
   opacity: 1;
 }
 .no-js [data-collapsible][open] [data-collapsible-trigger] .icon-plus,
-[data-collapsible][open=true] [data-collapsible-trigger] .icon-plus {
+[data-collapsible][open=true] [data-collapsible-trigger] .icon-plus ,
+.no-js [data-collapsible][open] [data-collapsible-trigger] .icon-nav-arrow-down,
+[data-collapsible][open=true] [data-collapsible-trigger] .icon-nav-arrow-down {
   visibility: hidden;
   opacity: 0;
   transform: translateY(-50%) rotate(90deg);
@@ -18402,7 +18407,7 @@ body.has-line-design.grid-compact .collection__products .grid,
 }
 
 .collection__nav--filter.collection__nav--sort {
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 /**

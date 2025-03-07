@@ -15,6 +15,13 @@
 .custom__header__menu{
   gap: 3rem;
 }
+
+@media screen and (max-width: 1124px){
+  a.advice {
+    font-weight: 300;
+    font-size: 12px;
+}
+}
 </style>
 
 {%- liquid
@@ -385,32 +392,17 @@
       </div>
     {%- endif -%}
 
-    
-     {% comment %} advice {% endcomment %}
-     <div class="header__desktop__button">
-      <a href="/blogs/news" class="advice navlink">
-        {%- render 'icon-advice' -%}Advice
-        {% comment %} <span class="{% if show_icons == false %}navtext{% else %}visually-hidden{% endif %}">{{ 'layout.header.account' | t }}</span> {% endcomment %}
-      </a>
-    </div>
     {%- if shop.customer_accounts_enabled -%}
       <div class="header__mobile__button">
-        <a href="{{ routes.account_url }}" class="navlink{% if show_icons == false %} navlink--toplevel{% endif %}">
-          {%- render 'icon-profile-circled' -%}
+        <a href="{{ routes.account_url }}" class="advice navlink{% if show_icons == false %} navlink--toplevel{% endif %}">
+          {%- render 'icon-profile-circled' -%} 
           <span class="{% if show_icons == false %}navtext{% else %}visually-hidden{% endif %}">{{ 'layout.header.account' | t }}</span>
         </a>
       </div>
     {%- endif -%}
-      {% comment %} advice {% endcomment %}
-      <div class="header__desktop__button">
-        <a href="#" class="advice navlink">
-          {%- render 'icon-wishlist' -%}Wishlist
-          {% comment %} <span class="{% if show_icons == false %}navtext{% else %}visually-hidden{% endif %}">{{ 'layout.header.account' | t }}</span> {% endcomment %}
-        </a>
-      </div>
     <div class="header__mobile__button">
-      <a href="{{ routes.cart_url }}" class="navlink {{ navlink_cart_classes }}" data-cart-toggle>
-        {{ cart_status }}
+      <a href="{{ routes.cart_url }}" class="advice navlink {{ navlink_cart_classes }}" data-cart-toggle>
+        {{ cart_status }} 
       </a>
     </div>
   </div>
