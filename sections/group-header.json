@@ -127,7 +127,7 @@
       ],
       "settings": {
         "header_sticky": false,
-        "header_style": "logo_beside",
+        "header_style": "custom_menu",
         "show_separator_line": false,
         "header_border_color": "",
         "separator_opacity": 50,
@@ -139,7 +139,7 @@
         "logo_max_limit_mobile": 100,
         "main_menu_linklist": "nav-menu",
         "mobile_menu_linklist": "nav-menu",
-        "enable_search": true,
+        "enable_search": false,
         "show_social_icons": false,
         "button_text": "",
         "button_link": "",
@@ -170,7 +170,7 @@
         ".feefo-item,.warannty-item {border-right: 2px solid #b4b4b4;}",
         ".feefo-rating-text {color: #319a46;}",
         ".feefo-item p {font-size: 0.875rem; height: 46px; line-height: 46px; font-weight: 600; margin: 0; text-align: center;}",
-        ".warannty-item p, .club-item p {color: black;}"
+        ".warannty-item p,.club-item p {color: black;}"
       ],
       "settings": {
         "code": "<div class=\"logo-bar\">\n<div class=\"feefo-item\">\n<img width=\"70\" height=\"17\" src=\"https://register.feefo.com/feefo-widget-v2/js/8e073a5e15c91cfbd7ee.svg\" alt=\"feefo logo yellow\" style=\"opacity: 1;\">\n<p>Rated <span class=\"feefo-rating-text\">Excellent</span></p>\n</div>\n\n\n<div class=\"warannty-item\">\n<img width=\"32\" height=\"28\" src=\"https://img.crocdn.co.uk/lib/images/affiliates/primrose/overlays/warranty.svg\" alt=\"warannty-item logo\" style=\"opacity: 1;\">\n<p>1 Year Warranty</p>\n</div>\n\n\n<div class=\"club-item\">\n<img width=\"26\" height=\"26\" src=\"https://img.crocdn.co.uk/lib/images/affiliates/primrose/overlays/gardening-club.svg\" alt=\"club-item logo \" style=\"opacity: 1;\">\n<p>Join Our Gardening Club</p>\n</div>\n</div>",
