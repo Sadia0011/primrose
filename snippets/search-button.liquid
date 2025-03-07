@@ -344,19 +344,66 @@
 </script> {% endcomment %}
 
 <div class="custom-search-bar">
-  <form class="custom-search-form" action="/search" method="get">
-    <input
-      type="search"
-      name="q"
-      class="custom-search-input"
-      placeholder="Search our products"
-      aria-label="Search"
-      autocomplete="off"
-    >
-    <button type="submit" class="custom-search-button">
-        {%- render 'icon-search' -%}
+  <predictive-search>
+    <form
+    class="search-form"
+    action="{{ routes.search_url }}"
+    method="get"
+    role="search"
+  >
+    <input name="options[prefix]" type="hidden" value="last">
+
+   
+
+    <div class="input-holder">
+      <label for="SearchInput--{{ unique }}" class="visually-hidden">{{ 'general.search.search' | t }}</label>
+      <input
+        type="search"
+        id="SearchInput--{{ unique }}"
+        data-predictive-search-input="search-popdown-results"
+        name="q"
+        value="{{ search.terms | escape }}"
+        placeholder="{{ 'general.search.search' | t }}"
+        role="combobox"
+        aria-label="{{ 'general.search.placeholder' | t }}"
+        aria-owns="predictive-search-results"
+        aria-controls="predictive-search-results"
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-autocomplete="list"
+        autocorrect="off"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+      >
+
+      <button
+        type="reset"
+        class="search-reset{% if search.terms == blank %} hidden{% endif %}"
+        aria-label="{{ 'general.search.reset' | t }}"
+      >
+        {{- 'general.search.clear' | t -}}
+      </button>
+    </div>
+    <button class="search-popdown__submit custom-search-popdown__submit" type="submit" aria-label="{{ 'layout.header.search' | t }}">
+      {%- render 'icon-search' -%}
     </button>
+    {%- if settings.predictive_search_enabled -%}
+      <div class="predictive-search custom-predictive-search" tabindex="-1" data-predictive-search-results data-scroll-lock-scrollable>
+        <div class="predictive-search__loading-state">
+          <div class="predictive-search__loader loader"><div class="loader-indeterminate"></div></div>
+        </div>
+      </div>
+
+      <span
+        class="predictive-search-status visually-hidden"
+        role="status"
+        aria-hidden="true"
+        data-predictive-search-status
+      ></span>
+    {%- endif -%}
   </form>
+  </predictive-search>
 </div>
 
 
@@ -364,7 +411,12 @@
   .custom-search-bar {
     position: relative;
     width: 100%;
-    max-width: 400px;
+    /* max-width: 400px; */
+    width: 400px;
+    height: 50px;
+    border: 1px solid;
+    /* padding: 10px; */
+    border-radius: 50px;
   }
 
   .custom-search-form {
@@ -396,6 +448,36 @@
   .custom-search-button:hover {
     background: #7b9096;
   }
+  .custom-predictive-search{
+    position: absolute;
+    top: 4rem;
+  }
+  .custom-predictive-layout{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .custom-predictive-result{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .custom-box-shadow{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    background: #edf7fa;
+  }
+  .custom-search-popdown__submit{
+    /* padding: 10px 22px; */
+    border: 0;
+    width: 70px;
+    background: #0d647c;
+    border-radius: 25px;
+  }
+  .custom-icon{
+    stroke: white;
+    background: #0d647c;
+  }
+  @media screen and (max-width: 512px) {
+    .custom-search-bar {
+    width: 300px;
+  }
+}
 </style>
 
 

@@ -1,3 +1,22 @@
+<style>
+  a.advice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    color: #0d647c;
+    font-weight: 500;
+    font-size: 17px;
+}
+.custom__header__desktop__upper .header__desktop__bar__c{
+  align-self: auto;
+}
+.custom__header__menu{
+  gap: 3rem;
+}
+</style>
+
 {%- liquid
   assign animation_name = 'drawer-items-fade'
   assign animation_duration = 500
@@ -366,6 +385,14 @@
       </div>
     {%- endif -%}
 
+    
+     {% comment %} advice {% endcomment %}
+     <div class="header__desktop__button">
+      <a href="/blogs/news" class="advice navlink">
+        {%- render 'icon-advice' -%}Advice
+        {% comment %} <span class="{% if show_icons == false %}navtext{% else %}visually-hidden{% endif %}">{{ 'layout.header.account' | t }}</span> {% endcomment %}
+      </a>
+    </div>
     {%- if shop.customer_accounts_enabled -%}
       <div class="header__mobile__button">
         <a href="{{ routes.account_url }}" class="navlink{% if show_icons == false %} navlink--toplevel{% endif %}">
@@ -374,6 +401,13 @@
         </a>
       </div>
     {%- endif -%}
+      {% comment %} advice {% endcomment %}
+      <div class="header__desktop__button">
+        <a href="#" class="advice navlink">
+          {%- render 'icon-wishlist' -%}Wishlist
+          {% comment %} <span class="{% if show_icons == false %}navtext{% else %}visually-hidden{% endif %}">{{ 'layout.header.account' | t }}</span> {% endcomment %}
+        </a>
+      </div>
     <div class="header__mobile__button">
       <a href="{{ routes.cart_url }}" class="navlink {{ navlink_cart_classes }}" data-cart-toggle>
         {{ cart_status }}
@@ -415,16 +449,31 @@
         {%- render 'localization' unique: unique, show_locale_selector: show_locale_selector, show_globe_icon: show_globe_icon, show_country_selector: show_country_selector, show_country_flag: show_country_flag, show_country_name: show_country_name, class: 'header', short_country_name: true -%}
       </div>
     {%- endif -%}
-
+    {% comment %} advice {% endcomment %}
+    <div class="header__desktop__button">
+      <a href="/blogs/news" class="advice navlink">
+        {%- render 'icon-advice' -%}Advice
+        {% comment %} <span class="{% if show_icons == false %}navtext{% else %}visually-hidden{% endif %}">{{ 'layout.header.account' | t }}</span> {% endcomment %}
+      </a>
+    </div>
     {%- if shop.customer_accounts_enabled -%}
       <div class="header__desktop__button">
-        <a href="{{ routes.account_url }}" class="navlink{% if show_icons == false %} navlink--toplevel{% endif %}" title="{{ 'customer.account.title' | t }}">
-          {%- render 'icon-profile-circled' -%}
+        <a href="{{ routes.account_url }}" class="advice navlink{% if show_icons == false %} navlink--toplevel{% endif %}" title="{{ 'customer.account.title' | t }}">
+          {%- render 'icon-profile-circled' -%} Account
           <span class="{% if show_icons == false %}navtext{% else %}visually-hidden{% endif %}">{{ 'layout.header.account' | t }}</span>
         </a>
       </div>
     {%- endif -%}
+      {% comment %} advice {% endcomment %}
+      <div class="header__desktop__button">
+        <a href="#" class="advice navlink">
+          {%- render 'icon-wishlist' -%}Wishlist
+          {% comment %} <span class="{% if show_icons == false %}navtext{% else %}visually-hidden{% endif %}">{{ 'layout.header.account' | t }}</span> {% endcomment %}
+        </a>
+      </div>
 
+
+   
     {%- if section.settings.enable_search -%}
       <div class="header__desktop__button">
         <header-search-popdown>
@@ -444,15 +493,15 @@
     {%- endif -%}
 
     <div class="header__desktop__button">
-      <a href="{{ routes.cart_url }}" class="navlink {{ navlink_cart_classes }}" title="{{ 'cart.general.title' | t }}" data-cart-toggle>
-        {{ cart_status }}
+      <a href="{{ routes.cart_url }}" class="advice navlink {{ navlink_cart_classes }}" title="{{ 'cart.general.title' | t }}" data-cart-toggle>
+        {{ cart_status }} Basket
       </a>
     </div>
   </div>
 {%- endcapture -%}
 
 {%- capture menu -%}
-  <nav class="header__menu{% if settings.type_nav_caps %} caps{% endif %}" {{ highlight_style }}>
+  <nav class="custom__header__menu header__menu{% if settings.type_nav_caps %} caps{% endif %}" {{ highlight_style }}>
     {%- for link in linklists[main_menu_linklist].links -%}
       {%- render 'nav-item', link: link, index: forloop.index, highlight_item: highlight_item -%}
     {%- endfor -%}
@@ -623,6 +672,23 @@
             </div>
           {%- when 'drawer' -%}
             {%- comment -%} Do nothing for drawer {%- endcomment -%}
+          {% when 'custom_menu' %}
+            <div class="header__desktop__upper custom__header__desktop__upper" data-takes-space-wrapper>
+              {% comment %} <div data-child-takes-space class="header__desktop__bar__l">
+                {{ cta }}
+
+                {%- if show_socials -%}
+                  {%- render 'social-icons' -%}
+                {%- endif -%}
+              </div> {% endcomment %}
+              <div data-child-takes-space class="header__desktop__bar__l">{{ logos }}</div>
+              {% comment %} adding custom search button {% endcomment %}
+              <div class="header__desktop__bar__c">{%- render 'search-button' -%}</div>
+              <div data-child-takes-space class="header__desktop__bar__r">{{ buttons }}</div>
+            </div>
+            <div class="header__desktop__lower" data-takes-space-wrapper>
+              <div data-child-takes-space class="header__desktop__bar__c">{{ menu }}</div>
+            </div>
           {%- else -%}
             {%- comment -%} 'logo_above' is default case, this covers migrated settings {%- endcomment -%}
             <div class="header__desktop__upper" data-takes-space-wrapper>
@@ -634,7 +700,6 @@
                 {%- endif -%}
               </div>
               <div data-child-takes-space class="header__desktop__bar__c">{{ logos }}</div>
-
               <div data-child-takes-space class="header__desktop__bar__r">{{ buttons }}</div>
             </div>
             <div class="header__desktop__lower" data-takes-space-wrapper>
@@ -716,7 +781,8 @@
         {"value": "logo_above", "label": "Logo above menu"},
         {"value": "logo_beside", "label": "Logo beside menu"},
         {"value": "drawer", "label": "Mobile drawer menu"},
-        {"value": "logo_center_menu_left", "label": "Logo center menu left"}
+        {"value": "logo_center_menu_left", "label": "Logo center menu left"},
+        {"value": "custom_menu", "label": "custom_menu"}
       ]
     },
     {

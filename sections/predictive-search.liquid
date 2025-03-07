@@ -4,6 +4,10 @@
   Renders predictive search results
 {% endcomment %}
 
+
+
+
+
 {%- liquid
   assign animation_anchor = '#predictive-search-results'
   assign animation_delay = 0
@@ -39,14 +43,14 @@
 -%}
 
 {%- if predictive_search.performed -%}
-  <div class="wrapper">
-    <div id="predictive-search-results" role="listbox">
+  <div class="wrapper custom-box-shadow">
+    <div id="predictive-search-results"  role="listbox">
       {%- if first_column_results_size > 0 or product_count > 0 -%}
-        <div class="predictive-search__layout{% unless product_count > 0 %} predictive-search__layout--no-products{% endunless %}{% unless query_count > 0 or collection_count > 0 or article_count > 0 %} predictive-search__layout--no-suggestions{% endunless %}" data-search-results-groups-wrapper>
+        <div class="custom-predictive-layout predictive-search__layout{% unless product_count > 0 %} predictive-search__layout--no-products{% endunless %}{% unless query_count > 0 or collection_count > 0 or article_count > 0 %} predictive-search__layout--no-suggestions{% endunless %}" data-search-results-groups-wrapper>
       {%- endif -%}
 
       {%- if first_column_results_size > 0 -%}
-        <div class="predictive-search__column">
+        <div class="predictive-search__column "">
           {%- if query_count > 0 or collection_count > 0 -%}
             {%- assign animation_delay = animation_delay | plus: 100 -%}
             <div class="predictive-search__group"
@@ -121,8 +125,8 @@
             data-aos-duration="{{ animation_duration }}"
             data-aos-anchor="{{ animation_anchor }}">
             <p class="predictive-search__heading" id="predictive-search-products">{{ 'general.search.products' | t }}</p>
-            <div class="predictive-search__products__list grid-outer" role="listbox" aria-labelledby="predictive-search-products" data-search-results>
-              <div class="grid">
+            <div class="predictive-search__products__list grid-outer " role="listbox" aria-labelledby="predictive-search-products" data-search-results>
+              <div class="grid custom-predictive-result">
                 {%- for product in predictive_search.resources.products -%}
                   {%- render 'search-product-item',
                     product: product,
