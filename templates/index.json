@@ -17,7 +17,7 @@
           "settings": {
             "code": "<div style=\"display:flex; align-items:center; gap:5px; \" class=\"feefo-item\">\n<img width=\"70\" height=\"14\" src=\"https://register.feefo.com/feefo-widget-v2/js/8e073a5e15c91cfbd7ee.svg\" alt=\"feefo logo yellow\" style=\"opacity: 1;\">\n<p style=\"color:red;\"  >Rated <span style=\"color:green;\" class=\"feefo-rating-text\">Excellent</span></p>\n\n\n</div>",
             "text_font_size": "body-small",
-            "target_device_enabled": false,
+            "target_device_enabled": true,
             "target_device": "mobile"
           }
         },
@@ -26,7 +26,7 @@
           "settings": {
             "code": "<div style=\"display:flex; align-items:center; gap:5px;\" class=\"warannty-item\">\n<img width=\"32\" height=\"28\" src=\"https://img.crocdn.co.uk/lib/images/affiliates/primrose/overlays/warranty.svg\" alt=\"warannty-item logo\" style=\"opacity: 1;\">\n<p>1 Year Warranty</p>\n</div>",
             "text_font_size": "body-small",
-            "target_device_enabled": false,
+            "target_device_enabled": true,
             "target_device": "mobile"
           }
         },
@@ -35,7 +35,7 @@
           "settings": {
             "code": "<div style=\"display:flex; align-items:center; gap:5px;\"  class=\"club-item\">\n<img width=\"26\" height=\"26\" src=\"https://img.crocdn.co.uk/lib/images/affiliates/primrose/overlays/gardening-club.svg\" alt=\"club-item logo \" style=\"opacity: 1;\">\n<p>Join Our Gardening Club</p>\n</div>",
             "text_font_size": "body-small",
-            "target_device_enabled": false,
+            "target_device_enabled": true,
             "target_device": "mobile"
           }
         }
