@@ -291,7 +291,7 @@
                   assign items_on_row_remaining = items_on_row_remaining | minus: 1
 
                   if collection
-                    render 'product-grid-item', product: product, index: forloop.index, sizes: image_sizes
+                    render 'custom-collection-product-grid', product: product, index: forloop.index, sizes: image_sizes
                   endif
                 endfor
               -%}
@@ -300,7 +300,7 @@
               {%- for product in collection.products -%}
                 {%- assign grid_int = section.settings.grid | times: 1 -%}
                 {%- assign animation_delay = forloop.index0 | modulo: grid_int | times: 1 -%}
-                {%- render 'product-grid-item',
+                {%- render 'custom-collection-product-grid',
                   product: product,
                   animation_delay: animation_delay,
                   index: forloop.index,
