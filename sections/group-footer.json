@@ -65,13 +65,13 @@
       "custom_css": [],
       "settings": {
         "linklist": "supporting-menu",
-        "text_font_size": "body-small",
+        "text_font_size": "body-x-small",
         "footer_payment_enable": false,
         "show_locale_selector": true,
-        "show_globe_icon": true,
-        "show_country_selector": true,
+        "show_globe_icon": false,
+        "show_country_selector": false,
         "show_country_name": false,
-        "show_country_flag": true,
+        "show_country_flag": false,
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
