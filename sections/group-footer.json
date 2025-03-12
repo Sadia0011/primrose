@@ -65,7 +65,7 @@
       "custom_css": [],
       "settings": {
         "linklist": "supporting-menu",
-        "text_font_size": "body-x-small",
+        "text_font_size": "body-small",
         "footer_payment_enable": false,
         "show_locale_selector": true,
         "show_globe_icon": false,
