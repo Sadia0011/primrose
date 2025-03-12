@@ -201,16 +201,16 @@
     "section_custom_code_cAMrgy": {
       "type": "section-custom-code",
       "custom_css": [
-        ".logo-bar {background-color: #e8eaed; width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; display: grid; grid-template-columns: repeat(3, 1fr);}",
+        ".logo-bar {background-color: #e8eaed; width: 100%; padding: auto 15px; display: grid; grid-template-columns: repeat(3, 1fr);}",
         ".feefo-item,.warannty-item,.club-item {display: flex; align-items: center; justify-content: center;}",
         ".feefo-item,.warannty-item {border-right: 2px solid #b4b4b4;}",
         ".feefo-rating-text {color: #319a46;}",
         ".feefo-item p {font-size: 0.875rem; font-weight: 600;}",
         ".warannty-item p,.club-item p {color: black;}",
-        "@media only screen and (max-width: 512px) {}"
+        "@media only screen and (max-width: 512px) {#logo-bar{display:none; }}"
       ],
       "settings": {
-        "code": "<div class=\"logo-bar\">\n<div class=\"feefo-item\">\n<img width=\"70\" height=\"17\" src=\"https://register.feefo.com/feefo-widget-v2/js/8e073a5e15c91cfbd7ee.svg\" alt=\"feefo logo yellow\" style=\"opacity: 1;\">\n<p>Rated <span class=\"feefo-rating-text\">Excellent</span></p>\n</div>\n\n\n<div class=\"warannty-item\">\n<img width=\"32\" height=\"28\" src=\"https://img.crocdn.co.uk/lib/images/affiliates/primrose/overlays/warranty.svg\" alt=\"warannty-item logo\" style=\"opacity: 1;\">\n<p>1 Year Warranty</p>\n</div>\n\n\n<div class=\"club-item\">\n<img width=\"26\" height=\"26\" src=\"https://img.crocdn.co.uk/lib/images/affiliates/primrose/overlays/gardening-club.svg\" alt=\"club-item logo \" style=\"opacity: 1;\">\n<p>Join Our Gardening Club</p>\n</div>\n</div>",
+        "code": "<div id=\"logo-bar\" class=\"logo-bar\">\n<div class=\"feefo-item\">\n<img width=\"70\" height=\"17\" src=\"https://register.feefo.com/feefo-widget-v2/js/8e073a5e15c91cfbd7ee.svg\" alt=\"feefo logo yellow\" style=\"opacity: 1;\">\n<p>Rated <span class=\"feefo-rating-text\">Excellent</span></p>\n</div>\n\n\n<div class=\"warannty-item\">\n<img width=\"32\" height=\"28\" src=\"https://img.crocdn.co.uk/lib/images/affiliates/primrose/overlays/warranty.svg\" alt=\"warannty-item logo\" style=\"opacity: 1;\">\n<p>1 Year Warranty</p>\n</div>\n\n\n<div class=\"club-item\">\n<img width=\"26\" height=\"26\" src=\"https://img.crocdn.co.uk/lib/images/affiliates/primrose/overlays/gardening-club.svg\" alt=\"club-item logo \" style=\"opacity: 1;\">\n<p>Join Our Gardening Club</p>\n</div>\n</div>",
         "width": "wrapper--full",
         "color_scheme": "scheme-3",
         "padding_top": 0,
