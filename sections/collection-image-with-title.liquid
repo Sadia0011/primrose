@@ -1,4 +1,19 @@
 <!-- /sections/collection-image-with-title.liquid -->
+
+<style>
+  .breadcrumb_container_title{
+    padding: 19px 0 10px;
+    list-style: none;
+    margin-bottom: 0;
+    min-height: 53px;
+    max-height: 100px;
+    overflow: hidden;
+    font-size: .875rem;
+    font-weight: 600;
+    max-width: 990px;
+    margin: 2rem auto;
+  }
+</style>
 {%- liquid
   assign banner_layout = section.settings.banner_layout
   assign color_scheme = 'color-' | append: section.settings.color_scheme
@@ -104,6 +119,10 @@
     {%- endif -%}
   {%- else -%}
     {%- if show_title or show_description -%}
+      <div class="breadcrumb_container_title"> 
+      <span><a href="/">Home</a>></span>
+      <span id="dynamic-collection-title"><a href="{{ collection.url }}">{{ collection.title }}</a></span>
+    </div>
       <div class="collection__title collection__title--no-image {{ section.settings.flex_align }}">
         {%- if show_title -%}
           <h1 class="hero__title h3">

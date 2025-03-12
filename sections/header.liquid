@@ -16,6 +16,79 @@
   gap: 3rem;
 }
 
+.custom-basket-dropdown{
+    display: none;
+    z-index: 11;
+    position: absolute;
+    right: 0;
+    top: 4.5rem;
+    background-color: #fff;
+    box-shadow: 0 20px 16px 3px rgba(0, 0, 0, .0901960784);
+    max-width: 500px;
+    min-height: 500px;
+    padding: 3rem;
+    transition: display  2s ;
+}
+
+
+.custom-basket:hover  .custom-basket-dropdown{
+   display: block;   
+}
+.custom-basket-dropdown-title{
+    line-height: 2.2;
+    font-size: 1.125rem;
+    color: #0d647c;
+    font-family: "Mulish", helvetica neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: .21px;
+    margin-bottom: 0;
+    position: relative;
+}
+.custom-basket-dropdown-total{
+    padding: 5px 24px;
+    font-size: 16px;
+    background-color: #f9f8f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+}
+.custom-dropdown-item{
+  box-shadow: 0 20px 16px 3px rgba(0, 0, 0, .0901960784);
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+  
+}
+.drop-down-buttons{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.dropdown-checkout , .dropdown-viewall{
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #267d39;
+    color: #fff;
+    border-radius: 30px;
+    border: 1px solid #267d39;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-weight: 600;
+    text-decoration: none !important;
+    
+}
+.dropdown-viewall{
+    background-color: #e8e8e8;
+    color: #000;
+    border: 0;
+}
 @media screen and (max-width: 1124px){
   a.advice {
     font-weight: 300;
@@ -391,7 +464,6 @@
         {%- render 'localization' unique: unique, show_locale_selector: show_locale_selector, show_globe_icon: show_globe_icon, show_country_selector: show_country_selector, show_country_flag: show_country_flag, show_country_name: show_country_name, class: 'header', unique: section.id, short_country_name: true -%}
       </div>
     {%- endif -%}
-
     {%- if shop.customer_accounts_enabled -%}
       <div class="header__mobile__button">
         <a href="{{ routes.account_url }}" class="advice navlink{% if show_icons == false %} navlink--toplevel{% endif %}">
@@ -400,6 +472,21 @@
         </a>
       </div>
     {%- endif -%}
+    <div class="header__desktop__button">
+        <header-search-popdown>
+          <details>
+            <summary class="navlink navlink--search{% if show_icons == false %} navlink--toplevel{% endif %}" aria-haspopup="dialog" title="{{ 'general.search.search' | t }}">
+              {%- render 'icon-search-black' -%}
+              {%- render 'icon-cancel' -%}
+              <span class="{% if show_icons == false %}navtext{% else %}visually-hidden{% endif %}">{{ 'layout.header.search' | t }}</span>
+            </summary>
+
+            {%- render 'header-search-popdown', unique: 'desktop' -%}
+
+            <span class="underlay" data-popdown-underlay></span>
+          </details>
+        </header-search-popdown>
+      </div>
     <div class="header__mobile__button">
       <a href="{{ routes.cart_url }}" class="advice navlink {{ navlink_cart_classes }}" data-cart-toggle>
         {{ cart_status }} 
@@ -484,14 +571,67 @@
       </div>
     {%- endif -%}
 
-    <div class="header__desktop__button">
-      <a href="{{ routes.cart_url }}" class="advice navlink {{ navlink_cart_classes }}" title="{{ 'cart.general.title' | t }}" data-cart-toggle>
+    <div class="header__desktop__button custom-basket">
+      <a href="{{ routes.cart_url }}" class="  advice navlink {{ navlink_cart_classes }}" title="{{ 'cart.general.title' | t }}" data-cart-toggle>
         {{ cart_status }} Basket
       </a>
+      <div class="custom-basket-dropdown">
+        <h2 class="custom-basket-dropdown-title">My Basket
+            <cart-count class="cart__items-count" data-cart-count="{{ cart_item_count }}">
+              {{- cart_item_count -}}
+            </cart-count>
+          
+        </h2>
+       <div id="cart-items-container">
+            {% if cart.item_count > 0 %}
+            
+                {% comment %} <div class="custom-dropdown-item"> {% endcomment %}
+                      {% comment %} <img src="{{ item.image | img_url: '200x' }}" alt="{{ item.title }}">
+                      <div>
+                        <p>{{ item.product.title }}</p><span>{{ item.variant.title }}</span>
+                        <p>{{ item.final_line_price | money }}</p> 
+                      </div>          {% endcomment %}
+                      {% comment %} {%- render 'cart-line-items', part: 'line-items' -%} {% endcomment %}
+                  {% comment %} </div>  {% endcomment %}
+                  <div class="drawer__items" data-items-holder style="--base-animation-delay: {{ animation_delay }}ms">
+                    {%- render 'cart-line-items', part: 'line-items' -%}
+                  </div> 
+              
+            {% endif %}
+       </div>
+      
+      <div>
+        <h3 class="custom-basket-dropdown-total">Total  <span>{{ cart.total_price | money }}</span></h3>
+      </div>
+      <div class="drop-down-buttons">
+        <a class="dropdown-viewall" href="{{ routes.cart_url }}""> view all</a>
+        <a class="dropdown-checkout" href="{{ routes.cart_url }}""> CheckOut</a>
+      </div>
+      
+        
+      </div>
     </div>
-  </div>
+    </div>
+    
 {%- endcapture -%}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    function updateBasket() {
+      {{ cart_items }}
+     
+    }
 
+    const observer = new MutationObserver((t)=>{
+      console.log("its changing")
+      updateBasket()
+    });
+    const targetNode = document.querySelector(".custom-basket-dropdown");
+
+    if (targetNode) {
+      observer.observe(targetNode, { childList: true, subtree: true });
+    }
+  });
+</script>
 {%- capture menu -%}
   <nav class="custom__header__menu header__menu{% if settings.type_nav_caps %} caps{% endif %}" {{ highlight_style }}>
     {%- for link in linklists[main_menu_linklist].links -%}

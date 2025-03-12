@@ -1,5 +1,19 @@
 <!-- /sections/collections.liquid -->
 
+<style>
+  .custom-filter-container{
+    display: flex; 
+    align-items:center;
+  }
+  @media screen and (max-width :512px) {
+    .custom-filter-container{
+       flex-direction: column;
+  }
+    .custom-filter-container p{
+       margin-right: 0;
+  }
+  }
+</style>
 {%- liquid
   assign enable_sort = section.settings.enable_sort
   assign enable_filters = section.settings.enable_filters
@@ -120,7 +134,7 @@
     {%- endif -%}
 
     {%- if enable_sort or enable_filters -%}
-      <div style="display: flex; align-items:center">
+      <div class="custom-filter-container" >
         <nav class="collection__nav {{ align_classes }}" data-collection-nav>
           {%- if enable_filters -%}
             {%- liquid
@@ -174,19 +188,32 @@
           {%- endif -%}
         </nav>
         <script>
-          document.addEventListener("DOMContentLoaded", function () {
-            document.querySelector("#productShownOnPage").textContent=document.querySelectorAll(".collection__products .grid-item ").length;
-          })
+           document.addEventListener("DOMContentLoaded", function () {
+          function updateProductCount() {
+            const count = document.querySelectorAll(".collection__products .grid-item").length;
+            document.querySelector("#productShownOnPage").textContent = count;
+          }
+
+          updateProductCount();
+
+          const observer = new MutationObserver(updateProductCount);
+          const targetNode = document.querySelector(".collection__products");
+
+          if (targetNode) {
+            observer.observe(targetNode, { childList: true, subtree: true });
+          }
+        });
           
         </script>
-        <div>
+        <div style="margin-right: 5rem;">
           <p>Showing 1 to <span id="productShownOnPage"></span> of {{ collection.all_products_count }}</p>
         </div>
       </div>
       
     {%- endif -%}
-
+    
     <div class="collection__products">
+      
       {%- if enable_filters -%}
         <div class="{{ collection_sidebar_class }}" id="filter-groups" data-collection-sidebar>
           <div class="collection__sidebar__head{% unless filter_layout == 'slide-out' %} mobile{% endunless %}">
@@ -227,7 +254,7 @@
           ></form>
         </collection-filters-form>
       {%- endif -%}
-
+      
       <div class="grid-outer" data-products-grid>
         <div class="grid" id="CollectionLoop">
           {%- if collection.products_count > 0 -%}

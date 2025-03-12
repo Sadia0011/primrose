@@ -1,4 +1,56 @@
 <!-- /templates/cart.liquid -->
+
+<style>
+  .custom-cart-title{
+    font-family: "Merriweather", Georgia, serif;
+    color: #0d647c;
+    font-weight: 700;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .custom-cart-empty{
+    border: 1px solid #d1d1d1;
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+    color: black;
+    flex: 1;
+  }
+  .cart__empty__buttons{
+    display: none;
+  }
+  .custom-cart-aside{
+    border: 1px solid #d1d1d1;
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .custom-payment-method{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .custom-cart-item{
+    border: 1px solid #d1d1d1;
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .custom-delivery-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 6px;
+    font-family: "Mulish", helvetica neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: black;
+    border-bottom: .9px solid #d1d1d1;
+  }
+</style>
 {%- liquid
   assign animation_name = 'cart-items-fade'
   assign animation_duration = 500
@@ -37,29 +89,28 @@
 {%- endstyle -%}
 <div class="cart-holder {{ color_scheme }}">
   <div
-    class="cart{% if settings.quantity_style == 'dropdown' %} cart--no-overflow{% endif %} section-padding{% if empty_cart %} is-empty{% endif %}"
+    class="cart{% if settings.quantity_style == 'dropdown' %} cart--no-overflow{% endif %} section-padding"
     data-section-id="{{ section.id }}"
     data-section-type="cart"
     data-cart-page
   >
-    <div class="cart__empty" data-cart-empty>
-      <h1
-        class="cart__title"
-        data-animation="{{ animation_name }}"
-        data-animation-duration="{{ animation_duration }}"
-        data-animation-delay="{{ animation_cart_empty_delay }}"
-        {%- assign animation_cart_empty_delay = animation_cart_empty_delay | plus: animation_delay_increment -%}
-      >
-        {{- 'cart.general.title' | t -}}
-      </h1>
+  <h1 class="cart__title custom-cart-title"data-animation="{{ animation_name }}"data-animation-duration="{{ animation_duration }}"data-animation-delay="{{ animation_cart_empty_delay }}"
+    {%- assign animation_cart_empty_delay = animation_cart_empty_delay | plus: animation_delay_increment -%}
+  >
+        My Basket 
+        {% comment %} {{- 'cart.general.title' | t -}} {% endcomment %}
+  </h1>
+    {% comment %} <div class="cart__empty" data-cart-empty>
+      
 
-      <p
+      <p class="custom-cart-empty"
         data-animation="{{ animation_name }}"
         data-animation-duration="{{ animation_duration }}"
         data-animation-delay="{{ animation_cart_empty_delay }}"
         {%- assign animation_cart_empty_delay = animation_cart_empty_delay | plus: animation_delay_increment -%}
       >
-        {{- 'cart.general.empty' | t -}}
+      Your basket is currently empty. 
+      {{- 'cart.general.empty' | t -}}
       </p>
 
       {%- if show_empty_cart_menu and linklists[empty_cart_menu].links.size > 0 -%}
@@ -124,14 +175,25 @@
           data-animation-delay="{{ animation_cart_empty_delay }}"
         ></recently-viewed>
       {%- endif -%}
-    </div>
-
+    </div>  {% endcomment %}
     <form id="cartForm" class="cart__form" action="{{ routes.cart_url }}" method="post" novalidate data-cart-form>
       {{ form.errors | default_errors }}
 
       <div class="cart__inner">
         <div class="cart__content">
-          <h1
+          {% if empty_cart  %}
+            <p class="custom-cart-empty"
+            data-animation="{{ animation_name }}"
+            data-animation-duration="{{ animation_duration }}"
+            data-animation-delay="{{ animation_cart_empty_delay }}"
+            {%- assign animation_cart_empty_delay = animation_cart_empty_delay | plus: animation_delay_increment -%}
+          >
+          Your basket is currently empty. 
+          {% comment %} {{- 'cart.general.empty' | t -}} {% endcomment %}
+          </p>
+          
+            {% else %}
+            {% comment %} <h1
             class="cart__title"
             data-animation="{{ animation_name }}"
             data-animation-duration="{{ animation_duration }}"
@@ -143,9 +205,9 @@
             <cart-count class="cart__items-count" data-cart-count="{{ cart_item_count }}">
               {{- cart_item_count -}}
             </cart-count>
-          </h1>
+          </h1> {% endcomment %}
 
-          <div
+          {% comment %} <div
             class="cart__button-continue"
             data-animation="{{ animation_name }}"
             data-animation-duration="{{ animation_duration }}"
@@ -155,7 +217,7 @@
             <a class="btn btn--outline btn--primary" href="{{ routes.all_products_collection_url }}">
               <span>{{ 'cart.general.continue_shopping' | t }}</span>
             </a>
-          </div>
+          </div> {% endcomment %}
 
           <div class="cart__errors" data-cart-errors>
             <div class="cart__errors__inner">
@@ -174,8 +236,13 @@
             </div>
           </div>
 
-          <cart-items
-            class="cart__items"
+          <div class="custom-cart-item">
+            <div class="custom-delivery-heading">
+                <p >Delivery #1</p>
+                <p >In stock (despatch in 1-2 working days)</p>
+            </div>
+            <cart-items
+            class="cart__items "
             data-items-holder
             data-animation="{{ animation_name }}"
             data-animation-duration="{{ animation_duration }}"
@@ -184,9 +251,12 @@
             {%- render 'cart-line-items', part: 'line-items', animation_delay: animation_delay, is_cart: true -%}
             {%- assign animation_delay = animation_delay | plus: animation_delay_increment -%}
           </cart-items>
+          </div>
         </div>
-
-        <div class="cart__aside" data-checkout-buttons>
+          {% endif %}
+          
+ 
+        <div class="cart__aside custom-cart-aside" data-checkout-buttons>
           {%- assign animation_delay = animation_delay_initial -%}
           {%- if is_free_shipping_first -%}
             <div
@@ -200,14 +270,21 @@
               {%- assign animation_delay = animation_delay | plus: animation_delay_increment -%}
             </div>
           {%- endif -%}
-
+          <div>
+            <h1 class="cart__title">Summary
+                <cart-count class="cart__items-count" data-cart-count="{{ cart_item_count }}">
+                  {{- cart_item_count -}}
+                </cart-count>
+            </h1>
+          </div>
           <div
-            class="cart__price__holder"
+            class="cart__price__holder "
             data-cart-price-holder
             data-animation="{{ animation_name }}"
             data-animation-duration="{{ animation_duration }}"
             data-animation-delay="{{ animation_delay }}"
           >
+          
             {%- render 'cart-price' -%}
             {%- assign animation_delay = animation_delay | plus: animation_delay_increment -%}
           </div>
@@ -241,7 +318,17 @@
                     <div class="cart__message cart__message--custom" style="{{ style }}">
                       {{ block.settings.cart_custom_message_text }}
                     </div>
-
+                    <div
+                    class="cart__price__holder "
+                    data-cart-price-holder
+                    data-animation="{{ animation_name }}"
+                    data-animation-duration="{{ animation_duration }}"
+                    data-animation-delay="{{ animation_delay }}"
+                  >
+                  
+                    {%- render 'custom-cart-price' -%}
+                    {%- assign animation_delay = animation_delay | plus: animation_delay_increment -%}
+                  </div>
                   {%- when 'upsell-products' -%}
                     {%- render 'cart-block-upsell', block: block -%}
 
@@ -340,6 +427,13 @@
               </div>
             {%- endfor -%}
           </collapsible-elements>
+          <div class="custom-payment-method">
+            <img src="https://img.crocdn.co.uk/lib/images/affiliates/primrose/assets/wheelbarrow/icon-mastercard.svg" alt="mastercard">
+            <img src="https://img.crocdn.co.uk/lib/images/affiliates/primrose/assets/wheelbarrow/icon-visa.svg" alt="visa">
+            <img src="https://img.crocdn.co.uk/lib/images/affiliates/primrose/assets/wheelbarrow/icon-google-pay.svg" alt="googlepay">
+            <img src="https://img.crocdn.co.uk/lib/images/affiliates/primrose/assets/wheelbarrow/icon-apple-pay.svg" alt="appleplay">
+            <img width="107" src="https://img.crocdn.co.uk/lib/images/affiliates/primrose/assets/wheelbarrow/icon-paypal-full.svg" alt="paypal">
+          </div>
         </div>
       </div>
     </form>
@@ -436,7 +530,7 @@
           "type": "checkbox",
           "id": "upsell_auto_open",
           "label": "Show upsell products automatically on cart page",
-          "default": true
+          "default": false
         }
       ]
     },

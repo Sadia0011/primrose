@@ -15,6 +15,47 @@
   Usage:
   {% render 'product-grid-item', product: product, index: index, sizes: image_sizes, attributes: '', modifier_class: '' %}
 {% endcomment %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+  .custom-grid-item {
+        scroll-snap-align: start;
+        flex: 0 0 var(--item-width);
+        margin-right: var(--gap);
+        margin-bottom: 2rem;
+        box-sizing: border-box;
+        box-shadow: 0 .5rem 1rem #00000026;
+        border-radius: 5px;
+  }
+  .custom-button {
+    font-size: 1rem;
+    color: #3e3e3e;
+    border-color: #a5a5a5;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 22px;
+    border: 1px solid #262626;
+    border-radius: 4px;
+    text-decoration: none;
+    width: 100%;
+  }
+  .fa-star{
+    color: rgb(255, 208, 0);
+  }
+  .custom-variant-size{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .custom-variant-size .custom-variant-size-button{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 30px;
+  }
+</style>
+
+
 
 {%- liquid
   assign attributes = attributes | default: ''
@@ -563,7 +604,7 @@
 
 {%- unless hidden_product -%}
   <div
-    class="grid-item product-item {{ swatches_class }} {{ alignment_class }} {{ overlay_text_class }} {{ quickview_class }} {{ product_card_class }}{% if modifier_class != '' %} {{ modifier_class }}{% endif %}"
+    class="custom-grid-item  grid-item product-item {{ swatches_class }} {{ alignment_class }} {{ overlay_text_class }} {{ quickview_class }} {{ product_card_class }}{% if modifier_class != '' %} {{ modifier_class }}{% endif %}"
     id="{{ item_unique }}"
     data-grid-item
     {{ attributes }}
@@ -689,6 +730,12 @@
       data-product-information
     >
       <div class="product-item__info {{ settings.product_grid_font_size }}">
+        {% if template.name == 'collection' %}
+          <div class="custom-button-display">
+            <a href="{{ product.url }}" class="custom-button">View Info</a>
+          </div>
+        {% endif %}
+        
         <a class="product-link" href="{{ product_url }}" data-product-link="{{ product_url }}">
           <p class="product-item__title">{{ product.title | strip_html | escape }}</p>
 
@@ -700,13 +747,7 @@
                 {%- assign style = '--text-light:' | append: cutline_color -%}
               {%- endunless -%}
 
-              <span
-                class="product-item__cutline"
-                data-product-cutline
-                {% if style != blank %}
-                  style="{{ style }}"
-                {% endif %}
-              >
+              <span class="product-item__cutline" data-product-cutline {% if style != blank %} style="{{ style }}" {% endif %}>
                 {{- product_item_cutline -}}
               </span>
             {%- endif -%}
@@ -714,7 +755,45 @@
             <div class="product-item__price" data-product-price>
               {%- render 'product-grid-price', product: product, current_variant: current_variant -%}
             </div>
+            {% if template.name == 'collection' %}
+              <div class="product-review">
+                <span class="review-stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+                <span class="review-count">(5)</span>
+              </div>
+
+              {% if product.variants.size > 1 %}
+                <div class="custom-variant-size">
+                  {%- for variant in product.variants limit:4 -%}
+                    {% if variant.id %}
+                      <script>
+                        {{ variant.options |json}}
+                      </script>
+
+                      <a href="{{ product.url }}?variant={{ variant.id }}" class="custom-variant-size-button">
+                        {{ variant.option2 }} {{ variant.option1 }}
+                      </a>
+
+                    {% endif %}
+                  {%- endfor -%}
+              
+                  {% if product.variants.size > 4 %}
+                    <a href="{{ product.url }}">
+                      +{{ product.variants.size | minus: 4 }} available
+                    </a>
+                  {% endif %}
+                </div>
+              {% endif %}
+              
+              
+            {% endif %}
           </div>
+
         </a>
 
         {%- if siblings_html != blank -%}

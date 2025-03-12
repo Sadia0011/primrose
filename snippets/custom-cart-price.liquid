@@ -1,3 +1,13 @@
+<style>
+    .custoom-cart-price-total{
+        background-color: #f9f8f6;
+        padding: .825rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+</style>
+
 {%- liquid
   assign subtotal = cart.total_price | plus: 0
   assign cart_discount_size = cart.cart_level_discount_applications.size
@@ -65,8 +75,8 @@
   </div>
 {%- endunless -%}
 
-<div class="cart__total">
-  <span class="cart__total__label">{{- 'cart.general.subtotal' | t -}}</span>
+<div class="custoom-cart-price-total cart__total">
+  <span class="cart__total__label">Total <span style="font-size: 10px;text-transform: lowercase;color: gray;"> (excl. delivery)</span></span>
 
   <span class="cart__total__price cart__total__price--animated" data-cart-total="{{ subtotal }}">
     {%- if subtotal == 0 -%}

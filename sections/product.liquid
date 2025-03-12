@@ -1,5 +1,16 @@
 <!-- /sections/product.liquid -->
-
+<style>
+  .breadcrumb_container{
+    padding: 19px 0 10px;
+    list-style: none;
+    margin-bottom: 0;
+    min-height: 53px;
+    max-height: 100px;
+    overflow: hidden;
+    font-size: .875rem;
+    font-weight: 600;
+  }
+</style>
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
   assign product_sticky_enable = section.settings.product_sticky_enable
@@ -143,7 +154,28 @@
   {% endif %}
 >
   <{{ wrapper_tag }} class="product__wrapper {{ product_wrapper_modifier }}" data-product>
+  <script>
+        console.log("my product details================", {{ product.collections | json }});
+
+        setTimeout(()=>{
+            const collections = {{ product.collections | json }};
+            const matchingCollection = collections.find((col) => {
+            const formattedTitle = col.title.toLowerCase().replace(/\s+/g, '-'); 
+            return col.handle === formattedTitle;
+        });
+            const breadcrumb = document.getElementById("dynamic-collection-title");
+            breadcrumb.innerHTML = `<a href="/collections/${matchingCollection.handle}">${matchingCollection.title}</a>`;
+            console.log(breadcrumb)
+        },10)
+
+   </script>
+    
     <div class="product__wrapper__inner">
+      <div class="breadcrumb_container"> 
+      <span><a href="/">Home</a>></span>
+      <span id="dynamic-collection-title"></span>
+      <span> <a href="{{ product.url }}"> > {{ product.title }} </a></span> 
+    </div>
       <div class="product__page">
         <product-images
           class="{{ product_images_classlist }}"
@@ -358,6 +390,15 @@
                       product_form_id: product_form_id,
                       enable_size_chart: true
                     -%}
+                     {% elsif product.template_suffix == "awning-product"  %}
+                      {%- render 'awning-varient-options',
+                      product: product,
+                      unique: unique,
+                      block: block,
+                      block_style: block_style,
+                      product_form_id: product_form_id,
+                      enable_size_chart: true
+                    -%}
                     {% else %}
                     {%- render 'product-variant-options',
                         product: product,
@@ -525,13 +566,16 @@
                     </div>
 
                   {%- when 'siblings' -%}
-                    {%- render 'product-siblings',
+                      {%- render 'product-siblings',
                       product: product,
                       product_form_id: product_form_id,
                       block: block,
                       block_style: block_style,
                       quick_add_product: false
                     -%}
+                    
+                    
+                    
 
                   {%- when 'text' -%}
                     {%- render 'product-block-text', block: block, block_style: block_style -%}

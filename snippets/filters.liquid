@@ -1,3 +1,31 @@
+<style>
+  .custom-out-of-stock {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 1.5rem;
+  }
+
+  .toggle-container {
+    display: flex;
+    border-radius: 8px;
+  }
+
+  .toggle-option {
+    text-decoration: none;
+    padding: 5px ;
+    transition: background 0.3s ease;
+  }
+
+  .toggle-option.active {
+    background: #e5e5e5;
+  }
+
+  .toggle-option:hover {
+    background: #ddd;
+  }
+</style>
+
 {%- liquid
   assign filters_default = search.filters | default: collection.filters
   assign default_open = section.settings.default_open
@@ -11,7 +39,25 @@
     endcase
   endcapture
 -%}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleOptions = document.querySelectorAll(".toggle-option");
 
+    toggleOptions.forEach(option => {
+      option.addEventListener("click", function (event) {
+        toggleOptions.forEach(btn => btn.classList.remove("active"));
+        this.classList.add("active");
+      });
+    });
+  });
+</script>
+<div class="custom-out-of-stock">
+  <span>Out of stock items</span>
+  <div class="toggle-container">
+    <a href="{{ collection.url }}" class="toggle-option active">Show</a>
+    <a href="{{ collection.url }}?filter.v.availability=1" class="toggle-option">Hide</a>
+  </div>
+</div>
 <collapsible-elements>
   <form data-collection-filters-form class="collection__filters" id="{{ section.id }}-form-filter">
     {%- if template.name == 'search' and search.terms -%}
