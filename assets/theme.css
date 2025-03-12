@@ -21522,7 +21522,7 @@ map-component {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    min-width: 100%;
+    /* min-width: 100%; */
   }
 }
 .supporting-menu__copyright li {
