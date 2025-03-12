@@ -9,6 +9,58 @@
  */
 {
   "sections": {
+    "section_announcement_GdtzCF": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_QN6gkE": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Rated Excellent</strong></p>",
+            "text_font_size": "body-small",
+            "color": "#0d647c",
+            "target_device_enabled": true,
+            "target_device": "mobile"
+          }
+        },
+        "text_w7Lr78": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>1 year Warranty</strong></p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_7j3xMR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join Our Gardening Club</p>",
+            "text_font_size": "body-small",
+            "color": "",
+            "target_device_enabled": true,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_QN6gkE",
+        "text_w7Lr78",
+        "text_7j3xMR"
+      ],
+      "settings": {
+        "slider_speed": 5,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 10,
+        "show_border": false,
+        "layout": "slider",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_hero_48r6qx": {
       "type": "section-hero",
       "blocks": {
@@ -405,6 +457,7 @@
     }
   },
   "order": [
+    "section_announcement_GdtzCF",
     "section_hero_48r6qx",
     "collection_grid_with_title_KKWFaH",
     "collection_grid_with_title_8P9VTg",
