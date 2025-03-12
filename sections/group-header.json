@@ -202,7 +202,7 @@
       "type": "section-custom-code",
       "custom_css": [
         ".logo-bar {background-color: #e8eaed; width: 100%; padding: auto 15px; display: grid; grid-template-columns: repeat(3, 1fr);}",
-        ".feefo-item,.warannty-item,.club-item {display: flex; align-items: center; justify-content: center; gap:5px;}",
+        ".feefo-item,.warannty-item,.club-item {display: flex; align-items: center; justify-content: center; gap: 5px;}",
         ".feefo-item,.warannty-item {border-right: 2px solid #b4b4b4;}",
         ".feefo-rating-text {color: #319a46;}",
         ".feefo-item p {font-size: 0.875rem; font-weight: 600;}",
