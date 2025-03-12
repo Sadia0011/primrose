@@ -28,7 +28,7 @@
             "text": "<p><strong>1 year Warranty</strong></p>",
             "text_font_size": "body-small",
             "color": "",
-            "target_device_enabled": false,
+            "target_device_enabled": true,
             "target_device": "mobile"
           }
         },
