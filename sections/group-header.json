@@ -125,7 +125,7 @@
             "aspect_ratio": 0.5,
             "wide_image": true,
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "title": "",
             "heading_font_size": "heading-medium",
             "link_text": "",
@@ -142,7 +142,7 @@
             "aspect_ratio": 0.5,
             "wide_image": true,
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "title": "",
             "heading_font_size": "heading-medium",
             "link_text": "",
@@ -205,8 +205,9 @@
         ".feefo-item,.warannty-item,.club-item {display: flex; align-items: center; justify-content: center;}",
         ".feefo-item,.warannty-item {border-right: 2px solid #b4b4b4;}",
         ".feefo-rating-text {color: #319a46;}",
-        ".feefo-item p {font-size: 0.875rem; height: 46px; line-height: 46px; font-weight: 600; margin: 0; text-align: center;}",
-        ".warannty-item p,.club-item p {color: black;}"
+        ".feefo-item p {font-size: 0.875rem; font-weight: 600;}",
+        ".warannty-item p,.club-item p {color: black;}",
+        "@media only screen and (max-width: 512px) {}"
       ],
       "settings": {
         "code": "<div class=\"logo-bar\">\n<div class=\"feefo-item\">\n<img width=\"70\" height=\"17\" src=\"https://register.feefo.com/feefo-widget-v2/js/8e073a5e15c91cfbd7ee.svg\" alt=\"feefo logo yellow\" style=\"opacity: 1;\">\n<p>Rated <span class=\"feefo-rating-text\">Excellent</span></p>\n</div>\n\n\n<div class=\"warannty-item\">\n<img width=\"32\" height=\"28\" src=\"https://img.crocdn.co.uk/lib/images/affiliates/primrose/overlays/warranty.svg\" alt=\"warannty-item logo\" style=\"opacity: 1;\">\n<p>1 Year Warranty</p>\n</div>\n\n\n<div class=\"club-item\">\n<img width=\"26\" height=\"26\" src=\"https://img.crocdn.co.uk/lib/images/affiliates/primrose/overlays/gardening-club.svg\" alt=\"club-item logo \" style=\"opacity: 1;\">\n<p>Join Our Gardening Club</p>\n</div>\n</div>",
