@@ -106,7 +106,7 @@
           "settings": {
             "default_open": false,
             "title": "Overview",
-            "content": "<p>{{ product.metafields.custom.overview | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.custom.description_meta | metafield_tag }}</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -118,7 +118,7 @@
           "settings": {
             "default_open": false,
             "title": "Specifications",
-            "content": "<p>{{ product.metafields.custom.specifications | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.custom.specification_table | metafield_tag }}</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
