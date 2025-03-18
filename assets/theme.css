@@ -24547,3 +24547,35 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
+/*specification  table */
+.product-specification {
+  background: #dddddd;
+  border: .1rem solid #ededed;
+  border-collapse: collapse;
+  color: #323c41;
+  width: 100%;
+}
+ 
+.product-specification td,
+.product-specification th {
+ 
+  border: none;
+  padding: .8rem 1.6rem;
+  text-align: left;
+  vertical-align: top;
+  width: 50%;
+  word-break: break-word;
+}
+ 
+.product-specification td {
+  font-weight: 400;
+  padding-left: .3rem;
+}
+ 
+th {
+  padding-right: .3rem;
+}
+ 
+.product-specification tr:nth-child(even) {
+  background-color: white;
+}
