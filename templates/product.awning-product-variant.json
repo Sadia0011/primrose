@@ -1,0 +1,243 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "template": {
+      "type": "product",
+      "blocks": {
+        "title_paM7Ud": {
+          "type": "title",
+          "settings": {
+            "subheading_option": "none",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 8
+          }
+        },
+        "price_8Ucwzp": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "sku_8npEMU": {
+          "type": "sku",
+          "settings": {
+            "padding_bottom": 16
+          }
+        },
+        "variants_jcpWx4": {
+          "type": "variants",
+          "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons_bVrYhk": {
+          "type": "buttons",
+          "settings": {
+            "show_quantity": true,
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_payment_button": false,
+            "button_type_dynamic": "btn--secondary",
+            "button_style_dynamic": "btn--solid",
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
+          }
+        },
+        "upsell_DYjkTU": {
+          "type": "upsell",
+          "settings": {
+            "upsell_product": "",
+            "upsell_product_list": "{{ block.settings.upsell_product.metafields.theme.upsell_list.value }}",
+            "show_available_upsell_only": false,
+            "layout": "slider",
+            "autoplay": true,
+            "autoplay_speed": 5,
+            "bg_color": "",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "title_paM7Ud",
+        "price_8Ucwzp",
+        "sku_8npEMU",
+        "variants_jcpWx4",
+        "buttons_bVrYhk",
+        "upsell_DYjkTU"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "variant_image_scroll": true,
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "image_layout": "thumbnails",
+        "image_size": "normal",
+        "mobile_image_style": "slider",
+        "color_scheme": "",
+        "padding_top": 90,
+        "padding_bottom": 30
+      }
+    },
+    "section_accordion_group_pcJJph": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_nNBTXX": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "question_M6nWjC": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Overview",
+            "content": "<p>{{ product.metafields.custom.overview | metafield_tag }}</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_J9bFXe": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Specifications",
+            "content": "<p>{{ product.metafields.custom.specifications | metafield_tag }}</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_RqhJKn": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Care guide",
+            "content": "<p>{{ product.metafields.custom.care_guide | metafield_tag }}</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_YbfttR": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Features",
+            "content": "<p>{{ product.metafields.custom.features | metafield_tag }}</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_c9ApFt": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Material details",
+            "content": "<p>{{ product.metafields.custom.material_details | metafield_tag }}</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_34U8F9": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "About Primrose",
+            "content": "<p>{{ product.metafields.custom.about_primrose | metafield_tag }}</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nNBTXX",
+        "question_M6nWjC",
+        "question_J9bFXe",
+        "question_RqhJKn",
+        "question_YbfttR",
+        "question_c9ApFt",
+        "question_34U8F9"
+      ],
+      "custom_css": [
+        "#AccordionGroup--template--24643298001271__section_accordion_group_pcJJph {border: \"1px solid black\";}"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "api_product_recommendation_WbGGcV": {
+      "type": "api-product-recommendation",
+      "disabled": true,
+      "settings": {}
+    },
+    "related_YbVzVD": {
+      "type": "related",
+      "blocks": {
+        "related_PNNRGM": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Related products",
+            "limit": 4
+          }
+        },
+        "recent_ReP3XB": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related_PNNRGM",
+        "recent_ReP3XB"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_font_size": "heading-small",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "template",
+    "section_accordion_group_pcJJph",
+    "api_product_recommendation_WbGGcV",
+    "related_YbVzVD"
+  ]
+}
