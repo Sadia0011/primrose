@@ -169,29 +169,48 @@
         "padding_bottom": 50
       }
     },
-    "section_recent_products_4WMGzR": {
-      "type": "section-recent-products",
+    "api_product_recommendation_NCyhdT": {
+      "type": "api-product-recommendation",
+      "disabled": true,
+      "settings": {}
+    },
+    "related_NyFzrC": {
+      "type": "related",
+      "blocks": {
+        "related_NGaQBw": {
+          "type": "related",
+          "settings": {
+            "product_recommendations_heading": "Related products",
+            "limit": 4
+          }
+        },
+        "recent_JzrpDG": {
+          "type": "recent",
+          "settings": {
+            "product_recently_heading": "Recently viewed",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related_NGaQBw",
+        "recent_JzrpDG"
+      ],
       "settings": {
-        "product_recently_limit": 6,
-        "product_recently_minimum": 3,
-        "product_recently_heading": "Recently viewed",
-        "heading_font_size": "heading-x-small",
+        "enable_tabs": true,
+        "heading_alignment": "text-center",
+        "heading_font_size": "heading-small",
         "layout_mobile": "slider",
         "color_scheme": "",
         "padding_top": 30,
-        "padding_bottom": 0,
-        "heading_tag": "automatic"
+        "padding_bottom": 0
       }
-    },
-    "api_product_recommendation_NCyhdT": {
-      "type": "api-product-recommendation",
-      "settings": {}
     }
   },
   "order": [
     "template",
     "section_accordion_group_pcJJph",
-    "section_recent_products_4WMGzR",
-    "api_product_recommendation_NCyhdT"
+    "api_product_recommendation_NCyhdT",
+    "related_NyFzrC"
   ]
 }
