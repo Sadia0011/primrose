@@ -48,9 +48,6 @@
     padding: 5px 24px;
     font-size: 16px;
     background-color: #f9f8f6;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     margin: 20px auto;
 }
@@ -89,10 +86,42 @@
     color: #000;
     border: 0;
 }
+.custom-mobile-search{
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+}
+.custom-basket .custom-basket-dropdown .cart__item .cart__item__content .cart__quantity-wrapper{
+  display: none;
+}
+.custom-popup {
+    background: #e2f2e0;
+    width: 280px;
+    text-align: center;
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+    padding: 20px;
+    display: block; 
+    opacity: 1;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease-in-out;
+}
+
 @media screen and (max-width: 1124px){
   a.advice {
     font-weight: 300;
     font-size: 12px;
+}
+}
+@media screen and (max-width: 1024px){
+  .custom-mobile-search{
+      display: flex;
 }
 }
 </style>
@@ -472,21 +501,6 @@
         </a>
       </div>
     {%- endif -%}
-    <div class="header__desktop__button">
-        <header-search-popdown>
-          <details>
-            <summary class="navlink navlink--search{% if show_icons == false %} navlink--toplevel{% endif %}" aria-haspopup="dialog" title="{{ 'general.search.search' | t }}">
-              {%- render 'icon-search-black' -%}
-              {%- render 'icon-cancel' -%}
-              <span class="{% if show_icons == false %}navtext{% else %}visually-hidden{% endif %}">{{ 'layout.header.search' | t }}</span>
-            </summary>
-
-            {%- render 'header-search-popdown', unique: 'desktop' -%}
-
-            <span class="underlay" data-popdown-underlay></span>
-          </details>
-        </header-search-popdown>
-      </div>
     <div class="header__mobile__button">
       <a href="{{ routes.cart_url }}" class="advice navlink {{ navlink_cart_classes }}" data-cart-toggle>
         {{ cart_status }} 
@@ -495,7 +509,7 @@
   </div>
 
   {%- if tertiary_menu_linklist != blank and linklists[tertiary_menu_linklist].links.size > 0 -%}
-    <div class="header__mobile__bottom">
+    <div class="header__mobile__botton">
       <nav class="header__mobile__nav{% if settings.type_nav_caps %} caps{% endif %}" data-mobile-nav>
         <div class="header__mobile__nav__scroller">
           {%- for link in linklists[tertiary_menu_linklist].links -%}
@@ -579,33 +593,32 @@
         <h2 class="custom-basket-dropdown-title">My Basket
             <cart-count class="cart__items-count" data-cart-count="{{ cart_item_count }}">
               {{- cart_item_count -}}
-            </cart-count>
+            </cart-count> 
           
         </h2>
-       <div id="cart-items-container">
-            {% if cart.item_count > 0 %}
-            
-                {% comment %} <div class="custom-dropdown-item"> {% endcomment %}
-                      {% comment %} <img src="{{ item.image | img_url: '200x' }}" alt="{{ item.title }}">
-                      <div>
-                        <p>{{ item.product.title }}</p><span>{{ item.variant.title }}</span>
-                        <p>{{ item.final_line_price | money }}</p> 
-                      </div>          {% endcomment %}
-                      {% comment %} {%- render 'cart-line-items', part: 'line-items' -%} {% endcomment %}
-                  {% comment %} </div>  {% endcomment %}
-                  <div class="drawer__items" data-items-holder style="--base-animation-delay: {{ animation_delay }}ms">
-                    {%- render 'cart-line-items', part: 'line-items' -%}
-                  </div> 
-              
-            {% endif %}
-       </div>
+        <div id="cart-items-container">
+          {% if cart.item_count > 0 %}
+            {% for item in cart.items %}
+              <div data-item="{{ item.key }}" class="custom-dropdown-item">
+                <img src="{{ item.image | img_url: '200x' }}" alt="{{ item.title }}">
+                <div>
+                  <p>{{ item.product.title }}</p><span>{{ item.variant.title }}</span>
+                  <p>{{ item.final_line_price | money }}</p> 
+                </div>  
+              </div> 
+            {% endfor %}
+          {% else %}
+            <p>Your cart is empty.</p>
+          {% endif %}
+        </div>
+        
       
       <div>
-        <h3 class="custom-basket-dropdown-total">Total  <span>{{ cart.total_price | money }}</span></h3>
+        <h3 class="custom-basket-dropdown-total">{% render 'cart-price' %}</h3>
       </div>
       <div class="drop-down-buttons">
-        <a class="dropdown-viewall" href="{{ routes.cart_url }}""> view all</a>
-        <a class="dropdown-checkout" href="{{ routes.cart_url }}""> CheckOut</a>
+        <a class="dropdown-viewall" href="{{ routes.cart_url }}"> View All</a>
+        <a class="dropdown-checkout" href="{{ routes.cart_url }}"> CheckOut</a>
       </div>
       
         
@@ -615,22 +628,8 @@
     
 {%- endcapture -%}
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    function updateBasket() {
-      {{ cart_items }}
-     
-    }
-
-    const observer = new MutationObserver((t)=>{
-      console.log("its changing")
-      updateBasket()
-    });
-    const targetNode = document.querySelector(".custom-basket-dropdown");
-
-    if (targetNode) {
-      observer.observe(targetNode, { childList: true, subtree: true });
-    }
-  });
+  
+    
 </script>
 {%- capture menu -%}
   <nav class="custom__header__menu header__menu{% if settings.type_nav_caps %} caps{% endif %}" {{ highlight_style }}>
@@ -783,7 +782,7 @@
       <div class="header__mobile">
         {{ minimal }}
       </div>
-
+      <div class="custom-mobile-search header__desktop__bar__c">{%- render 'search-button' -%}</div>
       <div class="header__desktop" data-header-desktop>
         {%- case section.settings.header_style -%}
           {%- when 'logo_beside' -%}

@@ -239,7 +239,7 @@
               </button>
             </div>
 
-            <a class="cart__item__remove"
+            <a class="{% if condition %}  {% endif %}cart__item__remove"
               href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0"
               data-item-remove
               data-id="{{ line_item.key }}"

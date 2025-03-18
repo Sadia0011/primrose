@@ -318,7 +318,7 @@
                     <div class="cart__message cart__message--custom" style="{{ style }}">
                       {{ block.settings.cart_custom_message_text }}
                     </div>
-                    <div
+                    {% comment %} <div
                     class="cart__price__holder "
                     data-cart-price-holder
                     data-animation="{{ animation_name }}"
@@ -328,7 +328,7 @@
                   
                     {%- render 'custom-cart-price' -%}
                     {%- assign animation_delay = animation_delay | plus: animation_delay_increment -%}
-                  </div>
+                  </div> {% endcomment %}
                   {%- when 'upsell-products' -%}
                     {%- render 'cart-block-upsell', block: block -%}
 

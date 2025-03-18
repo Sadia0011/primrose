@@ -1,5 +1,8 @@
 <style>
-  .product-variants-table>tr{
+  .product-variants-table tbody tr td{
+    border-bottom: none;
+  }
+  .product-variants-table tbody tr{
    border-bottom: 1px solid #dfe0dc;
   }
 </style>
@@ -541,3 +544,25 @@
 {%- endif -%}
 
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const variantInputs = document.querySelectorAll('input[name="id"]');
+    const skuElement = document.querySelector(".product__sku");
+
+    function updateSKU() {
+      const selectedVariant = document.querySelector('input[name="id"]:checked');
+      if (selectedVariant) {
+        const selectedRow = selectedVariant.closest("tr");
+        const sku = selectedRow.getAttribute("data-variant-sku");
+        document.querySelector(".product__sku").textContent = "SKU: " + sku;
+      }
+    }
+
+    variantInputs.forEach(input => {
+      input.addEventListener("change", updateSKU);
+    });
+
+    
+    updateSKU();
+  });
+</script>
