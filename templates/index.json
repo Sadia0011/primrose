@@ -142,7 +142,7 @@
           "type": "collection",
           "settings": {
             "collection": "sail-shades",
-            "image_1": "shopify://shop_images/pr0000001278.jpg",
+            "image_1": "shopify://shop_images/pr0000060341_card5_lg.jpg",
             "collection_name": "Sail Shade"
           }
         }
@@ -226,7 +226,7 @@
             "text": "<p>Updating your garden boundary is the first job you need to do when setting out to transform your garden. Whether you’re looking to create privacy, enhance your garden’s style, or improve the overall flow of the space.</p>",
             "text_font_size": "body-small",
             "button_text": "Shop Fencing",
-            "button_url": "shopify://collections/planters",
+            "button_url": "shopify://collections/garden-furniture",
             "button_type": "btn--primary",
             "button_size": "btn--small",
             "button_style": "btn--solid",
