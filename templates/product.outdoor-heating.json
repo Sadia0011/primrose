@@ -50,11 +50,7 @@
           "type": "upsell",
           "settings": {
             "upsell_product": "",
-            "upsell_product_list": [
-              "1-5kw-ip34-infrared-hanging-patio-heater-in-stainless-steel-by-heatlab®",
-              "1-8kw-ipx4-wall-mounted-infrared-patio-heater-with-3-power-settings-by-heatlab®",
-              "dust-and-rain-heater-cover-for-ol3459-ol3461-ol3802-by-heatlab®"
-            ],
+            "upsell_product_list": "{{ block.settings.upsell_product.metafields.theme.upsell_list.value }}",
             "show_available_upsell_only": true,
             "layout": "slider",
             "autoplay": true,
@@ -123,7 +119,7 @@
           "settings": {
             "default_open": false,
             "title": "Features",
-            "content": "<p>{{ product.metafields.custom.features | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.features | metafield_tag }}",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
