@@ -380,6 +380,19 @@
                       block_style: block_style
                     -%}
  <div>dhfgsdgjhfksdjfkjsd</div>
+                  {%  if product.template_suffix == "awning-product" %}                  
+                    {% if product.metafields.custom.size_meta %}
+                      <span class="radio__legend__label">Size: </span>
+                      <div class="meta-size-container">
+                      {% for product in product.metafields.custom.size_meta.value  %}
+                        {% assign title_parts = product.title | split: " " %}
+                        {% assign size_from_title = title_parts[0] %}  
+                        {% assign full_url = request.host | append: request.path %}
+                        <a class="single-size {% if full_url contains product.url %} selected {% endif %}" href="{{ product.url }}" > {{ size_from_title }}</a>
+                      {% endfor %}
+                      </div>
+                    {% endif %}                  
+                  {% endif %}    
                   {%- when 'variants' -%}
                     {% if product.template_suffix == "sailshades-product" %}
                       {%- render 'sail-shade-variant-option',
@@ -410,19 +423,7 @@
                     -%}
                     {% endif %}
                
-                 {%  if product.template_suffix == "awning-product" %}                  
-                    {% if product.metafields.custom.size_meta %}
-                      <span class="radio__legend__label">Size: </span>
-                      <div class="meta-size-container">
-                      {% for product in product.metafields.custom.size_meta.value  %}
-                        {% assign title_parts = product.title | split: " " %}
-                        {% assign size_from_title = title_parts[0] %}  
-                        {% assign full_url = request.host | append: request.path %}
-                        <a class="single-size {% if full_url contains product.url %} selected {% endif %}" href="{{ product.url }}" > {{ size_from_title }}</a>
-                      {% endfor %}
-                      </div>
-                    {% endif %}                  
-                  {% endif %}    
+                 
                   
                   {%- when 'buttons' -%}
                     {%- render 'product-buttons',
