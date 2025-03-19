@@ -79,51 +79,6 @@
         "show_placeholder": true
       }
     },
-    "section_tab_collections_jTFKLr": {
-      "type": "section-tab-collections",
-      "blocks": {
-        "collection_yhEfpX": {
-          "type": "collection",
-          "settings": {
-            "title": "Second collection",
-            "featured_collection": "planters",
-            "show_image": false,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "",
-            "description": "",
-            "color": "",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "collection_yhEfpX"
-      ],
-      "settings": {
-        "show_product_count": false,
-        "width": "wrapper--full-padded",
-        "title": "Bestsellers",
-        "heading_font_size": "heading-medium",
-        "text": "",
-        "text_font_size": "body-medium",
-        "layout": "stacked",
-        "layout_desktop": "slider",
-        "layout_mobile": "slider",
-        "product_limit": 6,
-        "grid": 4,
-        "rows": 3,
-        "color_scheme": "",
-        "padding_top": 32,
-        "padding_bottom": 32,
-        "heading_tag": "automatic"
-      }
-    },
     "section_columns_Dty9NP": {
       "type": "section-columns",
       "blocks": {
@@ -705,7 +660,6 @@
   "order": [
     "main",
     "section_hero_8pYBpp",
-    "section_tab_collections_jTFKLr",
     "section_columns_Dty9NP",
     "collection_grid_with_title_D6GnMe",
     "section_collections_list_r3cRLa",
