@@ -22,7 +22,6 @@
         },
         "price_8Ucwzp": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "text_font_size": "body-medium",
             "padding_bottom": 16
@@ -36,6 +35,7 @@
         },
         "variants_jcpWx4": {
           "type": "variants",
+          "disabled": true,
           "settings": {
             "info_page": "",
             "size_chart_style": "text",
@@ -68,24 +68,6 @@
             "bg_color": "",
             "padding_bottom": 16
           }
-        },
-        "tab_richtext_pLDHpn": {
-          "type": "tab_richtext",
-          "settings": {
-            "show_description": true,
-            "show_read_more": false,
-            "title_1": "Tab",
-            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
-            "title_2": "Info",
-            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.</p>",
-            "title_3": "",
-            "raw_content_3": "",
-            "title_4": "",
-            "raw_content_4": "",
-            "title_5": "",
-            "raw_content_5": "",
-            "padding_bottom": 0
-          }
         }
       },
       "block_order": [
@@ -94,8 +76,7 @@
         "sku_8npEMU",
         "variants_jcpWx4",
         "buttons_bVrYhk",
-        "upsell_DYjkTU",
-        "tab_richtext_pLDHpn"
+        "upsell_DYjkTU"
       ],
       "settings": {
         "product_sticky_enable": true,
@@ -103,7 +84,7 @@
         "show_cart_bar": true,
         "enable_zoom": true,
         "enable_video_looping": false,
-        "image_layout": "thumbnails",
+        "image_layout": "stacked",
         "image_size": "normal",
         "mobile_image_style": "slider",
         "color_scheme": "",
@@ -137,7 +118,7 @@
           "settings": {
             "default_open": false,
             "title": "Specifications",
-            "content": "<p>{{ product.metafields.custom.specification_table | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.des_technical_specification_meta | metafield_tag }}",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -202,7 +183,6 @@
         "question_c9ApFt",
         "question_34U8F9"
       ],
-      "disabled": true,
       "custom_css": [
         "#AccordionGroup--template--24643298001271__section_accordion_group_pcJJph {border: \"1px solid black\";}"
       ],
