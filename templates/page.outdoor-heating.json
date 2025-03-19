@@ -184,6 +184,7 @@
         "collection_xaBTKW",
         "collection_EUktKR"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_font_size": "heading-medium",
