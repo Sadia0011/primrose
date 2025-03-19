@@ -102,6 +102,18 @@
             "icon_color": ""
           }
         },
+        "question_GhGpRC": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Specifications",
+            "content": "{{ product.metafields.custom.des_technical_specification_meta | metafield_tag }}",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
         "question_CzwigV": {
           "type": "question",
           "settings": {
@@ -130,6 +142,7 @@
       "block_order": [
         "heading_nNBTXX",
         "question_M6nWjC",
+        "question_GhGpRC",
         "question_CzwigV",
         "question_34U8F9"
       ],

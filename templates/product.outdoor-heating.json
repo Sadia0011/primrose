@@ -111,7 +111,7 @@
           "settings": {
             "default_open": false,
             "title": "Specifications",
-            "content": "<p>{{ product.metafields.custom.specifications | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.des_technical_specification_meta | metafield_tag }}",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -124,18 +124,6 @@
             "default_open": false,
             "title": "Features",
             "content": "<p>{{ product.metafields.custom.features | metafield_tag }}</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "question_c9ApFt": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "Material details",
-            "content": "<p>{{ product.metafields.custom.material_details | metafield_tag }}</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -160,7 +148,6 @@
         "question_M6nWjC",
         "question_J9bFXe",
         "question_id48BU",
-        "question_c9ApFt",
         "question_34U8F9"
       ],
       "custom_css": [

@@ -117,7 +117,7 @@
           "settings": {
             "default_open": false,
             "title": "Specifications",
-            "content": "<p>{{ product.metafields.custom.specifications | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.des_technical_specification_meta | metafield_tag }}",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -129,7 +129,7 @@
           "settings": {
             "default_open": false,
             "title": "Features",
-            "content": "<p>{{ product.metafields.custom.features | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.features | metafield_tag }}",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
