@@ -106,7 +106,7 @@
           "settings": {
             "default_open": false,
             "title": "Overview",
-            "content": "<p>{{ product.metafields.custom.description_meta | metafield_tag }}</p>",
+            "content": "{{ product.description }}",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
