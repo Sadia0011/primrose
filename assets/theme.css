@@ -24597,13 +24597,13 @@ body.has-header-sticky .timeline {
   justify-content: center;
   align-items: center;
   padding: 14px 0px 14px 0px;
-  border: 1px solid var(--primrose-heading-color);
+  border: 1px solid #0D647C;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
 }
 .single-size.selected{
-  background: var(--primrose-heading-color);
+  background: #0D647C;
   color: #ffffff;
 }
