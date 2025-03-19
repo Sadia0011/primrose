@@ -114,54 +114,6 @@
             "icon_color": ""
           }
         },
-        "question_DiMi8N": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "Features",
-            "content": "<p>{{ product.metafields.custom.features | metafield_tag }}</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "question_c9ApFt": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "Material details",
-            "content": "<p>{{ product.metafields.custom.material_details | metafield_tag }}</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "question_WCqQhk": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "Installation",
-            "content": "<p>{{ product.metafields.custom.installation | metafield_tag }}</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "question_JG9wEX": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "Care guide",
-            "content": "<p>{{ product.metafields.custom.care_guide | metafield_tag }}</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
         "question_34U8F9": {
           "type": "question",
           "settings": {
@@ -179,10 +131,6 @@
         "heading_nNBTXX",
         "question_M6nWjC",
         "question_J9bFXe",
-        "question_DiMi8N",
-        "question_c9ApFt",
-        "question_WCqQhk",
-        "question_JG9wEX",
         "question_34U8F9"
       ],
       "custom_css": [
