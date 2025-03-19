@@ -213,7 +213,7 @@
         "image_qbLHEF"
       ],
       "settings": {
-        "title": "Collection list",
+        "title": "",
         "subtitle": "",
         "heading_font_size": "heading-medium",
         "align_heading": "text-center",
@@ -271,6 +271,161 @@
         "color_scheme": "",
         "padding_top": 32,
         "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_columns_N7b4Er": {
+      "type": "section-columns",
+      "blocks": {
+        "image_mXxET4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/awningtype1.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Standard",
+            "button_url": "https://primrose-main.myshopify.com/collections/awnings?filter.p.m.custom.awning_type=Standard",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.5,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_ahebKw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/awningtype2.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Full Cassette",
+            "button_url": "https://primrose-main.myshopify.com/collections/awnings?filter.p.m.custom.awning_type=Full+Cassette",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.5,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_kGP7ME": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/awningtype3.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Half Cassette",
+            "button_url": "https://primrose-main.myshopify.com/collections/awnings?filter.p.m.custom.awning_type=Half+Cassette",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.5,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_xQRbHV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/awningtype4.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Budget",
+            "button_url": "https://primrose-main.myshopify.com/collections/awnings?filter.p.m.custom.awning_type=Budget",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.5,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_Hr6Yrj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/awningtype5.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Drop Arm",
+            "button_url": "https://primrose-main.myshopify.com/collections/awnings?filter.p.m.custom.awning_type=Drop+Arm",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.5,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_mzcM7C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/awningtype7.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Free Standing",
+            "button_url": "https://primrose-main.myshopify.com/collections/awnings?filter.p.m.custom.awning_type=Balcony",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.5,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_mXxET4",
+        "image_ahebKw",
+        "image_kGP7ME",
+        "image_xQRbHV",
+        "image_Hr6Yrj",
+        "image_mzcM7C"
+      ],
+      "settings": {
+        "title": "Shop by type",
+        "subtitle": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 6,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
         "heading_tag": "automatic"
       }
     },
@@ -352,6 +507,7 @@
         "collection_jciGdy",
         "collection_CYyHUd"
       ],
+      "disabled": true,
       "settings": {
         "title": "Shop by type",
         "heading_font_size": "heading-medium",
@@ -654,6 +810,7 @@
     "section_text_row_qr79hn",
     "section_columns_C9tAPy",
     "section_tab_collections_TC7pxT",
+    "section_columns_N7b4Er",
     "section_collections_list_iQWYTC",
     "section_collections_list_AdWBhf",
     "section_accordion_group_HexGe8",
