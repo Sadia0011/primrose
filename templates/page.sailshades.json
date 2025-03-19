@@ -172,67 +172,114 @@
         "heading_tag": "automatic"
       }
     },
-    "section_collections_list_itpjML": {
-      "type": "section-collections-list",
+    "section_columns_iqYFDF": {
+      "type": "section-columns",
       "blocks": {
-        "collection_3UY74X": {
-          "type": "collection",
+        "image_maGRyc": {
+          "type": "image",
           "settings": {
-            "collection": "sail-shades",
-            "collection_image": "shopify://shop_images/sail_category_1.jpg",
-            "title": "Rectangle"
+            "image": "shopify://shop_images/sail_category_1.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Rectangle",
+            "button_url": "https://primrose-main.myshopify.com/collections/sail-shades?filter.v.option.shape=Rectangle",
+            "button_type": "btn--primary",
+            "button_size": "btn--small",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
           }
         },
-        "collection_Xg7YK9": {
-          "type": "collection",
+        "image_yLzrc4": {
+          "type": "image",
           "settings": {
-            "collection": "sail-shades",
-            "collection_image": "shopify://shop_images/sail_category_2.jpg",
-            "title": "Square"
+            "image": "shopify://shop_images/sail_category_2.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Square",
+            "button_url": "https://primrose-main.myshopify.com/collections/sail-shades?filter.v.option.shape=Square",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
           }
         },
-        "collection_b7VghT": {
-          "type": "collection",
+        "image_KjXhhe": {
+          "type": "image",
           "settings": {
-            "collection": "sail-shades",
-            "collection_image": "shopify://shop_images/sail_category_3.jpg",
-            "title": "Triangle"
+            "image": "shopify://shop_images/sail_category_3.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Triangle",
+            "button_url": "https://primrose-main.myshopify.com/collections/sail-shades?filter.v.option.shape=Triangle",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
           }
         },
-        "collection_hgpgqa": {
-          "type": "collection",
+        "image_3J8W3j": {
+          "type": "image",
           "settings": {
-            "collection": "sail-shades",
-            "collection_image": "shopify://shop_images/sail_category_4.jpg",
-            "title": "Right Angle Triangle"
+            "image": "shopify://shop_images/sail_category_4.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "Right Angle",
+            "button_url": "https://primrose-main.myshopify.com/collections/sail-shades?filter.v.option.shape=Right-angled+triangle",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
           }
         }
       },
       "block_order": [
-        "collection_3UY74X",
-        "collection_Xg7YK9",
-        "collection_b7VghT",
-        "collection_hgpgqa"
+        "image_maGRyc",
+        "image_yLzrc4",
+        "image_KjXhhe",
+        "image_3J8W3j"
       ],
       "settings": {
         "title": "Shop our popular categories",
+        "subtitle": "",
         "heading_font_size": "heading-medium",
-        "description": "",
-        "text_font_size": "body-medium",
-        "button_text": "",
-        "button_url": "shopify://collections",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "aspect_ratio": 1,
+        "align_heading": "text-center",
+        "align_text": "text-center",
         "width": "wrapper--full-padded",
+        "align_columns": "flex-align-center",
         "layout": "grid",
         "grid": 4,
         "layout_mobile": "slider",
         "color_scheme": "",
-        "padding_top": 32,
-        "padding_bottom": 32,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "heading_tag": "automatic"
       }
     },
@@ -714,7 +761,7 @@
     "section_hero_FnAmwx",
     "collection_grid_with_title_JaF4Qd",
     "section_tab_collections_HANXff",
-    "section_collections_list_itpjML",
+    "section_columns_iqYFDF",
     "section_double_M3PAyK",
     "section_double_epVCrK",
     "section_collections_list_MD6gdR",
