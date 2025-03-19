@@ -345,7 +345,7 @@
           "type": "button",
           "settings": {
             "link_text": "Shop Offer",
-            "link": "shopify://collections/all",
+            "link": "https://primrose-main.myshopify.com/products/hadleigh-4-seater-garden-dining-furniture-set-in-navy-by-hectare%C2%AE-copy",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
