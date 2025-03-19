@@ -130,7 +130,7 @@
           "settings": {
             "default_open": false,
             "title": "Features",
-            "content": "{{ product.metafields.custom.des_installation_meta | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.features | metafield_tag }}</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -143,6 +143,18 @@
             "default_open": false,
             "title": "Material details",
             "content": "<p>{{ product.metafields.custom.material_details | metafield_tag }}</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_ck6wKV": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Installation",
+            "content": "{{ product.metafields.custom.des_installation_meta | metafield_tag }}",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -168,6 +180,7 @@
         "question_J9bFXe",
         "question_YbfttR",
         "question_c9ApFt",
+        "question_ck6wKV",
         "question_34U8F9"
       ],
       "custom_css": [
