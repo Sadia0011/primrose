@@ -85,7 +85,7 @@
         "collection_9QRKhj": {
           "type": "collection",
           "settings": {
-            "collection": "sail-shades",
+            "collection": "water-resistant",
             "image_1": "shopify://shop_images/sail_1.jpg",
             "collection_name": ""
           }
@@ -93,7 +93,7 @@
         "collection_xTQfHx": {
           "type": "collection",
           "settings": {
-            "collection": "sail-shades",
+            "collection": "waterproof-premium",
             "image_1": "shopify://shop_images/sail2.jpg",
             "collection_name": ""
           }
@@ -101,7 +101,7 @@
         "collection_9Q6k36": {
           "type": "collection",
           "settings": {
-            "collection": "sail-shades",
+            "collection": "breathable-standard",
             "image_1": "shopify://shop_images/sail3.jpg",
             "collection_name": ""
           }
@@ -109,7 +109,7 @@
         "collection_4myPRM": {
           "type": "collection",
           "settings": {
-            "collection": "sail-shades",
+            "collection": "breathable-premium",
             "image_1": "shopify://shop_images/sail4.jpg",
             "collection_name": ""
           }
