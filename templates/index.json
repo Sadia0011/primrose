@@ -285,7 +285,7 @@
           "type": "collection",
           "settings": {
             "title": "First collection",
-            "featured_collection": "planters",
+            "featured_collection": "awnings",
             "show_image": false,
             "align_with_product_images": false,
             "overlay_opacity": 0,
