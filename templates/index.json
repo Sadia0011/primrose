@@ -80,7 +80,7 @@
           "type": "button",
           "settings": {
             "link_text": "Discover Landscaping",
-            "link": "shopify://collections",
+            "link": "shopify://collections/sail-shades",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
