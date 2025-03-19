@@ -125,17 +125,17 @@
         "collection_wCjMA3": {
           "type": "collection",
           "settings": {
-            "collection": "awnings",
-            "image_1": "shopify://shop_images/home_garden2.png",
-            "collection_name": "Aggregates"
+            "collection": "garden-furniture",
+            "image_1": "shopify://shop_images/CAN0031_veranda_garden_canopy_charcoal_anthracite.jpg",
+            "collection_name": "Furnitures"
           }
         },
         "collection_GeDdCP": {
           "type": "collection",
           "settings": {
             "collection": "outdoor-heating",
-            "image_1": "shopify://shop_images/home_garden3.png",
-            "collection_name": "Garden Trellis & Screening"
+            "image_1": "shopify://shop_images/OL1786_freestanding_patio_heater.jpg",
+            "collection_name": "Outdoor Heating"
           }
         },
         "collection_Mx9DP9": {
