@@ -229,52 +229,6 @@
         "heading_tag": "automatic"
       }
     },
-    "section_collections_list_FfH3zD": {
-      "type": "section-collections-list",
-      "blocks": {
-        "collection_aDnDzV": {
-          "type": "collection",
-          "settings": {
-            "collection": "awnings",
-            "collection_image": "shopify://shop_images/awning_collection_1.jpg",
-            "title": "Electric awnings"
-          }
-        },
-        "collection_q6KHmx": {
-          "type": "collection",
-          "settings": {
-            "collection": "awnings",
-            "collection_image": "shopify://shop_images/awning_collection_2.jpg",
-            "title": "Manual awnings"
-          }
-        }
-      },
-      "block_order": [
-        "collection_aDnDzV",
-        "collection_q6KHmx"
-      ],
-      "settings": {
-        "title": "Collection list",
-        "heading_font_size": "heading-medium",
-        "description": "",
-        "text_font_size": "body-medium",
-        "button_text": "",
-        "button_url": "shopify://collections",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "aspect_ratio": 0.5,
-        "width": "wrapper--full-padded",
-        "layout": "grid",
-        "grid": 2,
-        "layout_mobile": "slider",
-        "color_scheme": "",
-        "padding_top": 32,
-        "padding_bottom": 32,
-        "heading_tag": "automatic"
-      }
-    },
     "section_tab_collections_TC7pxT": {
       "type": "section-tab-collections",
       "blocks": {
@@ -699,7 +653,6 @@
     "section_hero_dM8Vyb",
     "section_text_row_qr79hn",
     "section_columns_C9tAPy",
-    "section_collections_list_FfH3zD",
     "section_tab_collections_TC7pxT",
     "section_collections_list_iQWYTC",
     "section_collections_list_AdWBhf",
