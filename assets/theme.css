@@ -24579,3 +24579,31 @@ body.has-header-sticky .timeline {
 .product-specification tr:nth-child(even) {
   background-color: white;
 }
+
+/* css for product page size section and klarna section */
+.meta-size-container{
+  display: flex;
+  gap: 4px;
+  margin-top: 6px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.review-container{
+  margin-bottom: 24px;
+}
+.single-size{
+  display: flex;
+  width: 48px;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0px 14px 0px;
+  border: 1px solid var(--primrose-heading-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.single-size.selected{
+  background: var(--primrose-heading-color);
+  color: #ffffff;
+}
