@@ -299,7 +299,10 @@
               -%}
 
             {%- else -%}
-              {%- for product in collection.products -%}
+                  {%- assign available_products = collection.products | where: 'available', true -%}
+              {%- assign out_of_stock_products = collection.products | where: 'available', false -%}
+              {%- assign sorted_products = available_products | concat: out_of_stock_products -%}
+              {%- for product in sorted_products -%}
                 {%- assign grid_int = section.settings.grid | times: 1 -%}
                 {%- assign animation_delay = forloop.index0 | modulo: grid_int | times: 1 -%}
                 {%- render 'custom-collection-product-grid',
