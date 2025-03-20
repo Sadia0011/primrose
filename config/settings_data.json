@@ -55,7 +55,7 @@
     "swatch_size": "large",
     "swatch_style": "circle",
     "sibling_style": "swatch",
-    "swatch_color_list": "Black: #000000\nWhite: #fafafa\nBlank: blank.png\nCharcol : #333333\nSilver: #b1b1b3\nTerracotta: #f36639\nYellow_grey_stripe: yellow_grey_stripe.jpg\nBlue_white_stripe: blue_white_stripe.jpg\nGreen_stripe: green_stripe.jpg\nGreen_white_stripe: green_white_stripe.jpg\nMulti_stripe: multi_stripe.jpg\nYellow_white_stripe: yellow_white_stripe.jpg\nBrown_white_stripe: brown_white_stripe.jpg\nPlain_green : #014421\nIvory: #f1e6c1\nPlain_dark_blue: #152244\nTurquoise: #152244\nYellow_stripe: yellow_white_stripe.jpg\nLemon Yellow: #f2da69",
+    "swatch_color_list": "Black: #000000\nWhite: #fafafa\nBlank: blank.png\nCharcoal : #333333\nSilver: #b1b1b3\nTerracotta: #f36639\nGreen Stripe: green_stripe.jpg\n \nYellow_white_stripe: yellow_white_stripe.jpg\nBrown_white_stripe: brown_white_stripe.jpg\n \nIvory: #f1e6c1\nPlain_dark_blue: #152244\nTurquoise: #40E0D0\nYellow_stripe: yellow_white_stripe.jpg\nLemon Yellow: #f2da69\nBlue and White Stripe: blue_white_stripe.jpg\nGreen and White Stripe: green_white_stripe.jpg\nMocha Brown and White Stripe: brown_white_stripe.jpg\nMulti-Stripe: multi_stripe.jpg\nPlain Dark Blue:  #152244\nPlain Green: #014421\nYellow Stripe: yellow_white_stripe.jpg\nYellow and Grey Stripe: yellow_grey_stripe.jpg\nBrown and White Stripe: brown_white_stripe.jpg\nAzure Blue: #1c77ae\nAzure: #8eb1c7\nBurgundy: #672f3b\nSage: #555341\nPolar White: #e1e1e1\nMushroom: #a09486\nMocha: #8f7658\nMarsala Red: #8c5151",
     "cart_type": "page",
     "header_link_hover": "#AB8C52",
     "show_logo_bg": false,
