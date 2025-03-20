@@ -602,7 +602,7 @@
           "settings": {
             "default_open": false,
             "title": "What type of awnings do you sell?",
-            "content": "<p>We sell a wide range of off the shelf, self fit patio awnings, over 700 awnings to choose from.</p><p>Budget, Standard, Half Cassette, Full Cassette, Dutch Canopy, Droparm, Freestanding & Balcony awnings.</p><p>Undecided on what type of awnings to get for your home? With so many to choose from, it can be hard to pick the best one for your garden. Why not take a look at our guide on how to select <a href=\"https://www.primrose.co.uk/blog/outdoor-living/best-awnings/\" title=\"The awnings that are best for you\">the awnings that are best for you.</a></p>",
+            "content": "<p>We sell a wide range of off the shelf, self fit patio awnings, over 700 awnings to choose from.</p><p>Budget, Standard, Half Cassette, Full Cassette, Dutch Canopy, Droparm, Freestanding & Balcony awnings.</p><p>Undecided on what type of awnings to get for your home? With so many to choose from, it can be hard to pick the best one for your garden. Why not take a look at our guide on how to select the awnings that are best for you.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -698,7 +698,7 @@
           "settings": {
             "default_open": false,
             "title": "Do you have any fitting instructions?",
-            "content": "<p>Yes, you can view the<a href=\"https://www.primrose.co.uk/blog/gardening/awning-installation/\" title=\"fitting instructions here\"><span style=\"text-decoration:underline\">fitting instructions here</span></a>.</p>",
+            "content": "<p>Yes, you can view the <span style=\"text-decoration:underline\">fitting instructions here</span>.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
