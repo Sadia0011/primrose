@@ -151,7 +151,7 @@
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
-        "color_scheme": "scheme-3b35048f-489a-4b0b-9da8-ee62a44fd715",
+        "color_scheme": "scheme-afdd32db-45d7-45f1-a3b6-84fddefe0fd2",
         "overlay_opacity": 0,
         "show_overlay_text": false,
         "padding_top": 0,
@@ -177,8 +177,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Frequently asked question",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "title": "What if I need to cancel my order before dispatch?",
+            "content": "<p>If you cancel an order before despatch, we will give you a cancellation number which you should retain in the event of any subsequent query. That number is your proof that you have cancelled the order in time to prevent it being despatched.</p><p>If you don't have a cancellation number and you refuse to accept an order from our carrier that has been correctly supplied, we will need to deduct the cost of returning the items from any refund that we make.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -189,8 +189,68 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Frequently asked question",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "title": "What if I order more than one item?",
+            "content": "<p>We have several warehouses. If you have bought more than one different item your order may occasionally be sent in multiple packages and delivered separately. This means you will receive your purchase as quickly as possible. Please check the individual product descriptions on the website to see delivery speeds for each item.</p><p>If you want to order more than one product and Next Day Delivery is not available on each product, we may not be able to deliver everything next day. To ensure that you get your Next Day order on time, please place two separate orders.</p><p>Out of stock items - If one item is described as \"out of stock\", please make 2 separate orders if you require the in-stock items delivered immediately.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_64TXqJ": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Signing for delivery",
+            "content": "<p>If the goods are left without a signature, we must be notified of any damages or shortages within 24 hours of the delivery taking place.</p><p>Normally the delivery does not require a signature, however if you would prefer to sign for your goods then please state this in the \"Delivery Instructions\" section during the checkout process when placing your order.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_WyMejB": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Access difficulties",
+            "content": "<p>Orders may be delivered on a lorry. If your premises have any access problems for large vehicles, please contact us to discuss rather than leaving a note in the delivery instructions. Otherwise we will assume that you authorise us to leave your order at our carrier's discretion at a nearby location.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_W8KzUN": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "What if I refuse to accept the delivery?",
+            "content": "<p>If you refuse to accept an order from our carrier, you may be responsible for any additional carrier costs, including the cost of returning the items to us. If you are refusing the order because you have changed your mind, you will be responsible for the costs of returning the goods unless we have given you a cancellation number.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_rd6Hjy": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Shortages - did everything arrive?",
+            "content": "<p>If you've ordered more than one item, please thoroughly check the contents of your delivery and associated packaging to compare it with our packing note to ensure that all goods have arrived. You must notify us within 24 hours if something hasn't arrived.</p><p>Please note that if you've ordered more than one item, we may send by separate carriers.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_gE3L7W": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Late deliveries and other problems",
+            "content": "<p>We do of course make every effort to ensure that your order will arrive within the delivery times shown on the website. Unfortunately, on rare occasions this may not always be possible. Should your order fail to arrive when expected, please contact us immediately and we will do our best to resolve any problems (please note that our liability does not extend to providing compensation for late or failed deliveries). We make every reasonable effort to ensure that your order meets - and hopefully exceeds - your expectations. Of course, in rare cases things can sometimes go wrong and we will always do everything we can to rectify any problems in a quick and satisfactory manner. However, please note that we cannot be held responsible for any resulting additional expense you may incur unless with our prior written agreement.</p><p>Occasionally, time delays with 'Made to Order' items may occur. We will do our best to get bespoke orders completed and delivered within the estimated time scale. However, problems do occasionally arise that cause delays in the manufacture and delivery of \"made to order\" items. This does not entitle you to cancel the order, therefore we cannot accept that \"time is of the essence\" in 'made to order' or 'bespoke' situations.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -201,22 +261,63 @@
       "block_order": [
         "question_KeQBeB",
         "question_n7mrfJ",
-        "question_Cechn6"
+        "question_Cechn6",
+        "question_64TXqJ",
+        "question_WyMejB",
+        "question_W8KzUN",
+        "question_rd6Hjy",
+        "question_gE3L7W"
       ],
       "settings": {
         "heading_font_size": "heading-medium",
         "question_font_size": "heading-small",
         "width": "wrapper",
         "columns": "1",
-        "color_scheme": "",
+        "color_scheme": "scheme-3b35048f-489a-4b0b-9da8-ee62a44fd715",
         "padding_top": 50,
         "padding_bottom": 50
+      }
+    },
+    "section_rich_text_zQWMzH": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_d7FU3Y": {
+          "type": "heading",
+          "settings": {
+            "title": "Need help?",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_raGxUY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Contact our customer care team</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_d7FU3Y",
+        "text_raGxUY"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 40
       }
     }
   },
   "order": [
     "main",
     "section_rich_text_BKMNUh",
-    "section_accordion_group_XABayN"
+    "section_accordion_group_XABayN",
+    "section_rich_text_zQWMzH"
   ]
 }
