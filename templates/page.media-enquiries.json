@@ -11,10 +11,83 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_NrpPym": {
+      "type": "section-hero",
+      "settings": {
+        "image_1": "shopify://shop_images/primrosepress_titlebanner_desktop_1_2.jpg",
+        "link": "",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_rich_text_GKUe7k": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_GpTWHc": {
+          "type": "heading",
+          "settings": {
+            "title": "Primrose in the Press",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_nFJ9eV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Primrose love to get involved with the media. We've been on ITV's Love Your Garden with Alan Titchmarsh, featured on This Morning, and found ourselves in articles in Heart, Metro, The Independent and more!</p><p>Keep up to date with all our latest news, trends and publicity on our <a href=\"/blogs/news\" title=\"News\">blog</a>, or follow our <a href=\"https://www.facebook.com/Primrose.co.uk/\">Facebook page</a> to keep in the loop.</p><p>Take a look at what we've been involved with since we became established in 2003. From becoming a finalist in the 2015 Garden Retail Awards to sponsoring <a href=\"http://www.thecoldestjourney.org/the-expedition/the-coldest-journey/\" title=\"Sir Ranulph Fiennes 'The Coldest Journey'\">Sir Ranulph Fiennes 'The Coldest Journey'</a> through to last month's TV, there's a lot to take in!</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_GpTWHc",
+        "text_nFJ9eV"
+      ],
+      "custom_css": [
+        "p{color:black;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 30,
+        "padding_bottom": 18
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_hero_NrpPym",
+    "section_rich_text_GKUe7k"
   ]
 }
