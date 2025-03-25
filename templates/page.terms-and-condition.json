@@ -388,7 +388,7 @@
         "text_NEqK3A"
       ],
       "custom_css": [
-        "p{color:black;}"
+        "p {color: black;}"
       ],
       "settings": {
         "align_text": "text-left",
@@ -409,6 +409,158 @@
         "padding_top": 0,
         "padding_bottom": 18
       }
+    },
+    "section_rich_text_XFmcjU": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_bcVfUJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Acceptance",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_GwEAGk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Once you place an order with Primrose, you will receive an order acknowledgment email stating the items you have ordered. This does not constitute acceptance of your order. Acceptance is acknowledged when your order has been shipped from our warehouse or suppliers. Non-acceptance of your order may be due to: being unable to authorise your payment, the product being unavailable, a product pricing or description error.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_bcVfUJ",
+        "text_GwEAGk"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_FQnEzJ": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_rich_text_Ra97eV": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_BeWP7J": {
+          "type": "heading",
+          "settings": {
+            "title": "Copyright and use of our images and videos",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_rLwyM7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Images, videos and text on this site are copyright Cercis Ltd or our suppliers. Please contact us if you wish to use one of our images or videos: use of our images or videos without our permission is theft.<br/>Images and videos owned by Cercis Ltd may be hired for an initial fee of £1000 + VAT per image or video plus £100 + VAT per week per image or video. Your use of one of our images or videos on your website signifies your agreement to these terms and conditions. They constitute a contract between you and us governing your use of these images or videos.</p><p>On occasion we have used images that have been released into the public domain under the Creative Commons Attribution-Share Alike 2.5 Generic license or the GNU General Public License. In these cases the specific images are required to be redistributed under the same or similar licence.</p><p>Primrose is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to amazon.co.uk.<br/>Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p><p>The celebrities named or featured on Primrose.co.uk have not endorsed, recommended or approved the items offered on this site.</p><p>Primrose is the trading name of Cercis Ltd. Registered address: Company Number 14521244, Registered Office - Nursery Court, London Road, Windlesham, Surrey, GU20 6LQ</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_BeWP7J",
+        "text_rLwyM7"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_BVKDzQ": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_rich_text_h3xztF": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_JhaFFH": {
+          "type": "heading",
+          "settings": {
+            "title": "WEEE - Waste Electrical and Electronic Equipment",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_DYRFDW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/recycle-more_logo_1.jpg",
+            "image_width": 20,
+            "padding_bottom": 16
+          }
+        },
+        "text_cqUGzG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New government regulations called The Waste Electrical and Electronic Equipment (WEEE) Regulations encourages people to recycling old electrical products, rather than throwing them away.Electrical goods are the fastest growing waste stream in the UK, growing by 5% each year. Each year in the UK we go through over 1.2 million tonnes of electrical waste.</p><p>Over 75% of waste electrical goods end up in landfill, where lead and other toxins contained in These items can cause soil and water contamination which, in turn, can have a very harmful effect on the environment and human health.</p><p>Many of the electrical items that we throw away can be repaired or recycled. Recycling items helps to save natural finite resources and also reduces the environmental and health risks associated with sending waste electrical goods to landfill.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_GdQDPU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In order to protect the environment for future generations it is important that we are all aware of the consequences of our actions and learn what we can do to make a difference.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_JhaFFH",
+        "image_DYRFDW",
+        "text_cqUGzG",
+        "text_GdQDPU"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
     }
   },
   "order": [
@@ -428,6 +580,11 @@
     "section_rich_text_KQfKhU",
     "section_divider_cW6QB8",
     "section_rich_text_7eCPa8",
-    "section_divider_MNBgja"
+    "section_divider_MNBgja",
+    "section_rich_text_XFmcjU",
+    "section_divider_FQnEzJ",
+    "section_rich_text_Ra97eV",
+    "section_divider_BVKDzQ",
+    "section_rich_text_h3xztF"
   ]
 }
