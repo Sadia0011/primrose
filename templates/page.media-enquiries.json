@@ -204,7 +204,7 @@
         "overlay_opacity": 0,
         "show_overlay_text": false,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "section_hero_edFLKW": {
@@ -262,7 +262,7 @@
         "overlay_opacity": 0,
         "show_overlay_text": false,
         "padding_top": 38,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "section_hero_BtyRe8": {
@@ -311,7 +311,7 @@
         "text_yFEjPG"
       ],
       "custom_css": [
-        "p{color:black;}"
+        "p {color: black;}"
       ],
       "settings": {
         "align_text": "text-center",
