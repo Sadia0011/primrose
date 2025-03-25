@@ -83,6 +83,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "show_title": true,
@@ -97,42 +98,88 @@
         "heading_tag": "automatic"
       }
     },
+    "section_columns_Rp3JHH": {
+      "type": "section-columns",
+      "blocks": {
+        "image_CAnFAP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/slider-bg-one.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "Want to chat?",
+            "heading_font_size": "heading-small",
+            "text": "<p>Our friendly customer care team are experts in our product and are happy to help you, whatever your question may be. <a href=\"/pages/contact\" title=\"Contact\">Send us a message</a>, we’d love to hear from you.</p>",
+            "text_font_size": "body-small",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.5,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_jHyD4B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/contact-us-unsplash.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "Let’s get social!",
+            "heading_font_size": "heading-small",
+            "text": "<p>Follow us on <a href=\"https://www.facebook.com/Primrose.co.uk/\" target=\"_blank\" title=\"Facebook\">Facebook </a>and <a href=\"https://www.instagram.com/primrose.co.uk/\" target=\"_blank\" title=\"Instagram\">Instagram </a>for inspiration, tips and advice. We’d love to be friends.</p>",
+            "text_font_size": "body-small",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 0.5,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_CAnFAP",
+        "image_jHyD4B"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
     "custom-content-2": {
       "type": "section-custom-content",
       "blocks": {
         "image-2-1": {
           "type": "image",
           "settings": {
-            "title": "How it started",
+            "image": "shopify://shop_images/about_us_primrose_2.jpg",
+            "title": "",
             "heading_font_size": "heading-large",
             "text": "",
             "text_font_size": "body-medium",
             "flex_align": "align--middle-center",
             "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_opacity": 0,
-            "overlay_color": "",
-            "show_overlay_text": false,
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "image-2-2": {
-          "type": "image",
-          "settings": {
-            "title": "How it's going",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
+            "bg_color": "#f9f8f6",
             "color": "",
             "overlay_opacity": 0,
             "overlay_color": "",
@@ -148,8 +195,7 @@
         }
       },
       "block_order": [
-        "image-2-1",
-        "image-2-2"
+        "image-2-1"
       ],
       "settings": {
         "borders": false,
@@ -316,6 +362,7 @@
     "custom-content-1",
     "section_rich_text_yTHhJx",
     "main",
+    "section_columns_Rp3JHH",
     "custom-content-2",
     "custom-content-3",
     "custom-content-4",
