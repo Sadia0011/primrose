@@ -584,10 +584,10 @@
         "text_alignment": "text-left",
         "layout": "",
         "width": "wrapper--full-padded",
-        "height": "screen-height-three-quarters",
+        "height": "four-fifty-height-hero",
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
