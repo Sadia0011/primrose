@@ -155,7 +155,7 @@
         "overlay_opacity": 0,
         "show_overlay_text": false,
         "padding_top": 0,
-        "padding_bottom": 100
+        "padding_bottom": 48
       }
     },
     "section_accordion_group_XABayN": {
@@ -277,7 +277,7 @@
         "width": "wrapper",
         "columns": "1",
         "color_scheme": "scheme-1",
-        "padding_top": 50,
+        "padding_top": 0,
         "padding_bottom": 50
       }
     },
@@ -307,7 +307,7 @@
         "text_raGxUY"
       ],
       "custom_css": [
-        "p{color:black;}"
+        "p {color: black;}"
       ],
       "settings": {
         "align_text": "text-left",
