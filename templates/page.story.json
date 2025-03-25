@@ -9,48 +9,42 @@
  */
 {
   "sections": {
-    "custom-content-1": {
-      "type": "section-custom-content",
+    "section_rich_text_jYMyQp": {
+      "type": "section-rich-text",
       "blocks": {
-        "text_LaqryP": {
-          "type": "text",
+        "heading_jjkHqd": {
+          "type": "heading",
           "settings": {
-            "subheading": "",
             "title": "Our story",
             "heading_font_size": "heading-medium",
-            "text": "<p>We are passionate about gardens and have been selling outdoor living products online since 2003. Established in the UK, our roots are firmly grounded in gardening.</p><p>Our in house experts are always looking for new innovations in outdoor living and keeping up with the latest trends to be at the forefront of the gardening industry. This means we can bring you the best product, at the best price, delivered to your door.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
+            "padding_bottom": 16,
             "heading_tag": "automatic"
+          }
+        },
+        "text_MJKDAR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are passionate about gardens and have been selling outdoor living products online since 2003. Established in the UK, our roots are firmly grounded in gardening.</p><p>Our in house experts are always looking for new innovations in outdoor living and keeping up with the latest trends to be at the forefront of the gardening industry. This means we can bring you the best product, at the best price, delivered to your door.</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "text_LaqryP"
+        "heading_jjkHqd",
+        "text_MJKDAR"
       ],
       "custom_css": [
-        "#BrickSection--template--24647474970999__custom-content-1 p {color: black;}"
+        "p {color: black;}"
       ],
       "settings": {
-        "borders": false,
-        "gutters": false,
+        "align_text": "text-left",
         "width": "wrapper--full-padded",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
         "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 26,
+        "padding_bottom": 6
       }
     },
     "section_rich_text_yTHhJx": {
@@ -149,7 +143,7 @@
         "image_jHyD4B"
       ],
       "custom_css": [
-        ".column__content{text-align:center;}"
+        ".column__content {text-align: center;}"
       ],
       "settings": {
         "title": "",
@@ -265,7 +259,7 @@
     }
   },
   "order": [
-    "custom-content-1",
+    "section_rich_text_jYMyQp",
     "section_rich_text_yTHhJx",
     "main",
     "section_columns_Rp3JHH",
