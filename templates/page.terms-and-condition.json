@@ -657,16 +657,6 @@
         "padding_bottom": 18
       }
     },
-    "section_divider_TXHj8w": {
-      "type": "section-divider",
-      "settings": {
-        "show_line": true,
-        "width": "wrapper--full-padded",
-        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
-        "padding_top": 0,
-        "padding_bottom": 18
-      }
-    },
     "section_rich_text_AGEEXr": {
       "type": "section-rich-text",
       "blocks": {
@@ -686,11 +676,65 @@
             "text_font_size": "body-semi-small",
             "padding_bottom": 16
           }
+        },
+        "divider_J6eiCd": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "heading_4HYVpx": {
+          "type": "heading",
+          "settings": {
+            "title": "Copyright",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_7QenKf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All of the written, photographic, design and audio content of the website www.primrose.co.uk is the copyrighted property of Cercis Ltd and none of this content may be used without our permission.You acknowledge and agree that all copyright, trademarks and all other intellectual property rights in all materials and / or content made available as part of your use of this website shall remain at all times vested in us.</p><p>You acknowledge and agree that the material and content contained within this website is made available for your personal non-commercial use only and that you may only download such material and content for the purpose of using this website.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "divider_rJg3qA": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "heading_Wr7D6E": {
+          "type": "heading",
+          "settings": {
+            "title": "Promotions",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_rJEDqT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Promotions can not be used in conjunction with each other unless otherwise stated.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
         }
       },
       "block_order": [
         "heading_qLBrAr",
-        "text_bDLEXR"
+        "text_bDLEXR",
+        "divider_J6eiCd",
+        "heading_4HYVpx",
+        "text_7QenKf",
+        "divider_rJg3qA",
+        "heading_Wr7D6E",
+        "text_rJEDqT"
       ],
       "custom_css": [
         "p {color: black;}"
@@ -703,6 +747,16 @@
         "show_overlay_text": false,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "section_divider_TXHj8w": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
       }
     }
   },
