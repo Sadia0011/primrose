@@ -195,7 +195,7 @@
         "text_g4RXJX"
       ],
       "custom_css": [
-        "p,ul{color:black;}"
+        "p,li {color: black;}"
       ],
       "settings": {
         "align_text": "text-left",
