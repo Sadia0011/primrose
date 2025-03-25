@@ -160,12 +160,57 @@
         "padding_top": 18,
         "padding_bottom": 0
       }
+    },
+    "section_double_gq7RWj": {
+      "type": "section-double",
+      "blocks": {
+        "heading_DGA9KD": {
+          "type": "heading",
+          "settings": {
+            "title": "Are you a trade professional?",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_iMHBch": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you’re a landscaper, builder, events company, interior designer or another trade profession, consider becoming a trade customer of Primrose. You’ll unlock exclusive trade discounts and receive personalised support throughout your purchase journey from your own dedicated account manager.</p><p>Please note your first order must be <strong>over £500</strong>.</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_DGA9KD",
+        "text_iMHBch"
+      ],
+      "custom_css": [
+        "p{color:black;}"
+      ],
+      "settings": {
+        "section_title": "",
+        "image_1": "shopify://shop_images/tradepage_areyouaheroforthegarden_heroimage_desktop.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
     }
   },
   "order": [
     "main",
     "section_rich_text_wJgpXm",
     "section_hero_9z4dTM",
-    "section_rich_text_n3LBPc"
+    "section_rich_text_n3LBPc",
+    "section_double_gq7RWj"
   ]
 }
