@@ -11,10 +11,135 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_6kQ6Pa": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_MHBmGT": {
+          "type": "heading",
+          "settings": {
+            "title": "Privacy Policy",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_rr3BKp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to Primrose, which is the trading name of Cercis Ltd. (“Primrose,” “we,” “us” or “our”). We take your privacy seriously. Because we do gather certain types of information from visitors to our sites, we have developed a Privacy Policy to help you understand the terms and conditions surrounding the collection and use of that information. This Privacy Policy discloses the types of information we gather, how it is used and shared, and how you can gain access to and edit any personal information that we've collected about you at any time. When we collect personal information from visitors, we will make every reasonable effort to avoid excessive or irrelevant collection of data. By using our sites and services (collectively, the “Services”), you acknowledge that you have read and understood the terms and conditions of this Privacy Policy. If you do not agree to the terms and conditions of this Privacy Policy, please do not use the Services.</p><p>In order to offer you Klarna’s payment methods, we might in the checkout pass your personal data in the form of contact and order details to Klarna, in order for Klarna to assess whether you qualify for their payment methods and to tailor those payment methods for you. Your personal data transferred is processed in line with <a href=\"https://www.klarna.com/international/privacy-policy/\">Klarna’s own privacy notice</a>.</p><p>Your use of the Services is also governed by our <a href=\"/pages/terms-and-condition\" title=\"Terms and Condition\">Terms and Conditions</a>.</p><p>IMPORTANT NOTICE: PLEASE NOTE THE ARBITRATION PROVISION SET FORTH BELOW, WHICH REQUIRES, EXCEPT WHERE AND TO THE EXTENT PROHIBITED BY LAW, YOU TO ARBITRATE ANY CLAIMS YOU MAY HAVE AGAINST PRIMROSE ON AN INDIVIDUAL BASIS. ARBITRATION ON AN INDIVIDUAL BASIS MEANS THAT YOU WILL NOT HAVE, AND YOU WAIVE, THE RIGHT FOR A JUDGE OR JURY TO DECIDE YOUR CLAIMS, AND THAT YOU MAY NOT PROCEED IN A CLASS OR CONSOLIDATED CAPACITY.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_e4HwjL": {
+          "type": "heading",
+          "settings": {
+            "title": "Information Collected",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MHBmGT",
+        "text_rr3BKp",
+        "heading_e4HwjL"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_code_ADaWQW": {
+      "type": "section-custom-code",
+      "custom_css": [
+        "* {color: black;}"
+      ],
+      "settings": {
+        "code": "<p>“Personal information” is information that identifies, relates to, describes, is capable of being associated with, \n        or could reasonably be linked, directly or indirectly, with a particular consumer or household. We may have collected \n        the following categories of information from and about you in the preceding 12 months:\n    </p>\n<br>\n<table border=\"1\" cellspacing=\"0\" class=\"bg-white\" style=\"width:100%\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td><strong>Category of Personal Information</strong></td>\n\t\t\t\t\t\t<td><strong>Source(s)</strong></td>\n\t\t\t\t\t\t<td><strong>Purpose(s)</strong></td>\n\t\t\t\t\t\t<td><strong>Disclosure to Third Parties</strong></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Identifiers</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Directly from you</p>\n\t\t\t\t\t\t<p>Indirectly from you (e.g., from observing your actions on our Services)</p>\n\t\t\t\t\t\t<p>From third party service providers, such as data analytics providers</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>To fulfill or meet the reason you provided the information, e.g., to respond to an inquiry, process your order, or provide special offers</p>\n\t\t\t\t\t\t<p>For marketing purposes</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Disclosure for business purposes to: payment processors</p>\n\t\t\t\t\t\t<p>Disclosure for administrative purposes to: third party service providers, order fulfillment service providers, third party customer service providers</p>\n\t\t\t\t\t\t<p>Disclosure for security purposes to: card authorization and fraud screening services</p>\n\t\t\t\t\t\t<p>Disclosure for marketing purposes or to administer promotions: affiliates, strategic partners, agents, third party marketers</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Personal Information&nbsp;categories contained in customer records</td>\n\t\t\t\t\t\t<td>Directly from you</td>\n\t\t\t\t\t\t<td>To fulfill or meet the reason you provided the information, e.g., to respond to an inquiry or process your order</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Disclosure for business purposes to: internet service providers, payment processors</p>\n\t\t\t\t\t\t<p>Disclosure for marketing purposes to: affiliates, joint marketing partners</p>\n\t\t\t\t\t\t<p>Disclosure for administrative purposes to: third party service providers, such as order fulfillment service providers, third party customer service providers</p>\n\t\t\t\t\t\t<p>Disclosure for security purposes to: card authorization and fraud screening services</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Protected&nbsp;classification characteristics</td>\n\t\t\t\t\t\t<td>Directly from you</td>\n\t\t\t\t\t\t<td>To fulfill or meet the reason you provided the information, e.g., to provide targeted advertising</td>\n\t\t\t\t\t\t<td>N/A</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Commercial information</td>\n\t\t\t\t\t\t<td>Directly from you</td>\n\t\t\t\t\t\t<td>To fulfill or meet the reason you provided the information, e.g., to respond to an inquiry or process your order</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Disclosure for business purposes to: payment processors</p>\n\t\t\t\t\t\t<p>Disclosure for marketing purposes to: affiliates, joint marketing partners</p>\n\t\t\t\t\t\t<p>Disclosure for administrative purposes to: third party service providers, such as order fulfillment service providers, third party customer service providers</p>\n\t\t\t\t\t\t<p>Disclosure for security purposes to: card authorization and fraud screening services</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Internet or other similar network activity</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Indirectly from you (e.g., from observing your actions on our Services)</p>\n\t\t\t\t\t\t<p>From third party service providers, such as data analytics providers</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>To fulfill or meet the reason you provided the information, e.g., to provide targeted advertising, to deliver our webpages to you upon request</p>\n\t\t\t\t\t\t<p>To improve our services, e.g., to tailor our Services to the interests of our users, measure traffic within our Services</p>\n\t\t\t\t\t\t<p>For marketing purposes</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Disclosure for business purposes to: internet service providers</p>\n\t\t\t\t\t\t<p>Disclosure for security purposes to: fraud screening services</p>\n\t\t\t\t\t\t<p>Disclosure for marketing purposes to: affiliates, strategic partners, agents, third party marketers</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Geolocation data</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Directly from you</p>\n\t\t\t\t\t\t<p>Indirectly from you (e.g., from observing your actions on our Services)</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>To fulfill or meet the reason you provided the information, e.g., to respond to an inquiry, process your order, or provide targeted advertising</td>\n\t\t\t\t\t\t<td>Disclosure for business purposes to: internet service providers</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Inferences drawn from other personal information</td>\n\t\t\t\t\t\t<td>\n\t\t\t\t\t\t<p>Indirectly from you (e.g., from observing your actions on our Services)</p>\n\t\t\t\t\t\t<p>From third party service providers, such as data analytics providers</p>\n\t\t\t\t\t\t</td>\n\t\t\t\t\t\t<td>To fulfill or meet the reason you provided the information, e.g., to provide targeted advertising</td>\n\t\t\t\t\t\t<td>Disclosure for marketing purposes to: affiliates, joint marketing partners</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_xcDnBC": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_GpbmiG": {
+          "type": "heading",
+          "settings": {
+            "title": "Rich text",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_bQKAmw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_VVcGm7": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_GpbmiG",
+        "text_bQKAmw",
+        "buttons_VVcGm7"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_rich_text_6kQ6Pa",
+    "section_custom_code_ADaWQW",
+    "section_rich_text_xcDnBC"
   ]
 }
