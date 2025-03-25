@@ -14,7 +14,7 @@
       "settings": {
         "subheading": "",
         "show_title": true,
-        "heading_font_size": "heading-large",
+        "heading_font_size": "heading-medium",
         "show_content": true,
         "text_font_size": "body-medium",
         "align_text": "text-left",
