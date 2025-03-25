@@ -68,7 +68,9 @@
       "block_order": [
         "text_EJpRzh"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "#Rte--template--24647474970999__section_rich_text_yTHhJx p {padding: 1.5rem !important; background-color: white; border-radius: 30px;}"
+      ],
       "settings": {
         "align_text": "text-center",
         "width": "wrapper--full-padded",
