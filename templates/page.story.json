@@ -148,7 +148,9 @@
         "image_CAnFAP",
         "image_jHyD4B"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".column__content{text-align:center;}"
+      ],
       "settings": {
         "title": "",
         "subtitle": "",
