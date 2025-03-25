@@ -41,7 +41,7 @@
           "type": "text",
           "settings": {
             "text": "<p>In some cases, we may not be able to deliver certain products to the Highlands and Islands parts of the UK as our couriers and suppliers (in the case of plants and selected other products) don't currently travel there.</p><p>However, some items may incur an additional charge for certain delivery postcodes including Scottish Highlands and Islands, Channel Islands, Isle of Man, Isle of Wight & the Isles of Scilly. This will usually be calculated at the checkout, although you may also be contacted for additional payment should these charges apply to your order.</p><p>Sorry, we're not taking any new orders in the <strong>ROI</strong> or <strong>NI</strong> at the moment while we work to understand the new Brexit regulations. We'll be back as soon as we can.</p>",
-            "text_font_size": "body-small",
+            "text_font_size": "body-semi-small",
             "padding_bottom": 30
           }
         },
@@ -58,7 +58,7 @@
           "type": "text",
           "settings": {
             "text": "<p>If your order is over 4m or is likely to weigh over 50kg, you'll need to arrange some help taking delivery of these items. Some large/heavy items may arrive on a pallet. In some cases, it may be impractical for delivery companies to deliver to a specified point and may limit delivery to the kerbside.</p>",
-            "text_font_size": "body-small",
+            "text_font_size": "body-semi-small",
             "padding_bottom": 30
           }
         },
@@ -75,7 +75,7 @@
           "type": "text",
           "settings": {
             "text": "<p>-For awnings over 5m in length, someone must be present to sign for the delivery. Our carrier won't leave them in a safe place due to their size and value, so please ensure someone can be present to take delivery. The team will place your package where you need it.</p>",
-            "text_font_size": "body-small",
+            "text_font_size": "body-semi-small",
             "padding_bottom": 30
           }
         },
@@ -92,7 +92,7 @@
           "type": "text",
           "settings": {
             "text": "<p>1m to 3.5m:<strong>£12.99</strong></p><p>4m:<strong>£39.99</strong></p><p>4.5m and over:<strong>£99.99 (2 man delivery service)</strong></p>",
-            "text_font_size": "body-small",
+            "text_font_size": "body-semi-small",
             "padding_bottom": 30
           }
         },
@@ -109,7 +109,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Named Day delivery is available for selected items ordered from Tuesday - Thursday, excluding public holidays. Look for the delivery options listed next to each products for availability.</p><p>Postcode restrictions apply</p>",
-            "text_font_size": "body-small",
+            "text_font_size": "body-semi-small",
             "padding_bottom": 16
           }
         },
@@ -126,7 +126,7 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>Please note: </strong>Your order will be sent either by Courier or Royal Mail. In most cases, you don't need to wait in to sign for your delivery - if there's no-one at home when we deliver we can usually leave items with a neighbour or in a safe place at our own risk.</p><p>Please don't try to visit us to view, buy, or return products, as we do not have showrooms and most items are held at a number of different locations.</p>",
-            "text_font_size": "body-small",
+            "text_font_size": "body-semi-small",
             "padding_bottom": 0
           }
         }
