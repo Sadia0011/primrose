@@ -72,7 +72,7 @@
         "text_nFJ9eV"
       ],
       "custom_css": [
-        "p{color:black;}"
+        "p {color: black;}"
       ],
       "settings": {
         "align_text": "text-center",
@@ -83,11 +83,94 @@
         "padding_top": 30,
         "padding_bottom": 18
       }
+    },
+    "section_collections_list_pbAJxc": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_nEctUk": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "collection_image": "shopify://shop_images/primrosepress_articlelinks_desktop_p1.jpg",
+            "title": ""
+          }
+        },
+        "collection_jeUrBe": {
+          "type": "collection",
+          "settings": {
+            "collection": "garden-furniture",
+            "collection_image": "shopify://shop_images/primrosepress_articlelinks_desktop_p2.jpg",
+            "title": ""
+          }
+        },
+        "collection_CawJQp": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/primrosepress_articlelinks_desktop_p3.jpg",
+            "title": ""
+          }
+        },
+        "collection_zYnCUB": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "collection_image": "shopify://shop_images/primrosepress_articlelinks_desktop_p4.jpg",
+            "title": ""
+          }
+        },
+        "collection_8mE9Nm": {
+          "type": "collection",
+          "settings": {
+            "collection": "garden-furniture",
+            "collection_image": "shopify://shop_images/primrosepress_articlelinks_desktop_p5.jpg",
+            "title": ""
+          }
+        },
+        "collection_xiUYfD": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "collection_image": "shopify://shop_images/primrosepress_articlelinks_desktop_p6.jpg",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_nEctUk",
+        "collection_jeUrBe",
+        "collection_CawJQp",
+        "collection_zYnCUB",
+        "collection_8mE9Nm",
+        "collection_xiUYfD"
+      ],
+      "settings": {
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
+        "width": "wrapper--full-padded",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
+      }
     }
   },
   "order": [
     "main",
     "section_hero_NrpPym",
-    "section_rich_text_GKUe7k"
+    "section_rich_text_GKUe7k",
+    "section_collections_list_pbAJxc"
   ]
 }
