@@ -38,6 +38,9 @@
       "block_order": [
         "text_LaqryP"
       ],
+      "custom_css": [
+        "#BrickSection--template--24647474970999__custom-content-1 p{color:black;}"
+      ],
       "settings": {
         "borders": false,
         "gutters": false,
