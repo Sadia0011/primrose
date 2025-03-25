@@ -277,7 +277,7 @@
         "icon_yneWwk"
       ],
       "custom_css": [
-        "p{color:black;}"
+        "p {color: black;}"
       ],
       "settings": {
         "title": "Benifits",
@@ -295,6 +295,245 @@
         "padding_bottom": 50,
         "heading_tag": "automatic"
       }
+    },
+    "section_columns_m3qHwP": {
+      "type": "section-columns",
+      "blocks": {
+        "image_39hLGk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tradepage_tradecustomersatwork_p1_2.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_nLraF7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tradepage_tradecustomersatwork_p2.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "",
+            "heading_font_size": "heading-small",
+            "text": "",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_39hLGk",
+        "image_nLraF7"
+      ],
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 3,
+        "padding_bottom": 15,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_columns_kwmtRG": {
+      "type": "section-columns",
+      "blocks": {
+        "image_aWTtQt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tradepage_feelinspired_primroseinthepress.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "Primrose in the Press",
+            "heading_font_size": "heading-small",
+            "text": "<p>Spot your favourite Primrose products on TV shows such as This Morning and Love Your Garden. You'll also find us in such articles as Metro, The Independent, and more.</p>",
+            "text_font_size": "body-small",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_ie84TL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/tradepage_feelinspired_aboutus.jpg",
+            "image_shape": "normal",
+            "pretitle": "",
+            "title": "About Us",
+            "heading_font_size": "heading-small",
+            "text": "<p>Established in the UK, Primrose has been selling outdoor living products since 2003. Find out more about our story.</p>",
+            "text_font_size": "body-small",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 0.5,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_aWTtQt",
+        "image_ie84TL"
+      ],
+      "settings": {
+        "title": "Feel Inspired",
+        "subtitle": "",
+        "heading_font_size": "heading-small",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 2,
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 3,
+        "padding_bottom": 15,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_hero_TgVtqM": {
+      "type": "section-hero",
+      "settings": {
+        "image_1": "shopify://shop_images/tradepage_contactinfo_orderwithus_desktop_1_1.png",
+        "link": "",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 36,
+        "padding_bottom": 52,
+        "show_placeholder": true
+      }
+    },
+    "section_divider_hfj9L9": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_accordion_group_tmhby4": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_4g89rr": {
+          "type": "heading",
+          "settings": {
+            "title": "Trade FAQs"
+          }
+        },
+        "question_AytEbC": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Who is a Primrose trade customer?",
+            "content": "<p>If you are a Landscaper, Gardener, Builder, Designer, Events Company, Restaurant, etc then you could be a Primrose Trade Customer.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_eK99Ld": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Do I have to be VAT registered?",
+            "content": "<p>No, there's no need for you to be VAT registered</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_MzzeQG": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Is there an initial minimum order amount?",
+            "content": "<p>The initial order should be over £500, but all further orders have no such constraints.</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_JYQmwA": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "How can I pay for my order?",
+            "content": "<p>We can place your order over the phone or via a Proforma invoice. Payment can be made using BACS, Card or PayPal</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4g89rr",
+        "question_AytEbC",
+        "question_eK99Ld",
+        "question_MzzeQG",
+        "question_JYQmwA"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 13,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -304,6 +543,11 @@
     "section_rich_text_n3LBPc",
     "section_double_gq7RWj",
     "section_hero_gP96jw",
-    "section_text_row_eeAxTh"
+    "section_text_row_eeAxTh",
+    "section_columns_m3qHwP",
+    "section_columns_kwmtRG",
+    "section_hero_TgVtqM",
+    "section_divider_hfj9L9",
+    "section_accordion_group_tmhby4"
   ]
 }

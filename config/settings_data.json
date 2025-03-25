@@ -337,7 +337,7 @@
           "btn_secondary_text": "#ffffff",
           "btn_secondary_border": "#ab8c52",
           "accent": "#ab8c52",
-          "lines_and_border": "rgba(0,0,0,0)",
+          "lines_and_border": "#d2d2d2",
           "overlay": "#000000",
           "links": "#282c2e"
         }
