@@ -405,6 +405,9 @@
         "collection_MtEHmt",
         "collection_WnUDif"
       ],
+      "custom_css": [
+        "..collection-grid {padding: 0px !important;}"
+      ],
       "settings": {
         "title": "Our Trade Range",
         "subtitle": "",
