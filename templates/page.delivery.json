@@ -11,10 +11,153 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_BKMNUh": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_HL794A": {
+          "type": "heading",
+          "settings": {
+            "title": "Highlands and Islands",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 20,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_emqGg8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In some cases, we may not be able to deliver certain products to the Highlands and Islands parts of the UK as our couriers and suppliers (in the case of plants and selected other products) don't currently travel there.</p><p>However, some items may incur an additional charge for certain delivery postcodes including Scottish Highlands and Islands, Channel Islands, Isle of Man, Isle of Wight & the Isles of Scilly. This will usually be calculated at the checkout, although you may also be contacted for additional payment should these charges apply to your order.</p><p>Sorry, we're not taking any new orders in the <strong>ROI</strong> or <strong>NI</strong> at the moment while we work to understand the new Brexit regulations. We'll be back as soon as we can.</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 30
+          }
+        },
+        "heading_afkQnT": {
+          "type": "heading",
+          "settings": {
+            "title": "Large/Heavy Deliveries",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 20,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_7EFxQY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If your order is over 4m or is likely to weigh over 50kg, you'll need to arrange some help taking delivery of these items. Some large/heavy items may arrive on a pallet. In some cases, it may be impractical for delivery companies to deliver to a specified point and may limit delivery to the kerbside.</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 30
+          }
+        },
+        "heading_3K7d9p": {
+          "type": "heading",
+          "settings": {
+            "title": "Awnings",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 20,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_wDrHrb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>-For awnings over 5m in length, someone must be present to sign for the delivery. Our carrier won't leave them in a safe place due to their size and value, so please ensure someone can be present to take delivery. The team will place your package where you need it.</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 30
+          }
+        },
+        "heading_mFD9Dj": {
+          "type": "heading",
+          "settings": {
+            "title": "Standard delivery charges for awnings:",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 20,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_rtLciP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1m to 3.5m:<strong>£12.99</strong></p><p>4m:<strong>£39.99</strong></p><p>4.5m and over:<strong>£99.99 (2 man delivery service)</strong></p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 30
+          }
+        },
+        "heading_kRDAgf": {
+          "type": "heading",
+          "settings": {
+            "title": "Named Day Delivery",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 20,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_QykHkn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Named Day delivery is available for selected items ordered from Tuesday - Thursday, excluding public holidays. Look for the delivery options listed next to each products for availability.</p><p>Postcode restrictions apply</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_hdJ3gb": {
+          "type": "heading",
+          "settings": {
+            "title": "General",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 20,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_FeQaek": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Please note: </strong>Your order will be sent either by Courier or Royal Mail. In most cases, you don't need to wait in to sign for your delivery - if there's no-one at home when we deliver we can usually leave items with a neighbour or in a safe place at our own risk.</p><p>Please don't try to visit us to view, buy, or return products, as we do not have showrooms and most items are held at a number of different locations.</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_HL794A",
+        "text_emqGg8",
+        "heading_afkQnT",
+        "text_7EFxQY",
+        "heading_3K7d9p",
+        "text_wDrHrb",
+        "heading_mFD9Dj",
+        "text_rtLciP",
+        "heading_kRDAgf",
+        "text_QykHkn",
+        "heading_hdJ3gb",
+        "text_FeQaek"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-3b35048f-489a-4b0b-9da8-ee62a44fd715",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_rich_text_BKMNUh"
   ]
 }
