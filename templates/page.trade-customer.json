@@ -406,7 +406,7 @@
         "collection_WnUDif"
       ],
       "custom_css": [
-        ".collection-grid {padding: 0px ;}"
+        ".collection-grid {padding: 0px;}"
       ],
       "settings": {
         "title": "Our Trade Range",
@@ -467,7 +467,7 @@
       "settings": {
         "title": "Feel Inspired",
         "subtitle": "",
-        "heading_font_size": "heading-small",
+        "heading_font_size": "heading-medium",
         "align_heading": "text-center",
         "align_text": "text-center",
         "width": "wrapper--full-padded",
