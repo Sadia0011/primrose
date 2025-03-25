@@ -161,18 +161,12 @@
     "section_accordion_group_XABayN": {
       "type": "section-accordion-group",
       "blocks": {
-        "heading_iLg3zG": {
-          "type": "heading",
-          "settings": {
-            "title": "FAQ"
-          }
-        },
         "question_KeQBeB": {
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "Frequently asked question",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "title": "How quickly do you deliver?",
+            "content": "<p>Each item has an estimated delivery time on the product page. If you're in one of the less-accesible areas of the UK please allow slightly longer for delivery.</p><p><strong>Next Working Day Delivery</strong></p><p>If you select \"Next Working Day Delivery\", any orders placed by the deadline shown we will aim to deliver on the next working day. Orders placed over the weekend will be delivered Tuesday. Whilst we endeavour to ensure delivery times are met please note that circumstances beyond our control may sometimes delay arrival. In the event of a late delivery, we may offer to refund any additional charge you paid for next day delivery, however, late delivery does not of itself entitle you to cancel your order.</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
@@ -205,7 +199,6 @@
         }
       },
       "block_order": [
-        "heading_iLg3zG",
         "question_KeQBeB",
         "question_n7mrfJ",
         "question_Cechn6"
