@@ -64,10 +64,115 @@
         "text_narDXL",
         "buttons_6DRrpX"
       ],
+      "custom_css": [
+        "#Rte--template--24766311825783__section_rich_text_cxUPcq .btn {border-radius: 30px;}"
+      ],
       "settings": {
         "align_text": "text-center",
         "width": "wrapper--full-padded",
         "color_scheme": "scheme-45bce4b4-aded-4849-aa36-e80808b72fc5",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_MGg4fU": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-45bce4b4-aded-4849-aa36-e80808b72fc5",
+        "padding_top": 14,
+        "padding_bottom": 16
+      }
+    },
+    "section_rich_text_KhEJHN": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_x6aPRg": {
+          "type": "heading",
+          "settings": {
+            "title": "Returns Information",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "heading_jTHEib": {
+          "type": "heading",
+          "settings": {
+            "title": "What do I do if my item arrived damaged?",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_rU7faK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We work hard to make sure your item arrives in perfect condition, but we understand this isn’t always the case. To report a damaged item, please contact our customer care team. Please always inspect your goods when you receive them to make sure you are happy there is no damage.</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_RMajdE": {
+          "type": "heading",
+          "settings": {
+            "title": "What do I do if my item is faulty?",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_7gYLyQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All of our products have a one-year warranty unless otherwise specified. If you receive a faulty item, please contact our customer care team.</p><p>Please note that our hurdles and screening rolls are produced from naturally occurring timber. As a result the colour may vary within batches subject to when and where the timber was sourced. We therefore are unable to guarantee that colour will always be uniform.</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_DEhiKN": {
+          "type": "heading",
+          "settings": {
+            "title": "What is your Returns Policy?",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_pfHFdh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We fully comply with the Consumer Contracts Regulations, which give consumers buying online the right to examine and test items at home as they would in a shop. Business customers do not have this right.</p><p>So, if you've changed your mind within <strong>14 days</strong> of receiving the item, just click on the above 'Returns Request Form' button above, and after having received a returns number send the item back to us for a full refund including the standard cost of delivery (unfortunately, we won't be able to refund any Next Working Day delivery charges if delivery was attempted on time). This doesn't apply to a partial return or part cancellation of a multi-item order or bespoke or made-to-order items - see below.</p><p>As with returning items to a shop, it is your responsibility to arrange and pay for the return of goods that have been correctly supplied and are not faulty. It is important that any items you return are in perfect condition, undamaged and in their original packaging. We recommend that they are sent via an insured and signed-for service.</p><p>'Made to order' or 'bespoke' items will usually be described as such on the website. In addition, anything where you specify, for example a colour or size that is not described on the website is considered \"made to order\". Unfortunately, \"made to order\" or \"bespoke\" items cannot be cancelled or returned.</p><p>Your refund will be processed within 14 days of the date on which we receive the items back into our warehouses. Refunds will be made to the same payment method used to place the original order.</p><p>If you think you might want to return any goods, please don't use them outside or test them in a way that you wouldn't be able to in a shop, otherwise the goods may be devalued as a result, we retain the right to deduct an amount considered equal to the diminished value of the handled goods from your final refund amount. If the product is sealed in see-through plastic that allows you to examine the contents as you would in a shop, please don't open the packaging. Otherwise, don't hesitate to inspect the goods, but please don't damage or dispose of the packaging until you're sure you want to keep it.</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "text_wcW68R": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Our returns address is:-</strong></p><p>Primrose Returns<br/>Dingley Dell Nurseries<br/>Windlesham Road<br/>Chobham<br/>Woking<br/>GU24 8SP</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_x6aPRg",
+        "heading_jTHEib",
+        "text_rU7faK",
+        "heading_RMajdE",
+        "text_7gYLyQ",
+        "heading_DEhiKN",
+        "text_pfHFdh",
+        "text_wcW68R"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
         "overlay_opacity": 0,
         "show_overlay_text": false,
         "padding_top": 100,
@@ -77,6 +182,8 @@
   },
   "order": [
     "main",
-    "section_rich_text_cxUPcq"
+    "section_rich_text_cxUPcq",
+    "section_divider_MGg4fU",
+    "section_rich_text_KhEJHN"
   ]
 }
