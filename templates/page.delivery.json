@@ -297,7 +297,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Contact our customer care team</p>",
-            "text_font_size": "body-small",
+            "text_font_size": "body-semi-small",
             "padding_bottom": 0
           }
         }
