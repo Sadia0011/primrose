@@ -359,8 +359,56 @@
         "layout_mobile": "slider",
         "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
         "padding_top": 3,
-        "padding_bottom": 15,
+        "padding_bottom": 0,
         "heading_tag": "automatic"
+      }
+    },
+    "collection_grid_with_title_HGt9FD": {
+      "type": "collection-grid-with-title",
+      "blocks": {
+        "collection_iRMbbt": {
+          "type": "collection",
+          "settings": {
+            "collection": "awnings",
+            "image_1": "shopify://shop_images/tradepage_ourrange_awnings_p1.jpg",
+            "collection_name": ""
+          }
+        },
+        "collection_Qn9ffB": {
+          "type": "collection",
+          "settings": {
+            "collection": "sail-shades",
+            "image_1": "shopify://shop_images/tradepage_ourrange_sailshades_p7.jpg",
+            "collection_name": ""
+          }
+        },
+        "collection_MtEHmt": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-heating",
+            "image_1": "shopify://shop_images/tradepage_ourrange_outdoorheating_p5_2.jpg",
+            "collection_name": ""
+          }
+        },
+        "collection_WnUDif": {
+          "type": "collection",
+          "settings": {
+            "collection": "planters",
+            "image_1": "shopify://shop_images/tradepage_ourrange_planters_p2.jpg",
+            "collection_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_iRMbbt",
+        "collection_Qn9ffB",
+        "collection_MtEHmt",
+        "collection_WnUDif"
+      ],
+      "settings": {
+        "title": "Our Trade Range",
+        "subtitle": "",
+        "width": "wrapper--full-padded"
       }
     },
     "section_columns_kwmtRG": {
@@ -549,6 +597,7 @@
     "section_hero_gP96jw",
     "section_text_row_eeAxTh",
     "section_columns_m3qHwP",
+    "collection_grid_with_title_HGt9FD",
     "section_columns_kwmtRG",
     "section_hero_TgVtqM",
     "section_divider_hfj9L9",
