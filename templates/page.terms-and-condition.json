@@ -541,13 +541,98 @@
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
+        },
+        "heading_zG8ARX": {
+          "type": "heading",
+          "settings": {
+            "title": "Look for this symbol",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "image_8bYKX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/weee_logo.jpg",
+            "image_width": 20,
+            "padding_bottom": 16
+          }
+        },
+        "text_x79y8c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Electrical and Electronic Equipment that was made after June 2006 should display this symbol on the packaging or product. It means that the product is covered by the WEEE Regulations and every effort should be made to recycle it. All our electrical products display this symbol.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "heading_8b3QxT": {
+          "type": "heading",
+          "settings": {
+            "title": "The Waste Batteries and Accumulators Regulations",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_j8AWkC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Under the Waste Battery Regulations, Primrose are now offering a take back scheme for all portable waste batteries. You can return your waste batteries to our business premises in person at<br/><br/>Dingley Dell Nurseries<br/>Windlesham Road<br/>Chobham, Woking<br/>Surrey<br/>GU24 8SP<br/>(please do not post)</p><p>Alternatively, you can find your local waste portable battery recycling facility at www.recyclenow.com<br/>Most supermarkets and shops that sell batteries will have collection bins for used batteries, and some town halls, libraries or schools may also set up collection points. End-users may find stores in their local area more accessible.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_yexJKt": {
+          "type": "heading",
+          "settings": {
+            "title": "Distributor Take Back Scheme",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_tJFkyU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Primrose are fulfilling their distributor obligations through our agents Clarity who is a a member of the WEEE Distributor Take Back (DTS) Scheme. The DTS is designed to fulfil the obligations of distributors. The DTS supports a national network of collection facilities where consumers can dispose of their household WEEE free of charge for environmentally sound treatment and recycling.</p><p>Please get in touch with our customer service team to arrange a free collection of your WEEE when purchasing a new replacement item.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "heading_pbbCUr": {
+          "type": "heading",
+          "settings": {
+            "title": "Recycle your old electricals",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_r7cbxE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please ensure that your old Waste Electricals and Electronics are recycled in accordance with the regulations. Please do not throw them away with your domestic rubbish as they will not be recycled.</p><p>Contact your local council, or click on www.recycle-more.co.uk and click on Bank Locator to find your nearest recycling point.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
         }
       },
       "block_order": [
         "heading_JhaFFH",
         "image_DYRFDW",
         "text_cqUGzG",
-        "text_GdQDPU"
+        "text_GdQDPU",
+        "heading_zG8ARX",
+        "image_8bYKX3",
+        "text_x79y8c",
+        "heading_8b3QxT",
+        "text_j8AWkC",
+        "heading_yexJKt",
+        "text_tJFkyU",
+        "heading_pbbCUr",
+        "text_r7cbxE"
       ],
       "custom_css": [
         "p {color: black;}"
@@ -562,35 +647,62 @@
         "padding_bottom": 10
       }
     },
-    "section_double_qGNUxg": {
-      "type": "section-double",
+    "section_divider_eXPjCH": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_divider_TXHj8w": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_rich_text_AGEEXr": {
+      "type": "section-rich-text",
       "blocks": {
-        "text_C9qMTq": {
+        "heading_qLBrAr": {
+          "type": "heading",
+          "settings": {
+            "title": "Security",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_bDLEXR": {
           "type": "text",
           "settings": {
-            "text": "<p>New government regulations called The Waste Electrical and Electronic Equipment (WEEE) Regulations encourages people to recycling old electrical products, rather than throwing them away.Electrical goods are the fastest growing waste stream in the UK, growing by 5% each year. Each year in the UK we go through over 1.2 million tonnes of electrical waste.</p><p>Over 75% of waste electrical goods end up in landfill, where lead and other toxins contained in These items can cause soil and water contamination which, in turn, can have a very harmful effect on the environment and human health.</p><p>Many of the electrical items that we throw away can be repaired or recycled. Recycling items helps to save natural finite resources and also reduces the environmental and health risks associated with sending waste electrical goods to landfill.</p>",
-            "text_font_size": "body-small",
+            "text": "<p>The security of your personal and credit card details is of the highest importance to us.<br/>If you place your order online, no human being will ever be able to see your complete card details - this is why ordering online is safer than using your card in a store, where someone could see your pin number over your shoulder.<br/>We use the latest Internet encryption with 128 bit SSL software developed by RSA Data.</p><p>When you are ready to enter your credit card details on the secure page, your browser will automatically inform you that encryption is being used.</p><p>Furthermore, all data stored on the secure server is encrypted again and protected by a firewall, the specification of which has been recognised by the major banks. You can confirm the security of your connection to the checkout page by checking the bottom of your browser window. When the connection is secure you will see a closed lock.</p>",
+            "text_font_size": "body-semi-small",
             "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "text_C9qMTq"
+        "heading_qLBrAr",
+        "text_bDLEXR"
+      ],
+      "custom_css": [
+        "p {color: black;}"
       ],
       "settings": {
-        "section_title": "",
-        "image_1": "shopify://shop_images/recycle-more_logo_1.jpg",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "layout": "",
+        "align_text": "text-left",
         "width": "wrapper--full-padded",
-        "height": "four-fifty-height-hero",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
         "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
         "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
+        "padding_bottom": 0
       }
     }
   },
@@ -617,6 +729,8 @@
     "section_rich_text_Ra97eV",
     "section_divider_BVKDzQ",
     "section_rich_text_h3xztF",
-    "section_double_qGNUxg"
+    "section_divider_eXPjCH",
+    "section_rich_text_AGEEXr",
+    "section_divider_TXHj8w"
   ]
 }
