@@ -144,6 +144,9 @@
         "collection_8mE9Nm",
         "collection_xiUYfD"
       ],
+      "custom_css": [
+        ".collection-item__info span {display: none;}"
+      ],
       "settings": {
         "title": "",
         "heading_font_size": "heading-medium",
@@ -159,11 +162,165 @@
         "width": "wrapper--full-padded",
         "layout": "grid",
         "grid": 3,
-        "layout_mobile": "slider",
+        "layout_mobile": "2",
         "color_scheme": "",
         "padding_top": 32,
         "padding_bottom": 32,
         "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_RHCUhA": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_cLBJL7": {
+          "type": "heading",
+          "settings": {
+            "title": "Primrose in Print",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_Lmd9fY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've been in the press a lot - our goods are just that good! including an Indy Best Buy Award for our brilliant <a href=\"/collections/sail-shades\" title=\"Sail Shades\">Sail Shades</a></p><p>If you're interested in featuring our product in your magazine or newspaper, get in touch with media@primrose.co.uk.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_cLBJL7",
+        "text_Lmd9fY"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_edFLKW": {
+      "type": "section-hero",
+      "settings": {
+        "image_1": "shopify://shop_images/primrosepress_primroseinprint_desktop_2.png",
+        "link": "",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_rich_text_jVaHcQ": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_CtEgWk": {
+          "type": "heading",
+          "settings": {
+            "title": "Primrose on TV",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_kdjbQL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're delighted to have featured a range of Primrose products on TV, from ITV's This Morning to a heart-wrenching scene (for us anyway) on Eastenders.</p><p>Check out below a list of everywhere you might have seen us!</p><p>If you're interested in featuring our products on your shows, reach out to <a href=\"mailto:media@primrose.co.uk\">media@primrose.co.uk</a></p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_CtEgWk",
+        "text_kdjbQL"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 38,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_BtyRe8": {
+      "type": "section-hero",
+      "settings": {
+        "image_1": "shopify://shop_images/primrosepress_primroseontv_desktop_1.png",
+        "link": "",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_rich_text_jeKRpw": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_tpVfXV": {
+          "type": "heading",
+          "settings": {
+            "title": "Contact us",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_yFEjPG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're proud to display our innovative products and designs at gardening shows and exhibitions, as well as provide worthwhile sponsorship packages such as <a href=\"http://www.thecoldestjourney.org/the-expedition/the-coldest-journey/\" title=\"Sir Ranulph Fiennes 'The Coldest Journey'\">Sir Ranulph Fiennes 'The Coldest Journey'</a></p><p>If you have an opportunity you feel Primrose would suit, get in touch with media@primrose.co.uk</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_tpVfXV",
+        "text_yFEjPG"
+      ],
+      "custom_css": [
+        "p{color:black;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -171,6 +328,11 @@
     "main",
     "section_hero_NrpPym",
     "section_rich_text_GKUe7k",
-    "section_collections_list_pbAJxc"
+    "section_collections_list_pbAJxc",
+    "section_rich_text_RHCUhA",
+    "section_hero_edFLKW",
+    "section_rich_text_jVaHcQ",
+    "section_hero_BtyRe8",
+    "section_rich_text_jeKRpw"
   ]
 }
