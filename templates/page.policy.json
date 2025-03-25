@@ -11,10 +11,205 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_ykBTmE": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_H3QFqH": {
+          "type": "heading",
+          "settings": {
+            "title": "Modern Slavery statement",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "heading_yGV9EN": {
+          "type": "heading",
+          "settings": {
+            "title": "Modern slavery statement for financial year 2018/19",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_TNVi3R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This statement is made pursuant to s.54 of the Modern Slavery Act 2015 and sets out the steps that Meika Limited has taken and is continuing to take to ensure that modern slavery or human trafficking is not taking place within our business or supply chain.</p><p>Modern slavery encompasses slavery, servitude, human trafficking and forced labour. Meika Limited has a zero-tolerance approach to any form of modern slavery. We are committed to acting ethically and with integrity and transparency in all business dealings and to putting effective systems and controls in place to safeguard against any form of modern slavery taking place within the business or our supply chain.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_NKFQWY": {
+          "type": "heading",
+          "settings": {
+            "title": "Our business",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_z3piaN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Trading as Primrose we are a leader in outdoor living products in the Uk, Europe and the US, retailing direct to the public via a combination of own sites and marketplaces.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_TY9agh": {
+          "type": "heading",
+          "settings": {
+            "title": "Our high-risk areas",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_nqf8LJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our potential risks are overseas factories in China, Vietnam and throughout the EU. We have a minimum policy of annual inspection with many of our factories being visited multiple times during the course of the year. Minimum age policies are checked in factories and confirmed by our inspector on every visit inspection form.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "heading_amLMea": {
+          "type": "heading",
+          "settings": {
+            "title": "Our policies",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_wab7GU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We operate a number of internal policies to ensure that we are conducting business in an ethical and transparent manner. These include:</p><ol><li>Anti-slavery policy. This policy sets out the organisation’s stance on modern slavery and explains how employees can identify any instances of this and where they can go for help.</li><li>Recruitment policy. We operate a robust recruitment policy, including conducting eligibility to work in the UK checks for all employees to safeguard against human trafficking or individuals being forced to work against their will.</li><li>Code of business conduct. This code explains the manner in which we behave as an organisation and how we expect our employees and suppliers to act.</li></ol>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "heading_q3HfAh": {
+          "type": "heading",
+          "settings": {
+            "title": "Our suppliers",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_yiMzkw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Meika Limited conduct due diligence on all suppliers. This due diligence includes an online search to ensure that a particular organisation has never been convicted of offences relating to modern slavery, we also conduct a site survey when visiting/inspecting factories. Our anti-slavery policy forms part of our contract with all suppliers and they are required to confirm that no part of their business operations contradicts this policy.</p><p>In addition to the above, as part of our contract with suppliers, we require that they confirm to us that:</p><ol><li>They have taken steps to eradicate modern slavery within their business</li><li>They hold their own suppliers to account over modern slavery</li><li>(For UK based suppliers) They pay their employees at least the national minimum wage / national living wage (as appropriate)</li><li>(For international suppliers) They pay their employees any prevailing minimum wage applicable within their country of operations</li><li>We may terminate the contract at any time should any instances of modern slavery come to light.</li></ol>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "heading_RepCkT": {
+          "type": "heading",
+          "settings": {
+            "title": "Training",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_6cLD7B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We regularly conduct training for our procurement/buying teams so that they understand the signs of modern slavery and what to do if they suspect that it is taking place within our supply chain.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "heading_zhYQVe": {
+          "type": "heading",
+          "settings": {
+            "title": "Our performance indicators",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_jF7hch": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We will know the effectiveness of the steps that we are taking to ensure that slavery and/or human trafficking is not taking place within our business or supply chain if:</p><ul><li>No reports are received from employees, inspections, visits, the public, or law enforcement agencies to indicate that modern slavery practices have been identified.</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "heading_mVmUeg": {
+          "type": "heading",
+          "settings": {
+            "title": "Approval for this statement",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_g4RXJX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This statement was approved by the Board of Directors on 18th December 2018</p><p>Signature:</p><p>Justin Daubeney</p><p>Primrose is the trading name of Meika Ltd, a company registered in England no 4756556.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_H3QFqH",
+        "heading_yGV9EN",
+        "text_TNVi3R",
+        "heading_NKFQWY",
+        "text_z3piaN",
+        "heading_TY9agh",
+        "text_nqf8LJ",
+        "heading_amLMea",
+        "text_wab7GU",
+        "heading_q3HfAh",
+        "text_yiMzkw",
+        "heading_RepCkT",
+        "text_6cLD7B",
+        "heading_zhYQVe",
+        "text_jF7hch",
+        "heading_mVmUeg",
+        "text_g4RXJX"
+      ],
+      "custom_css": [
+        "p,ul{color:black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_rich_text_ykBTmE"
   ]
 }
