@@ -11,10 +11,161 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_wJgpXm": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_DQitgj": {
+          "type": "heading",
+          "settings": {
+            "title": "Trade Customers",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 30,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_RHBzT7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you're a landscaper/gardener, builder, events company, interior designer or other trade customer, please contact our trade sales department on <strong>01189 035 242</strong> or email <a href=\"mailto:trade@primrose.co.uk\" title=\"trade@primrose.co.uk\">trade@primrose.co.uk</a></p><p>The initial order must be over £500, but further orders have no such constraints. You'll have your own account manager and special Customer Service Representative too, who'll both work to keep your Primrose journey smooth and straightforward. Not only that, they'll help negotiate the best discounts with our suppliers for you and your business.</p><p>Unfortunately, we can't offer trade customers any credit or 30-day terms.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_DQitgj",
+        "text_RHBzT7"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 32,
+        "padding_bottom": 30
+      }
+    },
+    "section_hero_9z4dTM": {
+      "type": "section-hero",
+      "settings": {
+        "image_1": "shopify://shop_images/tradepage_headingimage_desktop_1.jpg",
+        "link": "",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "show_text_background": false,
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_rich_text_n3LBPc": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_Q6TTVi": {
+          "type": "heading",
+          "settings": {
+            "title": "Primrose Trade Centre",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_axNatw": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Contact us today on 0118 903 5242</strong></p><p><strong>or email</strong> <a href=\"mailto:trade@primrose.co.uk\" title=\"trade@primrose.co.uk\">trade@primrose.co.uk</a></p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_ztPn6M": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Contact Us",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons_6pkyCd": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Benifits",
+            "button_url": "#",
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons_HtLGmD": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Our Range",
+            "button_url": "#",
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_Q6TTVi",
+        "text_axNatw",
+        "buttons_ztPn6M",
+        "buttons_6pkyCd",
+        "buttons_HtLGmD"
+      ],
+      "custom_css": [
+        ".btn {background-color: #e8e8e8; color: #000; border: 0; border-radius: 30px; min-width: 184px; min-height: 50px; padding: 10px 20px;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 18,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_rich_text_wJgpXm",
+    "section_hero_9z4dTM",
+    "section_rich_text_n3LBPc"
   ]
 }
