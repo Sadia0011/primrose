@@ -11,10 +11,423 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_CemHLJ": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_BgnTRk": {
+          "type": "heading",
+          "settings": {
+            "title": "Terms and Conditions",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 36,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_6xMwFV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your use of this website signifies your agreement to these terms and conditions. They constitute a contract between you and us governing your use of this website. If you are a consumer your statutory rights are not affected by this agreement. If you would like a copy of our terms and conditions, please highlight the text, then copy and paste into a document (eg Word) on your computer. We reserve the right to modify these terms and conditions without notice and so you should view them each time you visit our website.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_BgnTRk",
+        "text_6xMwFV"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_divider_HdiHDe": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_rich_text_Ji8ykM": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_xgAEay": {
+          "type": "heading",
+          "settings": {
+            "title": "Peace of mind guarantee",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_jzXtfF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We want you to be delighted with the products you buy from us, which is why we guarantee that we fully comply with your rights to return items under the Distance Selling Regulations. Please read our Delivery and Returns for full information.</p><p>The following form part of our terms and conditions:</p><p>- <a href=\"/pages/delivery\" title=\"Delivery Information\">Delivery and Returns</a><br/>- <a href=\"/pages/policy\" title=\"Policy\">Security</a><br/>- <a href=\"/pages/privacy-policy\" title=\"Privacy Policy\">Privacy Policy</a></p><p>All sizes are overall and measurements are approximate although we do try to ensure they are as accurate as possible.</p><p><br/>Some of the products we sell such as fencing and screening are natural products made using traditional techniques. Please do not assume that they will have the precision or consistency of machine-made products.</p><p><br/>Verbal representations.<br/>We're here to help, and we're always happy to do our best to give advice over the phone. However, if the information you require is critical to your decision as to whether to buy or not, you must get it in writing if you might need to rely on it to resolve any potential misunderstandings.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_xgAEay",
+        "text_jzXtfF"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_UUY3Wh": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_rich_text_GMbFPX": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_UbPzcy": {
+          "type": "heading",
+          "settings": {
+            "title": "Plants Terms and Conditions",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_NBKezD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We make every effort to ensure that all our plants are of the highest quality and are fully inspected prior to dispatch. If however you feel that the plant received is not in reasonable condition then please contact us IMMEDIATELY. Please bear in mind the following:</p><ul><li>Is it in season? Plants will look different depending on the time of year. Out of season plants may be very bare in winter periods</li><li>The images on the site are generally of a mature plant; what you ordered may have been a plug. A plug is a developing plant, nurtured through the early growth stages in a small container of nutrient rich compost/potting soil, ready to be 'plugged' into your garden. Please check your order confirmation if at all unsure.</li><li>Where plants are supplied in pots, the pot is included in the plant's height specification</li></ul><p>It's important that you take an image of plant as soon as possible so there is no doubt as to its condition when it was received. We may request the plant is returned to us for further investigation so we can establish the cause of the problem.</p><p><strong>Not Planting Until The Weekend?</strong><br/>Should you receive your plants but have no plans to transplant within 24 hours then please bear in mind they are 'Live'. Please ensure you open the packaging, water the plant and expose it to daylight until you are ready to plant. See care instructions for individual details.</p><p><strong>Please note:</strong> We are unable to deliver any plants to the Channel Islands, Isle of Man, Republic of Ireland or countries outside of the UK.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_UbPzcy",
+        "text_NBKezD"
+      ],
+      "custom_css": [
+        "p,li {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_yekTtb": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_rich_text_Uwa6Wy": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_DUfYXF": {
+          "type": "heading",
+          "settings": {
+            "title": "Warranties",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_8CF6L7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please our full list of product warranties.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_DUfYXF",
+        "text_8CF6L7"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_aMBgai": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_rich_text_HXEzL9": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_EAhANp": {
+          "type": "heading",
+          "settings": {
+            "title": "Why do some Water Features come without a plug?",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_PJe79z": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We don't always supply a plug with a water feature, it depends on the product, style of feature, pump supplied and likely location that the product maybe installed. All of our products are designed for ease of installation there are however, a specific set of rules set out by the building regulations which must be adhered too: \"Building Regulations - Part P\" this is a government directive which states that any NEW PERMANENT household or garden electrical supply must be installed by a competent Part P Certified electrician. Some of our products wont require a permanent installation, its worth considering a number of things in order to ensure you safely install your feature or seek the help and advice of a qualified electrician.</p><ul><li>Where are you going to place your product?</li><li>Is there available power already in the garden? - outdoor sockets for example.</li><li>Will it be permanently in this location?</li><li>Do you have existing power in the garden near the location?</li></ul><p>If in any doubt seek the advice of a Part P Certified electrician. Full details of Part P available here. </p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_EAhANp",
+        "text_PJe79z"
+      ],
+      "custom_css": [
+        "p,li {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_zXecnr": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_rich_text_LDTMEw": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_jHxNVG": {
+          "type": "heading",
+          "settings": {
+            "title": "Henri Water Features - Home Delivery Terms and Conditions",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_RqRLcD": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Delivery Criteria</strong><br/>1. Delivery is to the nearest kerbside or hard-standing by a tail lift vehicle<br/>2. Goods cannot be left on a public road or pavement<br/>3. The unloading area must be smooth and level with no slopes, and also be large enough to accept a heavy goods vehicle<br/>4. Deliveries are made Monday - Friday only, between 8am and 5pm<br/>5. Delivery between 7-10 working days</p><p>- Delivery is NOT with a crane lift or Hiab<br/>- Goods are delivered using a tail-lift at the rear of the vehicle with a hand pump truck<br/>- The product cannot be pushed uphill or downhill or on gravel drives or lawns</p><p><strong>Delivery Arrangements</strong><br/>You will receive a phone call to arrange the delivery between the hours of 8am - 5pm Monday to Friday, however if an arranged delivery is attempted and there is nobody to provide a signature, it will be taken back to the depot and re-delivered on another day but will incur a re-delivery charge which is to be paid direct to the carrier to enable re-delivery of the goods. If possible it is preferred that you provide a mobile phone number.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_jHxNVG",
+        "text_RqRLcD"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_Rb9qU3": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_rich_text_KQfKhU": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_pRDEkk": {
+          "type": "heading",
+          "settings": {
+            "title": "If your order is dispatched by a Marketplace Seller",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_4LPYpf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If your item is dispatched by a Marketplace/Third Party Seller the purchase confirmation e-mail sent by Primrose can serve as a record of your purchase so please feel free to print a copy of this for your records. If you need a VAT invoice, you'll need to contact the Seller directly to ask for one.</p><p></p><p><strong>Primrose's Role</strong><br/>Buyers authorise Primrose to act as their limited representative solely to conclude on their behalf sales contracts directly between them and the sellers for sales of goods via the Service. While Primrose helps facilitate transactions that are carried out using the Service, Primrose is neither the buyer nor the seller of the seller's items. Primrose is not an auctioneer. Primrose provides a venue for sellers and buyers to negotiate and complete transactions in accordance with the provisions of this Participation Agreement. Primrose is not the agent of the seller. Accordingly, the contract formed at the completion of a Fixed Price Sale is solely between buyer and seller. The enforcement of any contractual obligations arising out of the completion of a transaction using the Service is the responsibility of the buyer and seller that are party to that transaction. Primrose is not obliged to mediate between buyers and sellers or enforce or execute fulfilment of any contract. Buyers and sellers use the Site and the Service at their own risk. Subject to the terms of this Participation Agreement, the seller will resolve any subsequent dispute directly with the buyer.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_pRDEkk",
+        "text_4LPYpf"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_cW6QB8": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_rich_text_7eCPa8": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_fbFqQC": {
+          "type": "heading",
+          "settings": {
+            "title": "Late deliveries and other problems.",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_NEqK3A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We do of course make every effort to ensure that your order will arrive within the delivery times shown on the website. Unfortunately, on rare occasions this may not always be possible. Should your order be delayed or fail to arrive when expected, please contact us immediately and we will do our best to resolve any problems. (<strong>Please note that our liability does not extend to providing compensation for late or failed deliveries.</strong>) We make every reasonable effort to ensure that your order meets - and hopefully exceeds - your expectations. Of course, in rare cases things can sometimes go wrong and we will always do everything we can to rectify any problems in a quick and satisfactory manner. However please note that we cannot be held responsible for any resulting additional expense you may incur unless with our prior agreement.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_fbFqQC",
+        "text_NEqK3A"
+      ],
+      "custom_css": [
+        "p{color:black;}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_divider_MNBgja": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_rich_text_CemHLJ",
+    "section_divider_HdiHDe",
+    "section_rich_text_Ji8ykM",
+    "section_divider_UUY3Wh",
+    "section_rich_text_GMbFPX",
+    "section_divider_yekTtb",
+    "section_rich_text_Uwa6Wy",
+    "section_divider_aMBgai",
+    "section_rich_text_HXEzL9",
+    "section_divider_zXecnr",
+    "section_rich_text_LDTMEw",
+    "section_divider_Rb9qU3",
+    "section_rich_text_KQfKhU",
+    "section_divider_cW6QB8",
+    "section_rich_text_7eCPa8",
+    "section_divider_MNBgja"
   ]
 }
