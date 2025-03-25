@@ -160,7 +160,7 @@
         "layout": "grid",
         "grid": 2,
         "layout_mobile": "slider",
-        "color_scheme": "",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "automatic"
@@ -204,157 +204,61 @@
         "height": "screen-height-one-half",
         "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
         "padding_top": 0,
         "padding_bottom": 0
       }
     },
-    "custom-content-3": {
-      "type": "section-custom-content",
+    "section_rich_text_4FYLyp": {
+      "type": "section-rich-text",
       "blocks": {
-        "text-3-1": {
-          "type": "text",
+        "heading_pYiCjz": {
+          "type": "heading",
           "settings": {
-            "subheading": "Introducing",
-            "title": "Custom content",
-            "heading_font_size": "heading-large",
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "text-3-1"
-      ],
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full-padded",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "custom-content-4": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text-4-1": {
-          "type": "text",
-          "settings": {
-            "subheading": "Introducing",
-            "title": "Custom content",
-            "heading_font_size": "heading-large",
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
+            "title": "What does your garden mean to you?",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
             "heading_tag": "automatic"
           }
         },
-        "image-4-2": {
-          "type": "image",
+        "text_rReht4": {
+          "type": "text",
           "settings": {
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_opacity": 0,
-            "overlay_color": "",
-            "show_overlay_text": false,
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
+            "text": "<p>Are you an entertainer, who loves nothing more than a garden full of friends and family?</p><p>Or is your garden your zen space, where you can get away from it all and just breathe...</p><p>Maybe your garden is your hobby, featuring enchanting displays of colour or an overflowing vegetable patch.</p><p>Whatever your garden means to you, create your perfect outdoor space with our range of over 10,000 carefully selected garden and outdoor living products.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_ffMyxP": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Discover everything garden",
+            "button_url": "shopify://collections/garden-furniture",
+            "button_type": "btn--secondary",
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
-            "heading_tag": "automatic"
+            "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "text-4-1",
-        "image-4-2"
+        "heading_pYiCjz",
+        "text_rReht4",
+        "buttons_ffMyxP"
+      ],
+      "custom_css": [
+        "p {color: black;}",
+        ".btn {border-radius: 30px;}"
       ],
       "settings": {
-        "borders": false,
-        "gutters": false,
+        "align_text": "text-center",
         "width": "wrapper--full-padded",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "custom-content-5": {
-      "type": "section-custom-content",
-      "blocks": {
-        "newsletter": {
-          "type": "newsletter",
-          "settings": {
-            "subheading": "Newsletter",
-            "heading": "Sign up",
-            "heading_font_size": "heading-large",
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
-            "text_font_size": "body-medium",
-            "text_columns": 1,
-            "align_text": "text-left",
-            "show_name": false,
-            "button_text": "Join",
-            "show_arrow": false,
-            "terms": true,
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_social_links": false,
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "newsletter"
-      ],
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full-padded",
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 46,
+        "padding_bottom": 44
       }
     }
   },
@@ -364,8 +268,6 @@
     "main",
     "section_columns_Rp3JHH",
     "custom-content-2",
-    "custom-content-3",
-    "custom-content-4",
-    "custom-content-5"
+    "section_rich_text_4FYLyp"
   ]
 }
