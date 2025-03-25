@@ -561,6 +561,37 @@
         "padding_top": 0,
         "padding_bottom": 10
       }
+    },
+    "section_double_qGNUxg": {
+      "type": "section-double",
+      "blocks": {
+        "text_C9qMTq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New government regulations called The Waste Electrical and Electronic Equipment (WEEE) Regulations encourages people to recycling old electrical products, rather than throwing them away.Electrical goods are the fastest growing waste stream in the UK, growing by 5% each year. Each year in the UK we go through over 1.2 million tonnes of electrical waste.</p><p>Over 75% of waste electrical goods end up in landfill, where lead and other toxins contained in These items can cause soil and water contamination which, in turn, can have a very harmful effect on the environment and human health.</p><p>Many of the electrical items that we throw away can be repaired or recycled. Recycling items helps to save natural finite resources and also reduces the environmental and health risks associated with sending waste electrical goods to landfill.</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "text_C9qMTq"
+      ],
+      "settings": {
+        "section_title": "",
+        "image_1": "shopify://shop_images/recycle-more_logo_1.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full-padded",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
     }
   },
   "order": [
@@ -585,6 +616,7 @@
     "section_divider_FQnEzJ",
     "section_rich_text_Ra97eV",
     "section_divider_BVKDzQ",
-    "section_rich_text_h3xztF"
+    "section_rich_text_h3xztF",
+    "section_double_qGNUxg"
   ]
 }
