@@ -145,6 +145,9 @@
         "heading_hdJ3gb",
         "text_FeQaek"
       ],
+      "custom_css": [
+        "#Rte--template--24766311793015__section_rich_text_BKMNUh p{color:black;}"
+      ],
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
