@@ -3933,6 +3933,7 @@ details[disabled] [data-collapsible-content] {
   --font-body-large: 1rem;
   --font-body-medium: 0.875rem;
   --font-body-small: 0.75rem;
+  --font-body-semi-small: 16px;
   --font-body-x-small: 0.625rem;
   --font-nav-large: 1;
   --font-nav-medium: 0.875;
