@@ -90,48 +90,294 @@
     "section_rich_text_xcDnBC": {
       "type": "section-rich-text",
       "blocks": {
-        "heading_GpbmiG": {
+        "text_bQKAmw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The following are additional explanations about our data collection that may be helpful to you.</p><ul><li><strong>Usage Information</strong>: Anytime you visit our Services, we may gather certain information regarding the means you use to access our Services. This information may include the type and version of your browser, your service provider, your IP address and any search engine you may have used to locate the Services. We use this information to help diagnose problems with our server, administer the Services, and compile broad statistical data. In addition, we gather certain navigational information about where you go on our Services. This information enables us to determine which areas of the Services are most frequently visited and helps us to tailor the Services to the needs and interests of our online visitors. Such information is gathered by us in the aggregate and will not be associated with a specific individual without that individual's consent.</li><li><strong>Information Voluntarily Provided on the Services</strong>: We may collect information you voluntarily provide to us (i.e., contact information such as name, e-mail address, etc.), request information, or use any of the other interactive portions of our Services.</li><li><strong>Information Collected from Other Sources:</strong> To help us better understand and respond to your needs and interests, we may in the future receive information about you from other sources, such as third party referral services. We will ask any provider of such information to represent and warrant that the information has been gathered and maintained in accordance with all state and federal laws. Any such information will be maintained by us in accordance with the standards set forth in this Privacy Policy along with other personal information you've provided.</li></ul>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_ba3zar": {
           "type": "heading",
           "settings": {
-            "title": "Rich text",
-            "heading_font_size": "heading-large",
+            "title": "Use & Retention of Information Collected",
+            "heading_font_size": "heading-small",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
         },
-        "text_bQKAmw": {
+        "text_8in8dH": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_font_size": "body-medium",
+            "text": "<p>We use the information we collect from you for the following purposes:</p><ul><li>To provide our Services.</li><li>To tailor your experience on the Services.</li><li>To improve user experiences by making our services easier to use and navigate. To send you marketing communications.</li><li>To respond to your requests and inquiries.</li><li>To comply with legal and/or safety requirements.</li><li>For other legitimate business purposes.</li><li>We retain your information only for as long as necessary for the purpose for which it was collected.</li></ul>",
+            "text_font_size": "body-semi-small",
             "padding_bottom": 16
           }
         },
-        "buttons_VVcGm7": {
-          "type": "buttons",
+        "heading_rmAweT": {
+          "type": "heading",
           "settings": {
-            "button_text": "Learn more",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
+            "title": "Disclosure of Personal Information",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_aJhPUd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We collect and maintain the personal information of our consumers for our use. We do not disclose consumer information to third parties, other than as described below or with your consent.</p><ul><li>To complete your purchase. If you choose to make a purchase, we may collect from you your credit card number, billing address and other information related to such purchase, and we may use such collected information in order to fulfill your purchase. We may also provide such information, or other personal information provided by you, to unaffiliated third parties such as payment card processing companies as necessary to complete your purchase.</li><li>To provide you with additional customer service. For example, if you ask us to provide you with additional information or to compare your purchased items with items available elsewhere, we may share your personal information with order fulfillment service providers in order to confirm your purchase and fulfill your request. In addition, if you e-mail us a question, we may use your e-mail address to process your request and respond to your question and we may use a third party customer service provider to help with customer service.</li><li>To unaffiliated third-party service providers, agents or independent contractors who help us maintain our site and provide other administrative services to us (including, but not limited to, order processing and fulfillment, providing customer service, maintaining and analyzing data, sending customer communications on our behalf, and entry collection, winner selection and prize fulfillment for contests, sweepstakes and other promotions). We seek to ensure that these unaffiliated third parties will not use the personal information for any other purpose than to provide the administrative services for which they are responsible. Because such unaffiliated third-party service providers will have access to users’ personal information, if you do not wish for our unaffiliated third-party service providers to have access to your information, please do not register or submit any personal information to us.</li><li>To comply with the law or in the good faith belief that such action is necessary in order to conform to the requirements of law or comply with legal process served on us, protect and defend our rights or property, including the rights and property of Primrose, our visitors or customers, or act in urgent circumstances to protect the personal safety of our end users.</li><li>To third parties as part of any corporate reorganization process including, but not limited to, mergers, acquisitions, and sales of all or substantially all of our assets.</li><li>To track and analyze non-identifying and aggregate usage and volume statistical information from our visitors and customers and provide such information to third parties.</li><li>To enforce the Terms and Conditions or to protect against potential fraud, we may verify with third parties the information collected. In the course of such verification, they may receive personal information about you from such services. In particular, if you use a credit card or debit card to purchase services with us, we may use card authorization and fraud screening services to verify that your card information and address matches the information that you supplied to us, and that the card has not been reported as lost or stolen. These card authorization and fraud screening services may use your personal information for their own purpose (i.e., beyond verifying your information or screening your transaction), including for analytics and to improve their fraud screening tools and services.</li></ul><p>Except as described in this Privacy Policy or at the time we request the information, we do not otherwise use, share or otherwise disclose your personal information to any third parties.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_xjTKw6": {
+          "type": "heading",
+          "settings": {
+            "title": "Use of Cookies",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_Cygr7m": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cookies are small files placed on your hard drive that assist us in providing you with a customized browsing experience. We use cookies to provide you with the convenience of not having to reenter information multiple times during your visits to our sites. Cookies can also be utilized to help us provide you with information targeted to your interests, based upon your prior browsing on our sites. Different cookies are used to perform different functions, which we explain below:</p><ul><li>Essential. Some cookies are essential in order to enable you to move around our sites and use their features, such as accessing secure areas of our sites. Without these cookies, we cannot enable appropriate content based on the type of device you are using.</li><li>Analytics. Personal information collected via cookies for analytics purposes may include: information about your browser, network, and device; web pages you visited prior to coming to our sites; IP address; clicks; internal links; pages visited; scrolling; and searches. We use this information to learn about site traffic and activity. In particular, we use Google Analytics to measure how you interact with our sites. For more information about Google Analytics and how it collects and processes data, please go to “How Google uses data when you use our partners' sites or apps”, located at https://policies.google.com/technologies/partner-sites. Google also provides instructions on opting-out of Google Analytics at https://tools.google.com/dlpage/gaoptout.</li><li>Targeted Advertising. Cookies may be placed by our third-party advertising companies. These companies may use aggregated statistics about your use of our sites and third party media in order to provide you with advertisements about goods and services that you may be interested in. If you would like to opt-out of such advertising practices on the particular device on which you are accessing this Privacy Policy, please go to http://optout.aboutads.info/. See also below our section on Third-Party Advertising.</li></ul><p>The “help” section of the toolbar on most browsers will inform you on how to prevent your browser from accepting new cookies, how to have the browser notify you upon the receipt of a new cookie, or how to disable the use of cookies completely. As our sites have been designed to take advantage of the use of cookies, should you configure your browser to decline their use, certain features of our sites may not function correctly.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_wVh88P": {
+          "type": "heading",
+          "settings": {
+            "title": "Third-Party Advertising ",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_aXz9hg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We may use advertisers, third party ad networks and other advertising companies to serve advertisements on the Services. These third parties use cookies and other similar technologies to collect or receive information from our sites and elsewhere on the Internet and use that information to provide you with targeted ads. The Network Advertising Initiative offers a means to opt-out of a number of advertising cookies. Please visit www.networkadvertising.org to learn more. Note that opting-out does not mean you will no longer receive online advertising. It does mean that the company or companies from which you opted-out will no longer deliver ads tailored to your preferences and usage patterns.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_y6Pd3H": {
+          "type": "heading",
+          "settings": {
+            "title": "Collection and use of Information from Children",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_nL7Pnx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Services are not intended for children. We do not knowingly collect personal information from children, and none of our Services are designed to attract children. In the event that we learn that a person under the age of 13 has provided personal information to us, we will delete such personal information as soon as possible.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_V8NqFq": {
+          "type": "heading",
+          "settings": {
+            "title": "External Links",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_3RmcwU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Services contain links to other sites. We are not responsible for the privacy practices or the content of such third party sites. To better protect your privacy, we recommend that you review the Privacy Policy of any third party site you visit.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_iyfpwr": {
+          "type": "heading",
+          "settings": {
+            "title": "Security",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_iM4gbD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We will take reasonable physical, electronic and managerial measures to safeguard and secure any personal information you provide to us. Please understand, however, that no data transmissions over the Internet can be guaranteed to be 100% secure. Consequently, we cannot ensure or warrant the security of any information you transmit to us and you understand that any information that you transfer to us is done at your own risk. If we learn of a security system breach we may attempt to notify you electronically so that you can take appropriate protective steps. By using the Services or providing personal information to us, you agree that we can communicate with you electronically regarding security, privacy and administrative issues relating to your use of the Services. We may post a notice via our Services if a security breach occurs. We may also send an e-mail to you at the e-mail address you have provided to us in these circumstances. Depending on where you live, you may have a legal right to receive notice of a security breach in writing.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_KkNegz": {
+          "type": "heading",
+          "settings": {
+            "title": "Marketing Opt-Out Procedures",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_MfY4df": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You may always opt out of receiving future marketing communications from us. Users may opt out of receiving such communications through the unsubscribe link provided in each communication. When you unsubscribe from certain marketing communications, you may be given the opportunity to unsubscribe from other marketing communications on an individual level.</p><p>Additionally, we may send you information regarding our Services, such as information about changes to our policies and other notices and disclosures required by law. Generally, users cannot opt-out of these communications, but they will be primarily informational in nature, rather than promotional.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_h3CDJr": {
+          "type": "heading",
+          "settings": {
+            "title": "How we respond to Do Not Track Signals",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_mmMWmi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The “Do Not Track” (DNT) privacy preference is an option that may be made in your web browser allowing you to opt out of tracking by websites and online services. At this time, standard DNT technology is not yet finalized and not all browsers support DNT. We therefore do not recognize DNT signals and do not respond to them.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_9nHJqK": {
+          "type": "heading",
+          "settings": {
+            "title": "Assignment",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_dfRtYL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In the event that all or part of our assets are sold or acquired by another party, or in the event of a merger, you grant us the right to assign the personal information collected via the Services.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_333qUk": {
+          "type": "heading",
+          "settings": {
+            "title": "Dispute Resolution and Agreement to Arbitrate",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_LGMrCD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Except where and to the extent prohibited by law, by using the Services, you and Primrose agree that, if there is any controversy, claim, action, or dispute arising out of or related to your use of the Services or the breach, enforcement, interpretation, or validity of this Privacy Policy or any part of it (“Dispute”), both parties shall first try in good faith to settle such Dispute by providing written notice to the other party describing the facts and circumstances of the Dispute and allowing the receiving party thirty (30) days in which to respond to or settle the Dispute. Notice shall be sent to:</p><ul><li>Primrose, Nursery Court, London Road, Windlesham, Surrey, GU20 6LQ</li><li>You, at the address we have on file for you.</li></ul><p>Both you and Primrose agree that this dispute resolution procedure is a condition precedent that must be satisfied before initiating any litigation or filing any claim against the other party. IF ANY DISPUTE CANNOT BE RESOLVED BY THE ABOVE DISPUTE RESOLUTION PROCEDURE, YOU AGREE THAT THE SOLE AND EXCLUSIVE JURISDICTION FOR SUCH DISPUTE WILL BE DECIDED BY BINDING ARBITRATION ON AN INDIVIDUAL BASIS. ARBITRATION ON AN INDIVIDUAL BASIS MEANS THAT YOU WILL NOT HAVE, AND YOU WAIVE, THE RIGHT FOR A JUDGE OR JURY TO DECIDE YOUR CLAIMS, AND THAT YOU MAY NOT PROCEED IN A CLASS OR CONSOLIDATED CAPACITY. Other rights that you and we would otherwise have in court will not be available or will be more limited in arbitration, including discovery and appeal rights. All such disputes shall be exclusively submitted to JAMS (www.jamsadr.com) for binding arbitration under its rules then in effect, before one arbitrator to be mutually agreed upon by both parties, in Iowa.</p><p>The arbitrator, and not any federal, state, or local court or agency, shall have exclusive authority to resolve any dispute arising under or relating to the interpretation, applicability, enforceability, or formation of this Privacy Policy, including any claim that all or any part of this Privacy Policy is void or voidable.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_kThkex": {
+          "type": "heading",
+          "settings": {
+            "title": "Choice of Law",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_UaDMb3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This Privacy Policy has been made in and shall be construed in accordance with the laws of Iowa, without giving effect to any conflict of law principles. Any disputes or claims not subject to the arbitration provision discussed above shall be resolved by a court located in Iowa and you agree and submit to the exercise of personal jurisdiction of such courts for the purpose of litigating any such claim or action.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_j36AkK": {
+          "type": "heading",
+          "settings": {
+            "title": "Changes to this Privacy Policy",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_YEpt6b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We reserve the right to change this Privacy Policy from time to time. When we do, we will also revise the “Last Updated” date above. If we make material changes to the Privacy Policy, we will notify you by placing a prominent notice on our Services and/or by sending you an e-mail at the e-mail address we have on file for you. We encourage you to periodically review this Privacy Policy to keep up to date on how we are handling your personal information.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_pm7Lex": {
+          "type": "heading",
+          "settings": {
+            "title": "Contacting Us",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_yr3txj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you have questions concerning this Privacy Policy or our privacy practices, please contact us:</p><p>Postal Address -Nursery Court, London Road, Windlesham, Surrey, GU20 6LQ<br/>Email – info@primrose.co.uk</p><p>Last Updated: 06/03/2023</p>",
+            "text_font_size": "body-semi-small",
             "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "heading_GpbmiG",
         "text_bQKAmw",
-        "buttons_VVcGm7"
+        "heading_ba3zar",
+        "text_8in8dH",
+        "heading_rmAweT",
+        "text_aJhPUd",
+        "heading_xjTKw6",
+        "text_Cygr7m",
+        "heading_wVh88P",
+        "text_aXz9hg",
+        "heading_y6Pd3H",
+        "text_nL7Pnx",
+        "heading_V8NqFq",
+        "text_3RmcwU",
+        "heading_iyfpwr",
+        "text_iM4gbD",
+        "heading_KkNegz",
+        "text_MfY4df",
+        "heading_h3CDJr",
+        "text_mmMWmi",
+        "heading_9nHJqK",
+        "text_dfRtYL",
+        "heading_333qUk",
+        "text_LGMrCD",
+        "heading_kThkex",
+        "text_UaDMb3",
+        "heading_j36AkK",
+        "text_YEpt6b",
+        "heading_pm7Lex",
+        "text_yr3txj"
+      ],
+      "custom_css": [
+        "p,li {color: black;}"
       ],
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
-        "color_scheme": "",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
         "overlay_opacity": 0,
         "show_overlay_text": false,
-        "padding_top": 100,
+        "padding_top": 0,
         "padding_bottom": 100
       }
     }
