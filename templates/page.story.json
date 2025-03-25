@@ -73,7 +73,7 @@
       ],
       "settings": {
         "align_text": "text-center",
-        "width": "wrapper--full-padded",
+        "width": "wrapper--narrow",
         "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
         "overlay_opacity": 0,
         "show_overlay_text": false,
