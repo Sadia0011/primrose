@@ -296,7 +296,7 @@
         "text_raGxUY": {
           "type": "text",
           "settings": {
-            "text": "<p>Contact our customer care team</p>",
+            "text": "<p>Contact our <a href=\"/pages/contact\" title=\"Contact\">customer care team</a></p>",
             "text_font_size": "body-semi-small",
             "padding_bottom": 0
           }
