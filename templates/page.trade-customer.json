@@ -168,7 +168,7 @@
           "type": "heading",
           "settings": {
             "title": "Are you a trade professional?",
-            "heading_font_size": "heading-medium",
+            "heading_font_size": "heading-small",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -177,7 +177,7 @@
           "type": "text",
           "settings": {
             "text": "<p>If you’re a landscaper, builder, events company, interior designer or another trade profession, consider becoming a trade customer of Primrose. You’ll unlock exclusive trade discounts and receive personalised support throughout your purchase journey from your own dedicated account manager.</p><p>Please note your first order must be <strong>over £500</strong>.</p>",
-            "text_font_size": "body-small",
+            "text_font_size": "body-x-small",
             "padding_bottom": 16
           }
         }
@@ -187,7 +187,7 @@
         "text_iMHBch"
       ],
       "custom_css": [
-        "p{color:black;}"
+        "p {color: black;}"
       ],
       "settings": {
         "section_title": "",
