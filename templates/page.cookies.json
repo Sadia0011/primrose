@@ -72,7 +72,7 @@
         "buttons_XcU4JP"
       ],
       "custom_css": [
-        ".btn{border-radius:30px;}"
+        ".btn {border-radius: 30px;}"
       ],
       "settings": {
         "align_text": "text-center",
@@ -83,11 +83,48 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "section_rich_text_fYVziJ": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_LwEDGT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cookie List</p><p>A cookie is a small piece of data (text file) that a website – when visited by a user – asks your browser to store on your device in order to remember information about you, such as your language preference or login information. Those cookies are set by us and called first-party cookies. We also use third-party cookies – which are cookies from a domain different than the domain of the website you are visiting – for our advertising and marketing efforts. More specifically, we use cookies and other tracking technologies for the following purposes:</p><p>Performance Cookies</p><p>These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 4
+          }
+        }
+      },
+      "block_order": [
+        "text_LwEDGT"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "section_custom_code_UpfWDF": {
+      "type": "section-custom-code",
+      "settings": {
+        "code": "<table border=\"1\" cellspacing=\"0\" class=\"bg-white\" style=\"width:100%\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td><strong>Cookie Subgroup</strong></td>\n\t\t\t\t\t\t<td><strong>Cookies</strong></td>\n\t\t\t\t\t\t<td><strong>Cookies used</strong></td>\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n<td>www.primrose.co.uk</td>\n<td>crocookie , __kla_id</td>\n<td>First Party</td>\n</tr>\n<tr>\n<td>co.uk/td>\n<td>RT</td>\n<td>First Party</td>\n</tr>\n<tr>\n<td>primrose.co.uk</td>\n<td>_hjTLDTest , _ga , __utma , _hjSession_2236447 , __utmc , _hjSessionUser_2236447 , __utmz , _uetvid , __utmb , __utmt , _ga_xxxxxxxxxx , _gid , _gclxxxx</td>\n<td>First Party</td>\n</tr>\n</tbody>\n</table>",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "section_rich_text_KKcefP",
-    "section_rich_text_8tCdee"
+    "section_rich_text_8tCdee",
+    "section_rich_text_fYVziJ",
+    "section_custom_code_UpfWDF"
   ]
 }
