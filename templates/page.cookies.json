@@ -44,7 +44,7 @@
       ],
       "settings": {
         "align_text": "text-left",
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
         "overlay_opacity": 0,
         "show_overlay_text": false,
@@ -102,7 +102,7 @@
       "settings": {
         "align_text": "text-left",
         "width": "wrapper--full-padded",
-        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "color_scheme": "scheme-716acc0a-2082-49d8-a98c-4700589b3593",
         "overlay_opacity": 0,
         "show_overlay_text": false,
         "padding_top": 0,
@@ -114,7 +114,7 @@
       "settings": {
         "code": "<table border=\"1\" cellspacing=\"0\" class=\"bg-white\" style=\"width:100%\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td><strong>Cookie Subgroup</strong></td>\n\t\t\t\t\t\t<td><strong>Cookies</strong></td>\n\t\t\t\t\t\t<td><strong>Cookies used</strong></td>\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n<td>www.primrose.co.uk</td>\n<td>crocookie , __kla_id</td>\n<td>First Party</td>\n</tr>\n<tr>\n<td>co.uk/td>\n<td>RT</td>\n<td>First Party</td>\n</tr>\n<tr>\n<td>primrose.co.uk</td>\n<td>_hjTLDTest , _ga , __utma , _hjSession_2236447 , __utmc , _hjSessionUser_2236447 , __utmz , _uetvid , __utmb , __utmt , _ga_xxxxxxxxxx , _gid , _gclxxxx</td>\n<td>First Party</td>\n</tr>\n</tbody>\n</table>",
         "width": "wrapper--full-padded",
-        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "color_scheme": "scheme-716acc0a-2082-49d8-a98c-4700589b3593",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -137,7 +137,7 @@
       "settings": {
         "align_text": "text-left",
         "width": "wrapper--full-padded",
-        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "color_scheme": "scheme-716acc0a-2082-49d8-a98c-4700589b3593",
         "overlay_opacity": 0,
         "show_overlay_text": false,
         "padding_top": 0,
@@ -150,7 +150,7 @@
       "settings": {
         "code": "<table border=\"1\" cellspacing=\"0\" class=\"bg-white\" style=\"width:100%\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td><strong>Cookie Subgroup</strong></td>\n\t\t\t\t\t\t<td><strong>Cookies</strong></td>\n\t\t\t\t\t\t<td><strong>Cookies used</strong></td>\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n<td>primrose.co.uk</td>\n<td>_pin_unauth</td>\n<td>First Party</td>\n</tr>\n\n</tbody>\n</table>",
         "width": "wrapper--full-padded",
-        "color_scheme": "scheme-ce2a6642-5345-46ef-ae26-801c7efa700f",
+        "color_scheme": "scheme-716acc0a-2082-49d8-a98c-4700589b3593",
         "padding_top": 0,
         "padding_bottom": 0
       }
