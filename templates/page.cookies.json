@@ -233,7 +233,7 @@
       "type": "section-custom-code",
       "settings": {
         "code": "<table border=\"1\" cellspacing=\"0\" class=\"bg-white\" style=\"width:100%\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td><strong>Cookie Subgroup</strong></td>\n\t\t\t\t\t\t<td><strong>Cookies</strong></td>\n\t\t\t\t\t\t<td><strong>Cookies used</strong></td>\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n<td>www.primrose.co.uk</td>\n<td>recordID , dmSessionID</td>\n<td>First Party</td>\n</tr>\n<tr>\n<td>primrose.co.uk</td>\n<td>_gat_UA-nnnnnnn-nn , _utmv######### , _uetsid , __pr.ctxxv3 , _fbp</td>\n<td>First Party</td>\n</tr>\n<tr>\n<td>www.youtube.com</td>\n<td>TESTCOOKIESENABLED</td>\n<td>Third Party</td>\n</tr>\n<tr>\n<td>doubleclick.net</td>\n<td>IDE, test_cookie</td>\n<td>Third Party</td>\n</tr>\n<tr>\n<td>pinterest.com</td>\n<td>ar_debug</td>\n<td>Third Party</td>\n</tr>\n<tr>\n<td>bing.com</td>\n<td>MSPTC, MUID</td>\n<td>Third Party</td>\n</tr>\n<tr>\n<td>youtube.com</td>\n<td>YSC, VISITOR_PRIVACY_METADATA, VISITOR_INFO1_LIVE</td>\n<td>Third Party</td>\n</tr>\n</tbody>\n</table>",
-        "width": "wrapper--full",
+        "width": "wrapper--full-padded",
         "color_scheme": "scheme-716acc0a-2082-49d8-a98c-4700589b3593",
         "padding_top": 0,
         "padding_bottom": 0
