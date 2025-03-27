@@ -87,17 +87,46 @@
     "section_rich_text_fYVziJ": {
       "type": "section-rich-text",
       "blocks": {
+        "heading_gaYbWG": {
+          "type": "heading",
+          "settings": {
+            "title": "Cookie List",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 20,
+            "heading_tag": "automatic"
+          }
+        },
         "text_LwEDGT": {
           "type": "text",
           "settings": {
-            "text": "<p>Cookie List</p><p>A cookie is a small piece of data (text file) that a website – when visited by a user – asks your browser to store on your device in order to remember information about you, such as your language preference or login information. Those cookies are set by us and called first-party cookies. We also use third-party cookies – which are cookies from a domain different than the domain of the website you are visiting – for our advertising and marketing efforts. More specifically, we use cookies and other tracking technologies for the following purposes:</p><p>Performance Cookies</p><p>These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.</p>",
+            "text": "<p>A cookie is a small piece of data (text file) that a website – when visited by a user – asks your browser to store on your device in order to remember information about you, such as your language preference or login information. Those cookies are set by us and called first-party cookies. We also use third-party cookies – which are cookies from a domain different than the domain of the website you are visiting – for our advertising and marketing efforts. More specifically, we use cookies and other tracking technologies for the following purposes:</p><p></p><p></p>",
             "text_font_size": "body-semi-small",
             "padding_bottom": 4
+          }
+        },
+        "heading_4RPYHP": {
+          "type": "heading",
+          "settings": {
+            "title": "Performance Cookies",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 10,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_Ccfefg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 0
           }
         }
       },
       "block_order": [
-        "text_LwEDGT"
+        "heading_gaYbWG",
+        "text_LwEDGT",
+        "heading_4RPYHP",
+        "text_Ccfefg"
       ],
       "settings": {
         "align_text": "text-left",
@@ -122,16 +151,26 @@
     "section_rich_text_RkiAww": {
       "type": "section-rich-text",
       "blocks": {
+        "heading_dU9dXy": {
+          "type": "heading",
+          "settings": {
+            "title": "Functional Cookies",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 10,
+            "heading_tag": "automatic"
+          }
+        },
         "text_LtMTdn": {
           "type": "text",
           "settings": {
-            "text": "<p>Functional Cookies</p><p>These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.</p>",
+            "text": "<p></p><p>These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.</p>",
             "text_font_size": "body-semi-small",
             "padding_bottom": 0
           }
         }
       },
       "block_order": [
+        "heading_dU9dXy",
         "text_LtMTdn"
       ],
       "settings": {
@@ -154,6 +193,41 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "section_rich_text_qqJDQk": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_nFzTnz": {
+          "type": "heading",
+          "settings": {
+            "title": "Targeting Cookies",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 10,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_efnqGd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_nFzTnz",
+        "text_efnqGd"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-716acc0a-2082-49d8-a98c-4700589b3593",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -163,6 +237,7 @@
     "section_rich_text_fYVziJ",
     "section_custom_code_UpfWDF",
     "section_rich_text_RkiAww",
-    "section_custom_code_AaJrCY"
+    "section_custom_code_AaJrCY",
+    "section_rich_text_qqJDQk"
   ]
 }
