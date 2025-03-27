@@ -238,6 +238,51 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "section_rich_text_XePVGg": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_JmV67i": {
+          "type": "heading",
+          "settings": {
+            "title": "Strictly Necessary Cookies",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 10,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_Qyb88c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.</p>",
+            "text_font_size": "body-semi-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_JmV67i",
+        "text_Qyb88c"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-716acc0a-2082-49d8-a98c-4700589b3593",
+        "overlay_opacity": 0,
+        "show_overlay_text": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_code_U4jHUj": {
+      "type": "section-custom-code",
+      "settings": {
+        "code": "<table border=\"1\" cellspacing=\"0\" class=\"bg-white\" style=\"width:100%\">\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td><strong>Cookie Subgroup</strong></td>\n\t\t\t\t\t\t<td><strong>Cookies</strong></td>\n\t\t\t\t\t\t<td><strong>Cookies used</strong></td>\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n<td>primrose.co.uk</td>\n<td>ASP.NET_SessionId , _dc_gtm_UA-xxxxxxxx</td>\n<td>First Party</td>\n</tr>\n<tr>\n<td>www.primrose.co.uk</td>\n<td>OptanonConsent , OptanonAlertBoxClosed</td>\n<td>First Party</td>\n</tr>\n</tbody>\n</table>",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-716acc0a-2082-49d8-a98c-4700589b3593",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -249,6 +294,8 @@
     "section_rich_text_RkiAww",
     "section_custom_code_AaJrCY",
     "section_rich_text_qqJDQk",
-    "section_custom_code_Rq7qd6"
+    "section_custom_code_Rq7qd6",
+    "section_rich_text_XePVGg",
+    "section_custom_code_U4jHUj"
   ]
 }
