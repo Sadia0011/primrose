@@ -174,7 +174,7 @@
         "logo": "shopify://shop_images/primrose-logo.svg",
         "logo_max_limit": 240,
         "logo_max_limit_mobile": 100,
-        "main_menu_linklist": "nav-menu",
+        "main_menu_linklist": "header-menulist",
         "mobile_menu_linklist": "nav-menu",
         "enable_search": false,
         "show_social_icons": false,
