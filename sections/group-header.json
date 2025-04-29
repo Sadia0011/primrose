@@ -99,64 +99,10 @@
             "padding_top": 0,
             "padding_bottom": 0
           }
-        },
-        "image_4RyhFm": {
-          "type": "image",
-          "settings": {
-            "position": "2",
-            "image": "shopify://shop_images/awningtype6.jpg",
-            "aspect_ratio": 0.5,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "heading_font_size": "heading-medium",
-            "link_text": "",
-            "text_font_size": "body-medium",
-            "link": "",
-            "text_color": ""
-          }
-        },
-        "image_3CLzym": {
-          "type": "image",
-          "settings": {
-            "position": "6",
-            "image": "shopify://shop_images/bringwarmthtoyourgardenwithheatlab_inspiration_planters_cat_p5_435x279_ccdbb01a-dee2-4b7a-9796-fda348552105.jpg",
-            "aspect_ratio": 0.5,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "heading_font_size": "heading-medium",
-            "link_text": "",
-            "text_font_size": "body-medium",
-            "link": "",
-            "text_color": ""
-          }
-        },
-        "image_T6yJBH": {
-          "type": "image",
-          "settings": {
-            "position": "3",
-            "image": "shopify://shop_images/shade_sail_square_3.0m-3318_Mushroom_copy_a563c1ac-9cca-4b64-85f0-14453990ffe7.jpg",
-            "aspect_ratio": 0.5,
-            "wide_image": true,
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "title": "",
-            "heading_font_size": "heading-medium",
-            "link_text": "",
-            "text_font_size": "body-medium",
-            "link": "",
-            "text_color": ""
-          }
         }
       },
       "block_order": [
-        "toolbar",
-        "image_4RyhFm",
-        "image_3CLzym",
-        "image_T6yJBH"
+        "toolbar"
       ],
       "custom_css": [
         ".header__desktop__upper {height: 80px;}",
