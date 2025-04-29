@@ -159,7 +159,8 @@
         "image_T6yJBH"
       ],
       "custom_css": [
-        ".header__desktop__upper {height: 80px;}"
+        ".header__desktop__upper {height: 80px;}",
+        ".navlink .navtext {color: rgb(13, 100, 124);}"
       ],
       "settings": {
         "header_sticky": false,
