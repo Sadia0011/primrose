@@ -192,7 +192,7 @@
         "collection_PqzzNi": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "image_1": "shopify://shop_images/home_collection_4.jpg",
             "image_2": "shopify://shop_images/home_collection_4.1.png",
             "collection_name": "9cm Grasses: 20% Off"
@@ -383,7 +383,7 @@
         "collection_hPytxp": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "image_1": "shopify://shop_images/home_Shrubs1.jpg",
             "image_2": "shopify://shop_images/home_Shrubs1.1.svg",
             "collection_name": ""
@@ -410,7 +410,7 @@
         "collection_Tyne8R": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "image_1": "shopify://shop_images/home_Shrubs4.jpg",
             "image_2": "shopify://shop_images/home_Shrubs4.1.svg",
             "collection_name": ""
