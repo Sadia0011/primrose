@@ -1,3 +1,5 @@
+
+
 {%- liquid
   assign highlight_item = highlight_item | downcase | strip_html | escape
   assign link_title_lowercase = link.title | downcase | strip_html | escape
@@ -87,7 +89,9 @@
                 {% if link.levels == 2 %}
                   {% for link in link.links %}
                     {%- assign link_title_lowercase = link.title | downcase | strip_html | escape -%}
-                    <div class="dropdown__family">
+                    {%- assign grandparent_link_title = link.title | downcase | strip_html | escape -%}
+                    {%- assign loop_index = forloop.index -%}
+                    <div class="dropdown__family dropdown__family-{{forloop.index}}">
                       <a
                         href="{{ link.url }}"
                         data-stagger-first
@@ -99,20 +103,24 @@
                           {%- render 'superscript', link_collection: link -%}
                         </span>
                       </a>
-                      {% for link in link.links %}
-                        {%- assign link_title_lowercase = link.title | downcase | strip_html | escape -%}
-                        <a
-                          href="{{ link.url }}"
-                          data-stagger-second
-                          class="navlink navlink--grandchild{% if highlight_item == link_title_lowercase %} navlink--highlight{% endif %}"
-                        >
-                          <span class="navtext">
-                            {{ link.title | strip_html | escape }}
-
-                            {%- render 'superscript', link_collection: link -%}
-                          </span>
-                        </a>
-                      {% endfor %}
+                      
+                      <div class="navlink-grandchild-container grandchild-container-{{ loop_index }} grandchild-container-{{ link.title }}">
+                        {% for link in link.links %}
+                          {%- assign link_title_lowercase = link.title | downcase | strip_html | escape -%}
+                          <a
+                            href="{{ link.url }}"
+                            data-stagger-second
+                            class="navlink navlink--grandchild{% if highlight_item == link_title_lowercase %} navlink--highlight{% endif %}"
+                          >
+                            <span class="navtext">
+                              {{ link.title | strip_html | escape }}
+  
+                              {%- render 'superscript', link_collection: link -%}
+                            </span>
+                          </a>
+                        {% endfor %}
+                      </div>
+                      
                     </div>
                   {% endfor %}
                 {% elsif link.levels == 1 %}
