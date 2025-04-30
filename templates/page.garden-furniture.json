@@ -48,7 +48,7 @@
           "type": "button",
           "settings": {
             "link_text": "Save 20% on All Plants",
-            "link": "shopify://collections/planters",
+            "link": "shopify://collections/plants",
             "button_type": "btn--primary",
             "button_size": "btn--small",
             "button_style": "btn--solid",
@@ -93,7 +93,7 @@
             "text": "<p>Our hand-picked indoor foliage plantsare chosen for their air-purifying qualities and low-maintenance care. With a variety of options like snake plants and peace lilies, you can create a relaxing environment in your home.</p>",
             "text_font_size": "body-medium",
             "button_text": "Foliage Indoor Plants",
-            "button_url": "",
+            "button_url": "shopify://collections/plants",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--outline",
@@ -114,7 +114,7 @@
             "text": "<p>Brighten your home with the vibrant beauty of flowering indoor plants. These stunning blooms aren’t just for show—they bring elegance and colour to any space while creating a serene, welcoming atmosphere.</p>",
             "text_font_size": "body-medium",
             "button_text": "Flowering Indoor Plants",
-            "button_url": "",
+            "button_url": "shopify://collections/plants",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--outline",
@@ -152,7 +152,7 @@
         "collection_kTa98d": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "image_1": "shopify://shop_images/home_Shrubs1.jpg",
             "image_2": "shopify://shop_images/home_Shrubs1.1.svg",
             "collection_name": ""
@@ -161,7 +161,7 @@
         "collection_8WAQDm": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "image_1": "shopify://shop_images/home_Shrubs2.jpg",
             "image_2": "shopify://shop_images/home_Shrubs2.1.svg",
             "collection_name": ""
@@ -170,7 +170,7 @@
         "collection_r8WUPG": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "image_1": "shopify://shop_images/home_Shrubs3.jpg",
             "image_2": "shopify://shop_images/home_Shrubs3.1.svg",
             "collection_name": ""
@@ -179,7 +179,7 @@
         "collection_Q73D8z": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "image_1": "shopify://shop_images/home_Shrubs4.jpg",
             "image_2": "shopify://shop_images/home_Shrubs4.1.svg",
             "collection_name": ""
@@ -204,7 +204,7 @@
         "collection_yy6RiC": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000009967.jpg",
             "title": "Perennials"
           }
@@ -212,7 +212,7 @@
         "collection_6RUAi4": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000010116.jpg",
             "title": "Shrubs"
           }
@@ -220,7 +220,7 @@
         "collection_dJw8aw": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "climbing-plants",
             "collection_image": "shopify://shop_images/climbing_plants_12.jpg",
             "title": "Climbers"
           }
@@ -228,7 +228,7 @@
         "collection_aPEAWC": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "ferns-garden",
             "collection_image": "shopify://shop_images/pl0000009166.jpg",
             "title": "Ferns"
           }
@@ -236,7 +236,7 @@
         "collection_dTiRhi": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000013242.jpg",
             "title": "Grasses"
           }
@@ -244,7 +244,7 @@
         "collection_8UpKwY": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000013185.jpg",
             "title": "Alpines"
           }
@@ -252,7 +252,7 @@
         "collection_erp9d6": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000010757.jpg",
             "title": "Ornamental Trees"
           }
@@ -260,7 +260,7 @@
         "collection_MNRYcU": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/bulbs_263x248_57cde2c0-9a91-4a9f-8d12-d95d236343c4.jpg",
             "title": "Herbs"
           }
@@ -268,7 +268,7 @@
         "collection_NN7QPb": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "bedding-plants",
             "collection_image": "shopify://shop_images/pl0000001989.jpg",
             "title": "Bedding Plants"
           }
@@ -276,7 +276,7 @@
         "collection_VTHJmX": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "bamboo-plants",
             "collection_image": "shopify://shop_images/pl0000009221.jpg",
             "title": "Bamboo"
           }
@@ -284,7 +284,7 @@
         "collection_prwnQ8": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000009099.jpg",
             "title": "Instant Impact Plants"
           }
@@ -292,7 +292,7 @@
         "collection_Vq36B8": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000006837.jpg",
             "title": "House Plants"
           }
@@ -300,7 +300,7 @@
         "collection_zjfwqw": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000008904.jpg",
             "title": "Fruit Trees"
           }
@@ -308,7 +308,7 @@
         "collection_X67dwH": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000002873.jpg",
             "title": "Bulbs"
           }
@@ -316,7 +316,7 @@
         "collection_jArw9A": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000008819.jpg",
             "title": "Fruit"
           }
@@ -324,7 +324,7 @@
         "collection_BN4Lhx": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000014204.jpg",
             "title": "Vegetable Plants"
           }
@@ -332,7 +332,7 @@
         "collection_HBgac3": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000013080.jpg",
             "title": "Seeds"
           }
@@ -340,7 +340,7 @@
         "collection_37F4ka": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "collection_image": "shopify://shop_images/pl0000009185.jpg",
             "title": "Pond Plants"
           }
