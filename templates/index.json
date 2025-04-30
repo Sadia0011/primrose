@@ -117,7 +117,7 @@
         "collection_ePzn4y": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "image_1": "shopify://shop_images/home_garden1.png",
             "collection_name": "Fencing"
           }
@@ -165,7 +165,7 @@
         "collection_DGXCYM": {
           "type": "collection",
           "settings": {
-            "collection": "planters",
+            "collection": "plants",
             "image_1": "shopify://shop_images/home_collection_5.jpg",
             "image_2": "shopify://shop_images/home_collection_1.1.png",
             "collection_name": "9cm Perennials: 20% Off"
