@@ -72,6 +72,13 @@
     "checkout_error_color": "#c85c42",
     "sale_background_color": "#be563f",
     "content_for_index": [],
+    "blocks": {
+      "6215865664216842018": {
+        "type": "shopify://apps/elx-chatbot-connector/blocks/elx_chatbot_script/6249b051-07de-4682-abd8-6f825fb950ed",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
