@@ -49,7 +49,7 @@
             "show_quantity": true,
             "button_type": "btn--primary",
             "button_style": "btn--solid",
-            "show_payment_button": false,
+            "show_payment_button": true,
             "button_type_dynamic": "btn--secondary",
             "button_style_dynamic": "btn--solid",
             "show_gift_card_recipient": false,
