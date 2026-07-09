@@ -53,6 +53,7 @@
     "form_style": "classic",
     "variant_lines": true,
     "show_variant_image": true,
+    "show_newsletter": false,
     "swatch_size": "large",
     "swatch_style": "circle",
     "sibling_style": "swatch",
