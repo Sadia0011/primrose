@@ -324,6 +324,23 @@
         "heading_tag": "automatic"
       }
     },
+    "1786114829125360f0": {
+      "type": "apps",
+      "blocks": {
+        "bundler_custom_bundle_6AB49i": {
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": ""
+          }
+        }
+      },
+      "block_order": [
+        "bundler_custom_bundle_6AB49i"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
     "section_hero_DAAwBT": {
       "type": "section-hero",
       "blocks": {
@@ -461,6 +478,7 @@
     "collection_grid_with_title_8P9VTg",
     "section_columns_B36YTy",
     "section_tab_collections_3UVgUF",
+    "1786114829125360f0",
     "section_hero_DAAwBT",
     "collection_grid_with_title_hkAnHf",
     "section_blog_K7FDx8"
