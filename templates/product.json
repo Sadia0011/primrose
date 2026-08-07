@@ -81,6 +81,38 @@
         "padding_bottom": 30
       }
     },
+    "1786115229c4ed48b3": {
+      "type": "apps",
+      "blocks": {
+        "bundler_custom_bundle_UbPy4R": {
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": ""
+          }
+        },
+        "bundler_bundler_target_element_A3EmfP": {
+          "type": "shopify://apps/bundler/blocks/bundler-target-element/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {}
+        },
+        "bundler_quantity_break_target_element_gp9wYn": {
+          "type": "shopify://apps/bundler/blocks/quantity-break-target-element/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {}
+        },
+        "bundler_volume_target_element_Unb9mr": {
+          "type": "shopify://apps/bundler/blocks/volume-target-element/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "bundler_custom_bundle_UbPy4R",
+        "bundler_bundler_target_element_A3EmfP",
+        "bundler_quantity_break_target_element_gp9wYn",
+        "bundler_volume_target_element_Unb9mr"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
     "section_accordion_group_pcJJph": {
       "type": "section-accordion-group",
       "blocks": {
@@ -186,6 +218,7 @@
   },
   "order": [
     "template",
+    "1786115229c4ed48b3",
     "section_accordion_group_pcJJph",
     "api_product_recommendation_AjcRkL",
     "related_VjWqKB"
