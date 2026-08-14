@@ -72,67 +72,9 @@
         "padding_bottom": 0,
         "show_placeholder": true
       }
-    },
-    "section_accordion_HpiaUE": {
-      "type": "section-accordion",
-      "blocks": {
-        "text_R4ijRh": {
-          "type": "text",
-          "settings": {
-            "title": "Frequently asked question",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
-          }
-        },
-        "text_VWaJHp": {
-          "type": "text",
-          "settings": {
-            "title": "Frequently asked question",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
-          }
-        },
-        "text_WpkpaJ": {
-          "type": "text",
-          "settings": {
-            "title": "Frequently asked question",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
-          }
-        },
-        "text_D3FjHC": {
-          "type": "text",
-          "settings": {
-            "title": "Frequently asked question",
-            "heading_font_size": "heading-small",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_R4ijRh",
-        "text_VWaJHp",
-        "text_WpkpaJ",
-        "text_D3FjHC"
-      ],
-      "name": "Accordion",
-      "settings": {
-        "default_open": false,
-        "title": "FAQ",
-        "heading_font_size": "heading-small",
-        "show_icon": false,
-        "icon_name": "icon-award",
-        "icon_size": 20,
-        "width": "wrapper",
-        "color_scheme": "",
-        "icon_color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
-    "section_double_zhdFwt",
-    "section_accordion_HpiaUE"
+    "section_double_zhdFwt"
   ]
 }
