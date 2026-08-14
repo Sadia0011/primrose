@@ -9,77 +9,6 @@
  */
 {
   "sections": {
-    "contact_form_JURHg8": {
-      "type": "contact-form",
-      "blocks": {
-        "text_MXhtft": {
-          "type": "text",
-          "settings": {
-            "title": "Full Name",
-            "required": false
-          }
-        },
-        "email_3tLaTb": {
-          "type": "email",
-          "settings": {
-            "title": "Email",
-            "required": true
-          }
-        },
-        "body_tiQ9RP": {
-          "type": "body",
-          "settings": {
-            "title": "Message",
-            "required": true
-          }
-        },
-        "form_heading_Q7494x": {
-          "type": "formHeading",
-          "settings": {
-            "title": "Optional:"
-          }
-        },
-        "checkbox_zBR9ke": {
-          "type": "checkbox",
-          "settings": {
-            "title": "This is urgent",
-            "required": false
-          }
-        },
-        "select_eVK49X": {
-          "type": "select",
-          "settings": {
-            "title": "Select an option",
-            "required": false,
-            "label-one": "- Pick an option -",
-            "label-two": "Option one",
-            "label-three": "Option two",
-            "label-four": "Option three",
-            "label-five": "Option four",
-            "label-six": "Option five"
-          }
-        }
-      },
-      "block_order": [
-        "text_MXhtft",
-        "email_3tLaTb",
-        "body_tiQ9RP",
-        "form_heading_Q7494x",
-        "checkbox_zBR9ke",
-        "select_eVK49X"
-      ],
-      "name": "Contact form",
-      "settings": {
-        "title": "Contact us",
-        "heading_font_size": "heading-large",
-        "terms": true,
-        "width": "wrapper--narrow",
-        "color_scheme": "",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "heading_tag": "automatic"
-      }
-    },
     "section_double_zhdFwt": {
       "type": "section-double",
       "blocks": {
@@ -143,10 +72,67 @@
         "padding_bottom": 0,
         "show_placeholder": true
       }
+    },
+    "section_accordion_HpiaUE": {
+      "type": "section-accordion",
+      "blocks": {
+        "text_R4ijRh": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "heading_font_size": "heading-small",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
+          }
+        },
+        "text_VWaJHp": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "heading_font_size": "heading-small",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
+          }
+        },
+        "text_WpkpaJ": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "heading_font_size": "heading-small",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
+          }
+        },
+        "text_D3FjHC": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "heading_font_size": "heading-small",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_R4ijRh",
+        "text_VWaJHp",
+        "text_WpkpaJ",
+        "text_D3FjHC"
+      ],
+      "name": "Accordion",
+      "settings": {
+        "default_open": false,
+        "title": "FAQ",
+        "heading_font_size": "heading-small",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "width": "wrapper",
+        "color_scheme": "",
+        "icon_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "contact_form_JURHg8",
-    "section_double_zhdFwt"
+    "section_double_zhdFwt",
+    "section_accordion_HpiaUE"
   ]
 }
